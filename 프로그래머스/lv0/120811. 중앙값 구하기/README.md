@@ -66,6 +66,7 @@
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
 
+<br>
 <hr>
 
 ## 🎁 나의 코드와 풀이:
@@ -74,18 +75,20 @@ def solution(array):
     return array[len(array)//2]
 -> array를 sort함수를 통해 정렬한 후, 길이값의 중간 인덱스에 해당하는 값을 반환한다.
 
+<br>
 ## ⭕ 다른 사람들의 풀이:
 
 -> sorted함수와 sort함수의 차이 알기!!
 
+<br>
 ## 👍 What I learned
-array.sort(): 배열 자체를 정렬, none값을 리턴! 그 자체로 정렬
+1. array.sort(): 배열 자체를 정렬, none값을 리턴! 그 자체로 정렬
+2. array2 = sorted(array): 배열을 복사해서 정렬하여 새로운 변수 (새로운 리스트 생성), 정렬해서 리턴시켜줌
 
-array2 = sorted(array): 배열을 복사해서 정렬하여 새로운 변수 (새로운 리스트 생성), 정렬해서 리턴시켜줌
+    some_list = [5, 7, 2, 3, 1]
 
-some_list = [5, 7, 2, 3, 1]
-
-print(sorted(some_list))
-print(some_list.sort())
->> [1,2,3,5,7]
->> None
+    print(sorted(some_list))
+    print(some_list.sort())
+    >> [1,2,3,5,7]
+    >> None
+    >> 
