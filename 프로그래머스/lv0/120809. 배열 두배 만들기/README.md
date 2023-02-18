@@ -64,3 +64,17 @@
 
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+
+
+
+<hr>
+
+## 🎁 나의 코드와 풀이: <br>
+-> 배열의 각 요소를 일일히 2배하여, answer 리스트에 넣었다.
+
+## ⭕ 다른 사람들의 풀이:
+![](https://velog.velcdn.com/images/asj1966/post/e8847647-bb3a-4440-b44e-2bffe948e871/image.png)
+-> 이와 같이 반복문 형태로도 나타낼 수 있음!!
+
+## 👍 What I learned
+& 내가 짠 코드는 직접 2배를 해주는 것으로 c언어에 익숙해진 풀이 방식이다. 리스트 문제의 경우 위와 같이 간단하게 끝낼 수 있음을 기억하자!!
