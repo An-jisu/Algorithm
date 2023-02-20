@@ -68,4 +68,13 @@
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges<br>
+
+<hr>
+
+## 🎁 나의 풀이: <br>
+-> 처음에는 10만원 조건을 반복문의 첫 조건으로 썼다가 지웠다. 50만원의 조건이 가장 큰 범위이므로 가장 먼저 써야한다는 것!!
+
+## ⭕ 다른 사람의 풀이: <br>
+![](https://velog.velcdn.com/images/asj1966/post/fef2473c-9997-48b4-9fce-5f3ff29b2156/image.png)<br>
+-> 기준 가격과 곱할 값을 딕셔너리에 넣는다. 반복문을 돌면서, price의 기준 가격이 만족할 경우, 곱한 값을 바로 return 하며 함수를 종료시킨다.
