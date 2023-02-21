@@ -63,4 +63,19 @@
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges <br><br>
+
+<hr>
+
+## 👑 나의 풀이: <br>
+-> 새로운 변수를 2개 만들어서, 조건문을 사용하여 홀수, 짝수에 따라 개수를 증가시켜주었다. <br><br>
+
+## ⭕ 다른 사람의 풀이: <br> 
+![](https://velog.velcdn.com/images/asj1966/post/d4b8c0c3-e703-4782-8241-514636abd7c8/image.png)<br>
+-> 나머지를 인덱싱으로 활용하였다. 나의 풀이와 같이 괜히 변수를 더 만들어서 더 많은 메모리를 차지할 필요가 없다는 것 <br> 
+![](https://velog.velcdn.com/images/asj1966/post/9977a799-e456-4ecb-85ca-c9f0d89a4925/image.png)<br>
+![](https://velog.velcdn.com/images/asj1966/post/5eec0709-1145-4b28-a97b-fce94dd2f4f5/image.png)<br><br>
+
+## ✔ What I learned: <br>
+-> 코드를 짤 때, 변수와 같은 것들을 최소화하여 메모리를 줄일 수 있는 방향으로 코드를 생각해보자!
+
