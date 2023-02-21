@@ -56,4 +56,16 @@
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges <br><br>
+
+<hr>
+
+## 👑 나의 풀이: <br>
+-> 리스트를 새로 만들어서, 그 리스트에 n개 씩 문자열을 추가한 후, 새로만든 리스트를 반환하였다. 
+
+## ⭕ 다른 사람의 풀이: <br>
+![](https://velog.velcdn.com/images/asj1966/post/3c1c2c90-0ab4-4c9a-8d74-eeb18f600668/image.png)<br>
+-> 다음과 같이 반복문을 한줄로 처리하는 방법도 알기!!! 반환 형태는 list이므로 join함수를 통해서 문자열로 변환! 추가 리스트를 만들 경우 발생하는 메모리 공간 낭비를 줄일 수 있다. <br><br>
+
+## ✔ What I learned: <br>
+-> 파이썬의 join함수는 리스트의 각 요소들을 문자열로 바꾸어 반환하는 함수임 <br>
