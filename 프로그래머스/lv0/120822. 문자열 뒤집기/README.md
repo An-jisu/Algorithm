@@ -62,4 +62,26 @@
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges <br><br>
+
+<hr>
+
+## 👑 나의 풀이: <br>
+-> 굳이 배열을 뒤집지 않고, string을 거꾸로 하나씩 출력하였다. <br><br>
+
+## ⭕ 다른 사람의 풀이: <br>
+![](https://velog.velcdn.com/images/asj1966/post/101e2828-6ae8-4d1a-8b9d-7d3a5e2717f7/image.png)<br>
+-> reversed() 함수를 이용하여, 문자열을 뒤집고, list로 만든 후, 다시 문자열로 만들어 반환하였다. <br><br>
+
+## ✔ What I learned: <br>
+-> 파이썬에서 문자열이나 리스트를 거꾸로 뒤집는 방법<br>
+1. 문자열[::-1] <br>
+2. list(reversed(문자열)) <br>
+![](https://velog.velcdn.com/images/asj1966/post/d0ca42a3-5958-40f2-a734-3cbbdb79e493/image.png) <br>
+-> reversed()함수에 list를 씌어주지 않으면, 아래와 같이 reversed()의 객체가 반환된다. <br>
+![](https://velog.velcdn.com/images/asj1966/post/c25244fe-f105-49c2-9aaf-c7b96db1289c/image.png) <br>
+- 리스트를 다시 문자열 형태로 띄어쓰기 없이 출력하려면 아래와 같이 ''로 join을 해주면 된다. <br>
+![](https://velog.velcdn.com/images/asj1966/post/89be980e-f26a-4fca-96d3-bdacc91a79e4/image.png)
+
+
+<br>
