@@ -74,4 +74,11 @@
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges <br><br>
+
+
+<hr>
+
+## ⭕ 다른 사람의 풀이: <br>
+![image](https://user-images.githubusercontent.com/70849122/221221795-a57249a6-14f6-4f92-8dfd-32fa807b01e8.png)
+-> 정수를 str로 변환한 후, 97을 더해서 유니코드로 변환한다. <br>
