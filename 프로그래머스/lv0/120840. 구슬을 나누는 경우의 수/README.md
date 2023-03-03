@@ -86,5 +86,5 @@
 
 <hr>
 
-#### ✔ What I learned:<br>
+## ✔ What I learned:<br>
 -> math 라이브러리에 fatctorial 함수와 comb 함수가 존재함!!
