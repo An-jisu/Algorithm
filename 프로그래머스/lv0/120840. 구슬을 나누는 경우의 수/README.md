@@ -82,4 +82,8 @@
 <p>※ 공지 - 2022년 10월 11일 제한 사항 및 테스트케이스가 수정되었습니다.</p>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges <br><br>
+
+<hr>
+#### ✔ What I learned:<br>
+-> math 라이브러리에 fatctorial 함수와 comb 함수가 존재함!!
