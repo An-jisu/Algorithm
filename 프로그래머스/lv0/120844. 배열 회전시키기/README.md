@@ -66,4 +66,10 @@
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges <br><br>
+
+<hr>
+
+## ✔ What I learned:<br>
+파이썬에서는 배열의 인덱스를 numbers[-1] 와 같이 음수로 접근 가능함! 음수이면, 뒤에서 부터 접근한다는 의미임 <br>
+numbers[:-1]의 의미: 처음부터 -1(마지막 인덱스) 전까지의 요소들에 접근한다는 것을 의미함
