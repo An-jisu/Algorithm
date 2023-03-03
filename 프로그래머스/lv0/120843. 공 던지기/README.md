@@ -88,4 +88,15 @@
 <p>※ 공지 - 2023년 1월 25일 테스트 케이스가 추가되었습니다. 기존에 제출한 코드가 통과하지 못할 수도 있습니다.</p>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges <br><br>
+
+<hr>
+
+## 👑 나의 풀이: <br>
+한 번은 이미 던졌다고 가정하여 answer을 1로 초기화
+<br>-> k-1만큼 반복하며, 배열의 마지막 또는 그 전의 인덱스일 경우에 대해서만 answer값을 조정해주고, 기본적으로는 2씩 증가시킨다. 하지만, 이렇게 2가지로 나누지 않고, 그냥 마지막 번호를 넘어가는 경우 배열의 길이 만큼을 빼주어, 1또는 2 선수에게 전달 될 수 있게 처리할 수 있다.
+<br><br>
+
+## ⭕ 다른 사람의 풀이: <br>
+![image](https://user-images.githubusercontent.com/70849122/222739951-614c4813-1f5c-4d5b-84df-96dbe0dba3cc.png)
+
