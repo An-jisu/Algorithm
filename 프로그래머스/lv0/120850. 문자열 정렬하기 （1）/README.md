@@ -87,3 +87,4 @@
 ## ✔ What I learned: <br>
 - sort함수는 배열 자체를 정렬해줘서 반환값 없음!!!! sorted는 정렬하여 반환해줌!!! return에 바로 반환하면서 쓰려면, sorted, removed 써줘야 함.<br>
 - 숫자인지 확인하기 위한 isdigit()함수가 있다는 것!!! <br>
+- return 문 안에, 바로 for문이랑 if문 쓰는 거 연습하기 <br>
