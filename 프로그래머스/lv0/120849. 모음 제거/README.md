@@ -63,4 +63,18 @@
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges <br><br>
+
+<hr>
+
+## 👑 나의 풀이: <br>
+-> 문자열의 요소들에 하나씩 접근하면서, if문을 활용하여 만약 모음이면 삭제하도록 하였다. 그런데, replace함수는 문자열을 직접적으로 바꿔주는 것이 아닌, replace한 값을 반환해주는 함수이므로 반환값을 저장할 변수를 선언해주거나 해야한다. <br><br>
+
+## ⭕ 다른 사람의 풀이: <br>
+![image](https://user-images.githubusercontent.com/70849122/223010276-f04fd2c5-556e-4287-b910-871686c79073.png) <br>
+-> 반대로, 모음에 속하지 않는 것들을 출력하는 형태로 코드를 짜도 된다.!! return문에 for문과 if문을 쓰는 코드 익히기<br>
+![image](https://user-images.githubusercontent.com/70849122/223010313-8241c330-b880-4771-aa5e-4f43bd0b18d5.png) <br>
+-> replace함수는 첫번째 꺼 뿐만 아니고, 해당되는 것을 모두 삭제해주는 함수라는 것!! <br>
+
+## ✔ What I learned: <br>
+- replace함수는 반환값을 가지고 있으며, 첫번째꺼 하나만 바꿔주는 것이 아닌 해당하는 문자를 모두 바꿔줄 수 있음!! <br>
