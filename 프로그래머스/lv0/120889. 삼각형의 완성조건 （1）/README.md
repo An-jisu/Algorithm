@@ -80,4 +80,17 @@
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges  <br><br>
+
+
+<hr>
+
+## 👑 나의 풀이: <br>
+-> if문을 이용해서 max값이 그 나머지 두 값의 합보다 작으면 1을 return하게 하였다. 그런데, 나머지 두 값을 어떻게 구하지 고민하다가, 배열 전체의 합에서 가장 작은 값을 빼는 방법을 생각해냈다. <br><br>
+
+## ⭕ 다른 사람의 풀이: <br> 
+![image](https://user-images.githubusercontent.com/70849122/223313627-03e3528a-209c-4e16-8198-2b2da46d92b5.png)  <br>
+-> 위와 같이 한 줄로도 작성할 수 있다. return에 if문 쓰는 것도 연습하기!! <br><br>
+
+## ✔ What I learned: <br>
+-> 최댓값 최솟값 문제는 sort로도 풀 수 있다는 것 기억하기!!
