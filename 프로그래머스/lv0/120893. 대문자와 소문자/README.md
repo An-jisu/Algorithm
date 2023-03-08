@@ -63,4 +63,18 @@
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges  <br><br>
+
+<hr>
+
+## 👑 나의 풀이: <br>
+: 내장함수들을 이용하여, 대소문자를 바꿔주었음 <br><br>
+
+## ⭕ 다른 사람의 풀이: <br>
+![image](https://user-images.githubusercontent.com/70849122/223640953-5eeddc2b-bcb7-410d-a747-94f45f53242a.png) <br>
+-> swapcase라는 함수를 통해 대소문자를 서로 바꿀 수 있음!!<br><br>
+
+## ✔ What I learned: <br>
+- i.isupper()/ i.islower()
+- i.upper()/ i.lower()
+-> 대소문자 바꿔주는 함수들 잘 기억하기!
