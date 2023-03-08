@@ -75,4 +75,16 @@
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges <br><br>
+
+<hr>
+
+## 👑 나의 풀이: <br>
+-> 반복에서 한 글자 씩 접근하면서, answer에 붙여넣고 출력하였다. <br><br>
+
+## ⭕ 다른 사람의 풀이: <br>
+![image](https://user-images.githubusercontent.com/70849122/223636239-6996b852-d4c6-4bec-a62a-20944dc68f64.png) <br>
+-> 반복문을 사용하지 않고, 배열의 인덱스를 통해 해결하였다. <br><br>
+
+## ✔ What I learned: <br>
+-> 배열의 요소들에 같은 크기로 건너뛰어 접근한다면, 배열의 인덱스를 이욯하는 방법 이용하기!!!
