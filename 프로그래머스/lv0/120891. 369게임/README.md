@@ -62,4 +62,16 @@
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges  <br><br>
+
+<hr>
+
+## 👑 나의 풀이: <br>
+-> 문자열이 아닌 단지 int형으로 주어졌기 때문에, 어떻게 접근하지에 대한 고민이 있었다. 그래서, 그 int형을 str로 변환하여, 하나 씩 접근하며 3,6,9인 경우에 카운트하도록 설계하였다. <br><br>
+
+## ⭕ 다른 사람의 풀이: <br>
+![image](https://user-images.githubusercontent.com/70849122/223634944-6e723887-d84f-44d1-9c53-1ca7e3eb3a4a.png) <br>
+-> map(함수, 값들 배열) 과 같은 형태로 값들에 대해서 같은 처리를 할 때 사용하는 함수이다. <br><br>
+
+## ✔ What I learned: <br>
+map 함수를 적절히 잘 활용하자!! 함수로 lamda도 사용할 수 있음!! 여기서 매개변수 x는 그 뒤의 값들이 하나씩 차례로 들어오는 것이다.
