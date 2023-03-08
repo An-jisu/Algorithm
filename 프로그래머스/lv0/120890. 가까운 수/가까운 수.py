@@ -1,10 +1,10 @@
 def solution(array, n):
-    box = []
+    answer = []
     array.sort()
     for i in array:
-        box.append(abs(n-i))
-    answer = [array[box.index(min(box))]]
-    if len(answer) > 1:
-        return min(answer)
+        answer.append(abs(n-i))
+    box = [array[answer.index(min(answer))]]
+    if len(box)>1:
+        return min(box)
     else:
-        return answer[0]
+        return box[0]
