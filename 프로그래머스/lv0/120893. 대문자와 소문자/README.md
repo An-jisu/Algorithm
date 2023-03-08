@@ -77,4 +77,4 @@
 ## ✔ What I learned: <br>
 - i.isupper()/ i.islower()
 - i.upper()/ i.lower()
--> 대소문자 바꿔주는 함수들 잘 기억하기!
+-> 대소문자 바꿔서 반환해주는 함수 잘 기억하기!! 기존꺼를 바꿔주는 것이 아닌 바꿔서 
