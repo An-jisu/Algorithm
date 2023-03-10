@@ -65,4 +65,16 @@
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges <br><br>
+
+<hr>
+
+## 👑 나의 풀이: <br>
+-> replace함수가 있는 문장에서 result에 replace한 값을 넣고, 다시 그 result를 대체하였어야 했는데 처음에 두 번째에 result 대신 numbers를 넣어서 결과가 제대로 도출되지 않았다!! 그래도 딕셔너리를 사용하는 건 잘했다 ㅎ <br><br>
+
+## ⭕ 다른 사람![image](https://user-images.githubusercontent.com/70849122/224341913-e797841d-4a00-4042-abbe-bd56b187f32d.png)의 풀이: <br>
+![image](https://user-images.githubusercontent.com/70849122/224341982-1f6423ea-9a3c-49ae-a2e2-86d00e1473c1.png) <br>
+-> 위와 같이 numerate를 사용하는 것도 연습하기!!! 또, result 변수를 굳이 다시 안 만들어주고, numbers 변수로 해주었어도 된다는 것!! 내 코드가 좀 비효율적이었다 <br><br>
+
+## ✔ What I learned: <br>
+-> replace 함수는 반환받는 값이 있어야 한다는 것!!! 또, 이렇게 특정 무언가를 특정 무언가로 계속해서 바꿔주어야 하는 경우에는, 딕셔너리를 이용해서 반복문 사용해서 풀면 된다는 것!!!
