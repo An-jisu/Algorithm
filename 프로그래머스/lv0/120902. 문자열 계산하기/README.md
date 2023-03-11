@@ -65,4 +65,18 @@
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges <br><br>
+
+<hr>
+
+## 👑 나의 풀이: <br>
+-> 일단 result 변수에 첫번째 숫자가 저장되어 있다고 가정하고, 반복문을 통해 연산자 부분에만 접근하도록 하였다. 조건문을 이용해서, +이거나 -일 때 그 다음 값을 result 결과에 처리하도록 하였다. <br><br>
+
+## ⭕ 다른 사람의 풀이: <br>
+![image](https://user-images.githubusercontent.com/70849122/224476371-758db233-4b56-4fd2-9f51-c1700136a959.png) <br>
+-> '-'를 음수를 더하는 형태로 바꿔주고, 공백을 기준으로 분리하였다. 그 후 모든 요소들을 int로 바꿔서, 합을 구해주었다. <br>
+![image](https://user-images.githubusercontent.com/70849122/224476390-6dadb3b0-f021-443b-bcb9-07039979f5ad.png) <br>
+-> eval 함수 이용<br><br>
+
+## ✔ What I learned: <br><br>
+-> eval 함수는 매개변수를 식을 문자열로 받아서 계산을 수행하는 함수이다. int 형으로 바꿔서 반환해준다. 
