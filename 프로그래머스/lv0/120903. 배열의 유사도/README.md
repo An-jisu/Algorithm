@@ -68,4 +68,17 @@
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges <br><br>
+
+<hr>
+
+## 👑 나의 풀이: <br>
+-> 하나의 배열들을 모두 검사하면서, s2배열에도 존재하면 answer값을 증가시키게 하여서, 두 배열에 모두 존재하는 요소들의 개수를 세어주었다. <br><br>
+
+## ⭕ 다른 사람의 풀이: <br>
+![image](https://user-images.githubusercontent.com/70849122/224475601-89fa63ec-24a3-4449-a1a1-213cfd7ffe76.png) <br>
+-> list에서는 합집합을 제외한 차집합(-), 교집합(&)을 지원하지 않기 때문에, 그러한 연산들을 위해서 set로 바꿔주었음!!!!!! 
+
+## ✔ What I learned: <br>
+-> 리스트 요소 간 중복 요소, 차집합을 구하기 위해선, 리스트에선 불가능하고 집합으로 바꿔줘야 한다는 것!!!<br>
+-> 리스트에서는 + 로 두 요소를 합치는 것은 가능!
