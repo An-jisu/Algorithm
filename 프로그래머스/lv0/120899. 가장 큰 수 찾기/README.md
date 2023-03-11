@@ -64,4 +64,12 @@
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges <br><br>
+
+<hr>
+
+## 👑 나의 풀이: <br>
+-> 인덱스를 구하는 함수가 indexof라고 생각하였다. <br><br>
+
+## ✔ What I learned: <br>
+-> 파이썬에서 리스트에서의 특정 값의 인덱스를 찾기 위해서는 index() 함수를 사용해야한다.
