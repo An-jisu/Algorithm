@@ -61,5 +61,10 @@
 <li>9 + 3 + 0 + 2 + 1 + 1 = 16을 return합니다.</li>
 </ul>
 
+ 
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges <br><br>
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+<hr>
+
+## ✔ What I learned: <br>
+-> 정수의 숫자 하나하나에 접근해서 처리하는 문제는, 정수를 문자열로 바꿔서 처리할 수 있다는 것 <br><br>
