@@ -66,4 +66,16 @@
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges  <br><br>
+
+<hr>
+
+## 👑 나의 풀이: <br>
+-> t 시간 후면, n의 2의 t승 만큼 증가하므로, 다음과 같이 코드를 짰다. <br><br>
+
+## ⭕ 다른 사람의 풀이: <br>
+![image](https://user-images.githubusercontent.com/70849122/224598479-48c5a73b-ad4e-4891-be21-534816545860.png) <br>
+-> 비트 연산자를 사용하였다. 비트 연산자는 왼쪽으로 한 칸씩 이동할 때마다 2배가 된다는 사실을 이용한 것이다. <br><br>
+
+## ✔ What I learned: <br>
+-> 2배 어쩌구~~ 이런 문제는 비트 연산자로도 풀 수 있다는 것!! <br><br>
