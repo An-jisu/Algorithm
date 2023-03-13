@@ -72,4 +72,12 @@
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges  <br><br>
+
+<hr>
+
+## 👑 나의 풀이: <br>
+-> lower() 함수를 통해 소문자로 바꾸고, sorted()함수를 이용하여 알파벳 순서로 정렬하여 반환하였다. <br><br>
+
+## ✔ What I learned: <br>
+-> 문자열.lower()/ sorted() : 바로 반환, 실제 객체 변환하지 않음 <br><br>
