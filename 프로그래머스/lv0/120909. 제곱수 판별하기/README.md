@@ -62,4 +62,18 @@
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges  <br><br>
+
+<hr>
+
+## 👑 나의 풀이: <br>
+-> 주어진 수의 제곱근을 구하여, 그것이 1과 1000사이의 숫자이면, 1을 반환하게 하였따. 제곱근을 구한 후, 정수인지 판별하는 것에 대한 고민이 있었다.<br><br>
+
+## ⭕ 다른 사람의 풀이: <br>
+![image](https://user-images.githubusercontent.com/70849122/224597520-15bdbedf-bde2-4130-910b-fe88ad4646b9.png) <br>
+-> 꼭 sqrt함수를 쓰지 않더라도, 0.5승을 하여 제곱근을 구할 수 있다는 것!! 또, int인지 확인하기 위한 is_integer() 함수가 있다는 것 <br><br>
+
+## ✔ What I learned: <br>
+- '**' 연산자: 거듭제곱 연산자!!!!
+- 정수인지 판별하는 is_integer() 함수
+- 제곱근 구하기: 0.5승, sqrt 함수 (math 라이브러리 임포트 해줘야 함)
