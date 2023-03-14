@@ -67,4 +67,10 @@
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges <br><br>
+
+
+<hr>
+
+## 👑 나의 풀이: <br>
+-> 처음에는 머쓱이의 키도 배열 값에 넣어서, 배열의 길이에서 (1+머쓱이 키의 인덱스)의 값으로 구해주었다. 그런데, 몇몇의 케이스에서 오류가 나는 것이다. 머쓱이와 키가 같은 사람이 있을 수도 있다는 것을 생각하지 못했다. <br><br>
