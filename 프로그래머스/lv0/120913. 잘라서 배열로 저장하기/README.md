@@ -75,4 +75,9 @@
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges  <br><br>
+
+<hr>
+
+## 👑 나의 풀이: <br>
+-> 문자열의 길이만큼 반복하면서, 인덱싱을 통해 접근하여 문자열로 변환 후, answer 리스트에 추가하였다.
