@@ -63,4 +63,14 @@
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges  <br><br>
+
+
+<hr>
+
+## 👑 나의 풀이: <br>
+-> 반복문을 돌면서, 배열의 요소 하나하나에 접근해서, 그 정수를 string으로 바꾼 다음, 그 문자열 안에서 '7'의 개수를 더해서 answer변수에 더해주어 최종적으로 반환하였다. <br><br>
+
+## ⭕ 다른 사람의 풀이: <br>
+![image](https://user-images.githubusercontent.com/70849122/224945635-3372206e-6b05-438f-98c7-f5958c99effd.png) <br>
+-> 헐....^^ 7의 총 개수이므로 굳이, 각 정수를 생각할 필요가 없었다..... 총 7의 개수를 세어주었으면 된다. 
