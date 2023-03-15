@@ -75,4 +75,33 @@
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges  <br><br>
+
+<hr>
+
+## 👑 나의 처음 풀이:
+<code>
+def solution(keyinput, board):
+    # x좌표: right의 수-left의 수/ y좌표: up의 수 - down의 수
+    x = keyinput.count("right")-keyinput.count("left")
+    y = keyinput.count("up")-keyinput.count("down")
+    if abs(x)>=board[0]//2:
+        if x<0:
+            x = -(board[0]//2)
+        else:
+            x = board[0]//2
+    if abs(y)>=board[1]//2:
+        if y<0:
+            y = -(board[1]//2)
+        else:
+            y = board[1]//2
+    answer = [x, y]
+    return answer
+</code>
+-> 처음에는, left와 right/ up 과 down으로 최종적인 x와 y값만을 고려해서 위와 같이 코드를 짰다. 미처, 중간에 board의 범위를 벗어나는 경우는 생각하지 못한 것이다. 따라서, 그냥 배열의 하나하나에 접근하면서, 각자의 좌표를 차근차근 하나씩 처리해주었다. 코드가 너무 길어지는 것 같아서, 다른 사람들은 어떻게 푸는지 살펴보았다. <br><br>
+
+## ⭕ 다른 사람의 풀이: <br>
+![image](https://user-images.githubusercontent.com/70849122/225206358-c95005f4-faa2-4c06-b27a-d35cf8eb3823.png) <br>
+-> 딕셔너리를 통해 좌표들을 정리해두어 접근하였다. 
+
+## 딕셔너리 쓰는 거 연습하기!!! 
