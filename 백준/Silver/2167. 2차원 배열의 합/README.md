@@ -22,3 +22,40 @@
 
  <p>K개의 줄에 순서대로 배열의 합을 출력한다. 배열의 합은 2<sup>31</sup>-1보다 작거나 같다.</p>
 
+<hr>
+
+## 👑 나의 풀이: <br>
+<code>
+#배열의 크기 입력받기
+a,b = map(int, input().split())
+arr = [[0 for j in range(b)] for i in range(a)]
+
+#배열 입력받기
+for i in range(a):
+  arr[i] = input().split()
+print(arr) 
+    
+#합을 구할 부분의 개수 구하기
+num = int(input())
+
+sum_arr = []
+#4개의 정수 입력받기
+for n in range(num):
+  sum = 0
+  i,j,x,y = map(int, input().split())
+  for u in range(i-1, x):
+    for v in range(j-1, y):
+      sum+=int(arr[u][v])
+  sum_arr.append(str(sum))
+
+for n in range(0, len(sum_arr)):
+  print(sum_arr[n])
+</code><br>
+-> <br><br>
+
+## ⭕ 최종 풀이: <br>
+<code>
+
+</code>
+
+## ✔ What I learned: <br>
