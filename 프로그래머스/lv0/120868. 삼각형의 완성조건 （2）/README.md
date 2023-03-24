@@ -100,4 +100,15 @@
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges  <br><br>
+
+
+<hr>
+
+## 👑 나의 풀이: <br>
+-> 문제를 딱 보자마자 나머지 한 변이 가장 긴변인 경우, 그렇지 않은 경우로 나눠서 풀어야겠다는 생각을 하였다. 나머지 한 변이 가장 긴 변인 경우에는 나머지 2개의 합보다 커지면 break, 아니면 answer을 1증가시키도록 하였다. 그리고, 나머지 한 변이 가장 긴 변이 아닌 경우에는, max값부터 시작하면서, 가장 긴변이 나머지 2개의 합보다 커지면 반복문을 종료하도록 하였고, 마지막에 answer값을 반환하였다. <br><br>
+
+## ⭕ 다른 사람의 풀이: <br>
+![image](https://user-images.githubusercontent.com/70849122/227449462-a78a0122-8bb1-43e9-875f-e6f8b509b908.png)
+-> 수학적으로 푸는 방법이다. <br><br>
+
