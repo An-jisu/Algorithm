@@ -113,6 +113,7 @@ def solution(board):
 
 ## ⭕ 다른 사람의 풀이: <br>
 ![image](https://user-images.githubusercontent.com/70849122/227471731-dd7e7fa8-bb05-499b-aaf3-da0767a0c2ff.png) <br>
--> <br>
+-> board의 요소에 하나씩 접근하면서, 1인 경우에는, 사방을 업데이트해서 danger집합에 넣어주었다. danger을 집합으로 처리함으로서, 중복을 제거하였다. 그리고 마지막에는 전체 개수에서 danger 집합의 요소의 갯수를 빼주었다. danger집합에 대해서도 범위를 지정해주어, board를 벗어나는 것에 대한 처리를 해주었다. <br><br>
 
 ## ✔ What I learned: <br>
+-> enumerate를 통해서, 인덱스와 요소를 동시에 저장하는 것도 계속 써보면서 연습하기!! <br><br>
