@@ -91,4 +91,19 @@
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges   <br><br>
+
+
+<hr>
+
+## 👑 나의 풀이: <br>
+-> 중첩 반복문을 활용하였다. 일단, dic에 있는 문자열에 하나씩 접근하면서, spell 문자가 존재하면 count를 1 증가시킨다. 그리고, 그 count가 spell 문자열의 길이와 같으면, 그 문자들이 모두 문자열에 존재하므로 return 1 을 한다. 만약 그 조건을 만족하지 않으면, 반복문을 계속 반복하면서 반복문이 끝나면, 그 spell의 모든 문자를 포함하는 문자열이 없다는 뜻이므로, return 2를 한다. <br><br>
+
+## ⭕ 다른 사람의 풀이: <br>
+![image](https://user-images.githubusercontent.com/70849122/227460749-990d5419-3cb2-433f-9b0b-9461872c5ee5.png) <br>
+-> 집합의 차집합을 활용하였다. 이런 특정 문자의 존재에 대한 문자는 집합을 통해서 풀 수 있다는 것!!!! <br>
+![image](https://user-images.githubusercontent.com/70849122/227460818-08a4e345-d68a-4a10-95cd-d9874cf45ec5.png) <br>
+-> 진짜 그 요소 하나하나가 존재하는 지 확인하는 것이 아니라, dic 리스트의 요소들에 하나씩 접근하면서, spell을 정렬한 것과 dic의 요소 하나를 정렬한 것의 값이 같으면 1을 반환하도록 하였다. <br><br>
+
+## ✔ What I learned: <br>
+-> 요소의 존재 문제!!!: 하나의 리스트에 있는 요소가 다른 리스트에 모두 존재하냐 이런 문제는 집합으로 풀 수 있음!! <
