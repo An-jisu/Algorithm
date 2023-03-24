@@ -109,10 +109,10 @@ def solution(board):
 
     return answer
 </code><br>
--> borad를 돌면서, 1인 경우 주변의 8개의 좌표도 1로 바꿔주고, 마지막에 1이 아닌 경우 count를 하게 해서 코드를 짰다. 하지만, board의 크기를 벗어나는 경우를 생각하지 못했다. 그래서...그 예외를 어떻게 생각하지 고민하다가 코드가 너무 복잡해질 것 같아서, 인터넷 검색을 통해 해결한 문제다... bfs 알고리즘을 통해 풀 수 있는 문제라고 한다! <br><br>
+-> borad를 돌면서, 1인 경우 주변의 8개의 좌표도 1로 바꿔주고, 마지막에 1이 아닌 경우 count를 하게 해서 코드를 짰다. 하지만, board의 크기를 벗어나는 경우를 생각하지 못했다. 그래서...그 예외를 어떻게 생각하지 고민하다가 코드가 너무 복잡해질 것 같아서, 인터넷 검색을 통해 해결한 문제다... <br><br>
 
 ## ⭕ 다른 사람의 풀이: <br>
-![image](https://user-images.githubusercontent.com/70849122/227470621-41be7a7a-a940-43f0-85a7-068df7656424.png) <br>
+![image](https://user-images.githubusercontent.com/70849122/227471731-dd7e7fa8-bb05-499b-aaf3-da0767a0c2ff.png) <br>
 -> <br>
 
 ## ✔ What I learned: <br>
