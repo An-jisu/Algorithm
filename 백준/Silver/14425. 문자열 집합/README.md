@@ -28,5 +28,49 @@
 
 ### 출력 
 
- <p>첫째 줄에 M개의 문자열 중에 총 몇 개가 집합 S에 포함되어 있는지 출력한다.</p>
+ <p>첫째 줄에 M개의 문자열 중에 총 몇 개가 집합 S에 포함되어 있는지 출력한다.</p> <br><br>
+ 
+ <hr>
+ 
+## 👑 나의 풀이: <br>
+<code>
+#집합의 문자열 수, 검사할 문자열 수 입력받기
+N, M = map(int, input().split())
+count = 0
 
+#리스트 2개 생성하여, 각각 수 만큼 for문 돌면서 append 시키기
+N_arr = []
+M_arr = []
+for i in range(N):
+  N_arr.append(input())
+for i in range(M):
+  M_arr.append(input())
+print(N_arr)
+print(M_arr)
+#검사할 문자열 수 만큼 반복문 돌면서, 만약 집합에 포함되면 count
+for i in M_arr:
+  if i in N_arr:
+    count+=1
+
+#결괏값 출력
+print(count)
+</code><br>
+-> 일단 n,m을 각각 입력받았다. 그 후, 입력받으며 각각을 리스트를 만들어 입력받으면서 저장하고, M의 크기만큼 반복문을 돌면서, 만약 N집합에 존재하면 count하게 하였고, 그 값을 최종적으로 출력하였다. 결과는 제대로 출력이 되었다. <br>
+-> 그런데, 출력초과가 뜨는 것이다...리스트나 반복문이 용량을 많이 잡아먹었나? 그래서 다른 사람들은 어떻게 풀었는지 풀이를 검색해보았다. <br><br>
+
+## ⭕ 다른 사람의 풀이: <br>
+<code>
+N, M = map(int, input().split())
+S = set()
+for i in range(N):
+    S.add(input())
+ans = 0
+for _ in range(M):
+    t = input()
+    if t in S:
+        ans+=1
+print(ans)
+</code><br>
+-> list를 써서 시간초과가 나왔고, set을 사용하여 풀이를 한 것이다.  <br><br>
+
+## ✔ What I learned: <br> 
