@@ -71,6 +71,7 @@ for _ in range(M):
         ans+=1
 print(ans)
 </code><br>
--> list를 써서 시간초과가 나왔고, set을 사용하여 풀이를 한 것이다.  <br><br>
+-> list를 써서 시간초과가 나왔고, set을 사용하여 풀이를 한 것이다. t가 S에 있는지 확인할 때, in을 사용했는데 자료 구조에 따라 시간 복잡도가 다른 것이다. set은 key를 통해 접근을 하기 때문에, 빠르다. 그리고, set에 data를 추가할 때는 add함수를 사용해준다!! <br><br>
 
 ## ✔ What I learned: <br> 
+-> list보다는 set 자료형이 자료들에 접근할 때 더 빠르다는 것! <br><br>
