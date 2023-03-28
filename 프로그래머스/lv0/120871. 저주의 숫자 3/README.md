@@ -103,4 +103,15 @@
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges  <br><br>
+
+<hr>
+
+## 👑 나의 풀이: <br>
+![image](https://user-images.githubusercontent.com/70849122/228250008-c3d45eb4-e47d-4363-9f07-1706b885358c.png)
+-> 처음에는 결괏값들에 대한 규칙을 찾아내려고 하였다. 하지만, 규칙이 존재하지 않았다. 그래서... 결괏값들을 배열 안에 넣어놓고, 그에 맞는 인덱스를 반환해주는 방식으로 코드를 짰다. 그런데!! 런타임 에러가 나는 것이다. 반복문을 너무 큰 크기로 반복했거나 많은 리스트나 변수들을 사용해서 저장 메모리가 초과되었을 수도 있을 것 같다. <br><br>
+
+## ⭕ 다른 사람의 풀이: <br>
+![image](https://user-images.githubusercontent.com/70849122/228252378-aeae5029-32e8-49de-b3a8-c8ff62872b48.png) <br>
+-> 그냥, n만큼 반복문을 돌면서 만약 3의배수이거나, 3을 포함하고 있으면, 반복문을 다음으로 넘어가지 않고 1을 더 더하도록 코드를 짰다... 이렇게 간단할 수가 
+ <br><br>
