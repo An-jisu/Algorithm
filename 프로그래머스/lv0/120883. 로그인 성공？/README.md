@@ -90,4 +90,18 @@
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges  <br><br>
+
+<hr>
+
+## 👑 나의 풀이: <br>
+-> db의 값에 하나 씩 접근하면서, 만약 아이디와 비번이 모두 일치하면 반환 후 종료하였다. 그런데, 만약 아이디는 일치하지만 비번은 일치 하지않으면, 반환 후 종료하였다. 그 외의 경우는 올바르지 않은 정보이므로 다음 db로 넘어가게 하고 그때까지도 함수가 종료되지 않았다면, 제대로 정보를 입력하지 않은 것이므로, fail을 반환하였다. 첨음엔, 반복문 안에 fail의 조건도 따로 넣어줘서 아이디는 다르지만 비번은 같은 경우에 fail이라고 출력되었다. 잘못 출력된 것이다. <br><br>
+
+## ⭕ 다른 사람의 풀이: <br>
+![image](https://user-images.githubusercontent.com/70849122/228443366-25b63b39-b66d-49d8-a54a-b33f2b045540.png) <br>
+-> db_pw는 db에서 id_pw의 아이디에 해당하는 비번의 값을 저장한다. 즉, 아이디는 같다는 것을 전제로, 그 비번과 id_pw의 비번이 일치하면 'login', 같지 않으면 wrong pw을 반환한다. 만약 아이디가 일치하지 않으면 아예 잘못된 정보이므로 fail을 반환한다. <br><br>
+
+## ✔ What I learned: <br>
+-> ':=' 바다코끼리 연산자: 이번에 새로 등장한 연산자로 할당과 반환을 동시에 수행하는 연산자이다. 코드량이 줄어들면서 가독성을 높이는 효과가 있다.  <br>
+![image](https://user-images.githubusercontent.com/70849122/228447739-be99fb4f-b24f-428e-8fe1-92feccbe9a77.png)
+<br><br>
