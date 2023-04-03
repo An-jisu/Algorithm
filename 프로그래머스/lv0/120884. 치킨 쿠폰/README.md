@@ -70,4 +70,17 @@
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges  <br><br>
+
+<hr>
+
+## 👑 나의 풀이: <br>
+-> 몫과 나머지 연산을 이용해서 구할 수 있다. <br>
+![image](https://user-images.githubusercontent.com/70849122/229421715-3bf2a255-1d33-4af6-bfaf-499a636bba92.png) <br>
+-> div: 서비스 받은 수(서비스 통해 받은 쿠폰 수), rem: 남은 쿠폰 수, answer: 총 서비스 수, chicken: 총 쿠폰 수 이다. <br>
+-> 나는 처음에 변수의 정의와 선언이 혼란스워서 제대로 풀지 못했던 것 같다. 남은 쿠폰 수랑 서비스를 통해 받은 쿠폰수를 더해 계속 업데이트 시켜주며 받을 수 있는 서비스 치킨의 수를 업데이트 해주는 코드이다. <br>
+
+## ⭕ 다른 사람의 풀이: <br>
+-> 
+
+## ✔ 다시 한 번 풀어보기!!<br><br>
