@@ -81,4 +81,16 @@
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges <br><br>
+
+## 👑 나의 풀이: <br>
+-> i값의 요소에 하나씩 접근하면서 만약, k가 i에 존재한다면, i를 str로 바꿔 요소에 하나씩 접근하면서 k의 개수를 세주어 answer에 저장해준 후, 최종적으로 answer을 반환하였다. <br><br>
+
+## ⭕ 다른 사람의 풀이: <br>
+![image](https://user-images.githubusercontent.com/70849122/229679527-a39e83af-a8bc-4687-ab3a-98c7b17d4bb9.png) <br>
+-> count함수를 이용하여 k의 개수를 세주면서, 리스트에 저장하고 바로 sum을 구했다. <br>
+![image](https://user-images.githubusercontent.com/70849122/229679587-42ff56f2-5439-46c1-8a1e-2d4c79f7f4c0.png) <br>
+-> 나는 중첩 반복문을 사용하여 요소 하나하나에 접근했었는데, 여기서는 count함수를 사용하여 처리해주었다. <br><br>
+
+## ✔ What I learned: <br>
+1. count함수: 어디서 카운트할 지.count(카운트할 것) <br>
