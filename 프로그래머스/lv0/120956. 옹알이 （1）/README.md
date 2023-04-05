@@ -94,7 +94,10 @@
 
 ## ⭕ 다른 사람의 풀이: <br>
 ![image](https://user-images.githubusercontent.com/70849122/229979858-cbd971dd-d30b-4e34-80e1-e9758ee93a6b.png) <br>
--> 
+-> 나는 중첩 반복문을 이용해서, 두번씩 나오는 것을 방지한 경우라면, 여기서는 아에 *2가 존재하지 않는 경우 수행하게 함으로서, 1번씩만 나오는 경우의수만 생각한 것이다.<br><br>
 
 
 ## ✔ What I learned: <br>
+![image](https://user-images.githubusercontent.com/70849122/229980897-c1aec932-747a-4e23-ae72-819d21eedb5a.png) <br>
+-> re는 정규식을 사용하기 위해 import해준다. <br>
+-> re.compile(): 정규식 개체를 return 해준다. 위에서는 regex에는 위의 것들로 만들 수 있는 조합이 들어간다. <br>
