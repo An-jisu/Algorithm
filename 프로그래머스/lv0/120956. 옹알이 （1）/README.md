@@ -81,4 +81,20 @@
 <p>※ 공지 - 2022년 10월 27일 문제 지문이 리뉴얼되었습니다. 기존에 제출한 코드가 통과하지 못할 수도 있습니다.</p>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges <br><br>
+
+<hr>
+
+## 👑 나의 풀이: <br>
+![image](https://user-images.githubusercontent.com/70849122/229978713-34ea8da6-8005-4086-b9a9-92e196a13032.png) <br>
+-> 내 풀이는 중첩 반복문을 활용하여 풀었다. 첫번째 for문은 babbling의 요소들에 접근하기 위한 것이고, 두번째 for문은 각 내가 만들어준 w요소에 접근하기 위한 것이다. 만약, babbling의 요소에 w의 요소가 존재하면 ' '로 대체하도록 하였다. 그리고 마지막에 i가 공백인 경우에는 w에 있는 문자열들로만 만든 문자열이므로 count하게 하여 반환하였다. <br>
+-> 처음에는 존재하면 그냥 ''공백이 없는 것으로 대체하게끔 하였다. 그러나, 'wyeoo'와 같은 예외처리에 문제가 생겼다. ye가 존재해서 삭제하면 'woo'만 남는 것이다. 'woo'도 존재하므로 ''로 대체하면, 전체적으로는 ''이 되어, 출력해주는 것이다. 하지만, 순서도 고려해주어야 한다. <br>
+![image](https://user-images.githubusercontent.com/70849122/229979228-83c2e84b-4e27-44fc-b2d9-a8e72234768c.png) <br>
+-> 따라서, 위와 같이 변경해주었다. ''이 아닌 ' '공백으로 대체해 주었다. 그렇다면 'w oo'가 되어 woo가 처리되지 않을 것이다. 그리고 마지막에 카운트할 때에는, ' '을 다시 ''로 바꿔주어 ''인 경우에 카운트 해주도록 하였다. <br><br>
+
+## ⭕ 다른 사람의 풀이: <br>
+![image](https://user-images.githubusercontent.com/70849122/229979858-cbd971dd-d30b-4e34-80e1-e9758ee93a6b.png) <br>
+-> 
+
+
+## ✔ What I learned: <br>
