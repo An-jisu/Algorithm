@@ -13,14 +13,3 @@ def solution(A, B):
         return -1
     else:
         return count
-    
-    
-    
-    if sorted(A)!=sorted(B):
-        return -1
-    else:
-        if A==B:
-            return 0
-        else:
-
-            return count
