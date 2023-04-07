@@ -81,4 +81,17 @@
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges  <br><br>
+
+
+<hr>
+
+## 👑 나의 풀이: <br>
+->  세로로 자르는 횟수: N-1/ 가로로 자르는 횟수: (M-1)*N <br><br>
+
+## ⭕ 다른 사람의 풀이: <br>
+![image](https://user-images.githubusercontent.com/70849122/230536699-9209eb92-a33d-4acf-82a8-a0c219c6e2f9.png) <br>
+-> 전체 개수에서 규칙을 찾았다. 나는 세로, 가로 자르는 횟수에서 규칙을 찾았다. <br><br>
+
+## ✔ What I learned: <br>
+-> 문제가 보고는 되게 어려울 것 같았는데, 되게 쉬운 문제였다....
