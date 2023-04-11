@@ -101,6 +101,6 @@
 ![image](https://user-images.githubusercontent.com/70849122/231048784-32b0fded-a9f3-4d82-a880-1ca3710385b0.png) <br>
 ![image](https://user-images.githubusercontent.com/70849122/231048829-4fc45236-3193-4ec3-97c5-74e08aac7e91.png) <br>
 ![image](https://user-images.githubusercontent.com/70849122/231048978-965598f9-a1e8-4c83-ae29-a313730d3eef.png)<br>
--> 등차수열의 첫째항은, num까지의 합을 구하고 total에서 빼서 num으로 나눈 값으로 구할 수 있다는 것!!<br><br>
+-> 가운뎃값이 total//num한 값이라는 것을 알 수 있다. 등차수열의 첫째항은, num까지의 합을 구하고 total에서 빼서 num으로 나눈 값으로 구할 수 있다는 것!!<br><br>
 
 ## 다시 풀어보기!!!
