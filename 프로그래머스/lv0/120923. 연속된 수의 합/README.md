@@ -89,4 +89,18 @@
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges  <br><br>
+
+<hr>
+
+## 👑 나의 풀이: <br>
+![image](https://user-images.githubusercontent.com/70849122/231048008-448acb9a-4dd7-4b55-aea1-38fa1a5e04cb.png) <br>
+-> 처음에는 이렇게 코딩을 했는데, 3개의 테스트케이스에서 오류가 나는 것이다.<br><br>
+
+## ⭕ 다른 사람의 풀이: <br>
+![image](https://user-images.githubusercontent.com/70849122/231048784-32b0fded-a9f3-4d82-a880-1ca3710385b0.png) <br>
+![image](https://user-images.githubusercontent.com/70849122/231048829-4fc45236-3193-4ec3-97c5-74e08aac7e91.png) <br>
+![image](https://user-images.githubusercontent.com/70849122/231048978-965598f9-a1e8-4c83-ae29-a313730d3eef.png)<br>
+-> 등차수열의 첫째항은, num까지의 합을 구하고 total에서 빼서 num으로 나눈 값으로 구할 수 있다는 것!!<br><br>
+
+## 다시 풀어보기!!!
