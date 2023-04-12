@@ -60,11 +60,8 @@ Empty
 
 
 ## ⭕ 다른 사람의 풀이: <br>
-![image](https://user-images.githubusercontent.com/70849122/231372682-f9865131-c1aa-4a56-98ea-6b2059099517.png) <br>
--> <br>
 ![image](https://user-images.githubusercontent.com/70849122/231372817-10038ec4-c359-4bba-9e5f-085bd7a60dfe.png) <br>
--> <br>
-![image](https://user-images.githubusercontent.com/70849122/231372884-15e2f1c1-12d3-41d8-98b1-f5edb7a2d584.png) <br>
--> <br><br>
+-> 아래에서부터 위로 올라가는 코드이다. 테스트케이스로 하나씩 수행해보면, 위의 코드를 완벽히 이해할 수 있음!! 여기서도 역시나 dp배열을 따로 만들지 않음.<br><br>
 
 ## ✔ What I learned: <br>
+-> 내가 푼 코드가 가장 dp를 잘 이용한 풀이법이다!! 풀이가 짧다고 꼭 잘 짠 코드는 아니라는 것!!! <br><br>
