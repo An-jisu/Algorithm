@@ -92,4 +92,21 @@ Empty
 <p>설명 생략</p>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges <br><br>
+
+<hr>
+
+## 😀 나의 풀이: <br>
+![image](https://user-images.githubusercontent.com/70849122/235828869-92220006-da0d-4bce-8421-293ce2a6e0fd.png) <br>
+-> 딕셔너리로 문제 푼 거 너무 잘함!!!! 일단, 딕셔너리를 이용해서 {이름: 그리움점수}를 매칭시켰다. 그리고 중첩 반복문을 통해서, 하나의 사진 그리고 사진 속의 인물들에 하나씩 접근하면서, 만약 그 인물이 딕셔너리에 존재하면 그리움 점수가 0이 아니므로, sum에 그 이름에 해당하는 그리움점수를 더해주었다. 그리고 안쪽 반복문(하나의 사진)에 대한 추억점수 계산이 끝나면, 그 값을 answer에 append해주었고, 최종적으로는 answer값을 return하였다. <br><br>
+
+## ⭕ 다른 사람의 풀이: <br>
+1.
+![image](https://user-images.githubusercontent.com/70849122/235829770-368fddd4-263e-4e50-9393-acc0d1ec4c51.png) <br>
+-> 2개의 배열을 하나의 딕셔너리로 합칠 때, 이렇게 간단하게도 할 수 있다는 것!! <br>
+2. ![image](https://user-images.githubusercontent.com/70849122/235829842-ad8acaf8-396f-4219-9f92-b86da6c662cd.png) <br>
+-> 같은 방법인데, 한 줄로 해결한 것이다. 여기서는 딕셔너리가 아니라, name과 yearning의 인덱스가 같음을 이용하여 풀이했다.<br><br>
+
+## ✔️ What I learned: <br><br> 
+- 두 개의 배열의 합쳐 하나의 리스트로 나타내기 위해서는 나의 풀이와 같이 zip함수 사용하기! <br>
+- 어떤 배열의 값이 어떤 배열의 값에 해당하면, 위와 같이 딕셔너리로 값들 매칭해놓기!! <br><br>
