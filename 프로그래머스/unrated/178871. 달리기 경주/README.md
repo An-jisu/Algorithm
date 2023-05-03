@@ -67,4 +67,48 @@ Empty
 <p>4등인 "kai" 선수가 2번 추월하여 2등이 되고 앞서 3등, 2등인 "poe", "soe" 선수는 4등, 3등이 됩니다. 5등인 "mine" 선수가 2번 추월하여 4등, 3등인 "poe", "soe" 선수가 5등, 4등이 되고 경주가 끝납니다. 1등부터 배열에 담으면 ["mumu", "kai", "mine", "soe", "poe"]이 됩니다.</p>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges <br><br>
+
+<hr>
+
+## 😀 처음 풀이: <br>
+```
+def solution(players, callings):
+    #callings의 크기만큼 반복문 돌면서 부른 이름의 인덱스 찾아서 앞의 인덱스의 값과 바꿈
+    for i in callings: 
+        players[players.index(i)-1], players[players.index(i)] = players[players.index(i)], players[players.index(i)-1]
+    
+    return players
+```
+![](https://velog.velcdn.com/images/asj1966/post/5b5714f9-e256-408c-a213-777b7c62b2da/image.png) <br>
+-> 결과가 왜 안나와..? 어디가 틀린지 도통 모르겠어서, 블로그에 다른 사람들은 어떻게 풀었는지 검색했다. <br>
+->  질문 답변 달리면 이 부분 수정하기!<br><br>
+
+## 😀 그 다음 풀이: <br>
+```
+def solution(players, callings):
+    #callings의 크기만큼 반복문 돌면서 부른 이름의 인덱스 찾아서 앞의 인덱스의 값과 바꿈
+    for i in callings: 
+        idx = players.index(i)
+        players[idx], players[idx-1] = players[idx-1], players[idx]
+    
+    return players
+```
+![](https://velog.velcdn.com/images/asj1966/post/188b0a71-b401-49af-acbf-0b5950a83a39/image.png) <br>
+-> 시간초과 문제가 뜨는 것이다. <br>
+-> .index를 사용해서 시간초과가 뜬 것 같다. <br><br>
+
+## 😀 최종 풀이: <br>
+-> 딕셔너리를 사용하면 시간초과 오류가 뜨지 않는다고 한다! <br>
+![image](https://user-images.githubusercontent.com/70849122/235825991-c305b748-2c08-4657-85b8-83023b1ae3c2.png) <br>
+-> 딕셔너리를 이용하여 {선수: 등수}, {등수: 선수}를 만들어주었다. 그리고, 반복문을 돌면서 {선수:등수}딕셔너리를 이용해서, 각 현재 선수와 그 앞 선수의 등수를 입력받았다. 그리고, {등수: 선수} 딕셔너리를 이용하여, 각 등수의 선수를 교환해주었다. 그 다음, {선수: 등수}를 이용해서 업데이트된 선수의 등수도 변경해주었다. 즉, 선수와 등수가 모두 교환되어 각 디셔너리에 반영된 것이다. 그리고 마지막에는, {등수: 선수}딕셔너리에서 등수는 순서대로 되어 있을 것이므로, 그것의 values값을 list로 출력해주었다. <br><br>
+
+##  ⭕ 다른 사람의 풀이: <br>
+![image](https://user-images.githubusercontent.com/70849122/235826474-2e8aa3b7-0407-42d2-b68c-6a95404ff4f6.png) <br>
+-> 딕셔너리를 하나 이용해서 풀 수도 있다! 인덱스로 접근하지 않고, 등수를 딕셔너리를 통해서 알아내고, 딕셔너리 값의 등수를 업데이트 시켜! 그리고, 그 값을 players에서 <br><br>
+
+## ✔️ What I learned: <br>
+1. 파이썬에서, 특정값의 index 찾기 위해서 <br>
+-> players.index("내용") 이렇게 사용!! <br>
+2. swap은 temp 이용하거나, 두번째 풀이처럼! 순서대로 대입 <br>
+3. 리스트를 수정하는 방식은 오류가 뜰 수 있다는 것!!! 딕셔너리 이용하는 것 연습하자!  <br><br>
