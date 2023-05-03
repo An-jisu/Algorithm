@@ -1,10 +1,10 @@
 # [unrated] 덧칠하기 - 161989 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/161989#qna) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/161989) 
 
 ### 성능 요약
 
-메모리: 11.9 MB, 시간: 5.63 ms
+메모리: 11.8 MB, 시간: 1.71 ms
 
 ### 구분
 
@@ -119,22 +119,4 @@ Empty
 <p>※ 공지 - 2023년 3월 20일 문제 난이도가 Lv. 2 → Lv. 1로 변경되었습니다.</p>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges  <br><br>
-
-<hr>
-
-## 😀 처음 풀이: <br>
-![](https://velog.velcdn.com/images/asj1966/post/ffd5f6ea-e914-4798-a7b1-2b7c69af572f/image.png) <br>
--> 설명: 규칙을 찾고자 하였다. 곰곰히 생각해보니, 색칠해야하는 구역의 수와 롤러의 길이가 관계가 있었다. <br>
-1. 구역의 수-롤러의 길이<=0:  <br>
-2. 1~m: 2번/ m+1~2m: 3번   -> 이걸 코드로 짰더니 위와 같았다. <br>
--> 주어진 3개의 테스트 케이스들에 대해선 성공적으로 동작했지만!!! 제출하고 나니 '실패'가 뜨는 것이다. <br>
--> 반례: 롤러의 길이 4이고 [2, 3, 15, 16] 인 경우에는 4~14에서 불필요한 색칠을 하게된다. (내코드 결괏값: 4/ 정답:2)<br><br>
-
-## ⭕ 다른 사람의 풀이: <br>
-![image](https://user-images.githubusercontent.com/70849122/235921718-e61b3784-da38-4f30-821f-bbe79e56084c.png) <br>
--> 처음 코드에서는 전체 section의 범위를 구함. 정답 코드에서는 덧칠을 해야하는 section 요소들 간의 범위를 구했다. <br>
--> 즉, 시작점부터 일단 1번 칠한다고 가정한다. 그리고 다음 section요소 값까지의 차잇값이 롤러의 길이보다 길어지면 옮겨서 다시 칠해야한다.(answer+1) 그리고 덧칠 시작점도 옮겨준다. <br><br>
-
-## ✔️ What I learned: <br>
--> 이렇게 예외까지 처리할 줄 알아야할 듯..... 문제 길고 복잡할 땐, 중요한 요소들 뽑아서 코드 맨 위에 
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
