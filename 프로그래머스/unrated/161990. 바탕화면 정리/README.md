@@ -119,4 +119,26 @@ Empty
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges <br><br>
+
+<hr>
+
+## ❤️ 문제 핵심: <br>
+- 컴퓨터 화면에서 모든 문서 포함되도록 드래그/ 최소/ 드래그의 왼위, 오아래 좌표 반환<br><br>
+
+## 😀 나의 풀이: <br>
+![image](https://user-images.githubusercontent.com/70849122/236117949-d9385379-d671-4cca-91ec-85e7a2c0e750.png) <br>
+-> x와 y의 최소, 최댓값을 찾으면 되겠다는 생각이 들었다.<br>
+-> 그러면, x와 y의 최솟값을 구하기 위해서 어떻게 처리할까 고민이 들었다. 반복문을 돌면서 #인 경우에 x와 y값을 각각의 리스트에 넣어주었다. 그리고 그 각 리스트에서의 최대 최소를 구해주었다. <br>
+-> 최소 값은 그대로 구해주면 되는데, 최댓은 +1을 해주어야 한다. (파일의 위치가 왼쪽 상단 좌표를 기준으로 하기 때문에, 최댓값은 그 파일도 포함하기 때문에!) <br><br>
+
+## ⭕ 다른 사람의 풀이: <br>
+![image](https://user-images.githubusercontent.com/70849122/236118351-9eba73ef-731b-46f1-a2a8-3b56c7c07646.png) <br>
+- 마지막에 return 할 때의 형태 잘 기억하기!! 나처럼 일일히 append하지 않아도 됨! <br>
+- 반복문을 인덱스로 해줘야할 지, 값을 기준으로 해줘야 할지 고민이 많고 복잡해졌다. 이렇게 enumerate이용해서 인덱스랑 값을 한 번에 가져올 수 있다는 것!(i와 j에는 인덱스가 들어가고, row/col에는 값이 들어감)<br><br>
+
+## ✔️ What I learned: <br> 
+-> 문제가 엄청 길고 복잡해서 오래 걸릴 줄 알았는데, 되게 간단히 처리한 문제/ 문제 길이에 겁먹지 말자! 긴 문제 읽고, 핵심 파악, 구해야하는 것 파악하는 거에 익숙해지자. <br>
+- enumerate: 인덱스와 원소로 이루어진 튜플반환 <br>
+![image](https://user-images.githubusercontent.com/70849122/236118897-fade6412-9aed-4bce-9bb4-efc85e49c6f0.png) <br>
+‼️ 인덱스와 값에 동시에 접근하기 위해서 enumerate 함수 사용하기!!!!
