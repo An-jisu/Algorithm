@@ -87,4 +87,64 @@ Empty
 <p><code>cards1</code>에서 "i"를 사용하고 <code>cards2</code>에서 "want"와 "to"를 사용하여 "i want to"까지는 만들 수 있지만 "water"가 "drink"보다 먼저 사용되어야 하기 때문에 해당 문장을 완성시킬 수 없습니다. 따라서 "No"를 반환합니다.</p>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges <br><br>
+
+<hr>
+
+## ❤️ 문제 핵심: <br>
+- goal 문자열 완성/ 원하는 카드 뭉치에서 시작/ 0번째 인덱스의 값과만 비교해야함<br>
+- cards1과 cards2 중 하나라도 먼저 리스트가 비어진 경우에 대한 처리도 해주어야 함! 값이 비어있는데, 비교하려고하면 오류가 남남<br><br>
+
+## 😀 나의 풀이: <br>
+```
+def solution(cards1, cards2, goal):
+    for i in goal:
+        #cards1 리스트를 다 쓴 경우
+        if (len(cards1)==0):
+            #cards2 리스트에서 계속 비교해주면서, 다르면 return no
+            if(i!=cards2[0]):
+                return "No"
+            else:
+                del cards2[0]
+
+        #cards2 리스트를 다 쓴 경우
+        elif (len(cards2)==0):
+            #cards1 리스트에서 계속 비교해주면서, 다르면 return no
+            if(i!=cards1[0]):
+                return "No"
+            else:
+                del cards1[0]
+
+        #아직 둘 다 남아있는 경우 
+        else:
+            #cards1의 0번째나 cards2의 0번째에 없으면, return "No"/ 
+            if (i!=cards1[0]) and (i!=cards2[0]):
+                return "No"      
+            else:
+                #cards1에 있던 경우
+                if (i==cards1[0]):
+                    del cards1[0]
+                #cards2에 있던 경우 
+                if (i==cards2[0]):
+                    del cards2[0]
+
+
+
+    #반복문 끝까지 실행했으면, 모두 성공한 경우- return "Yes"
+    return "Yes"
+``` <br>
+1. 하나의 리스트를 다 쓴 경우를 제외하고, 아직 두 리스트 모두 요소가 남아있는 경우에 대해서 먼저 처리하였다. <br>
+- 반복문 돌면서 goal의 요소들에 하나씩 접근한다. 그 값을 cards1[0]와 cards2[0]와 비교한다. 그래서 그 둘 다와 같지 않으면, 카드를 순서대로 접근한다는 중요한 조건을 만족시킬 수 없으므로, 목적을 도달할 수 없어서 return "No"
+- 그렇지 않은 경우에는, 둘 중 하나에는 같은 값이 존재하므로 성공이다. 하지만 계속 0번째 인덱스와 비교해주기 위해서는 성공 후, 가장 앞의 요소를 삭제해주어야 한다. 따라서, cards1, cards2 어디서 성공했는지에 따라, 적절한 리스트의 요소를 삭제해준다. 
+2. 반복문 끝까지 수행했는데, return "No"가 되지 않았다면, 목표 문자열을 모두 만든 것이므로, return "Yes" 한다. <br>
+3. 이제는, 한 뭉치 라도 요소가 다 쓰인 경우에 대한 처리를 한다. cards1인 경우 cards2인 경우 나눠준다. 다 쓴 뭉치를 제외하고, 나머지 뭉치에서 계속해서 넣어주고, 0번째 인덱스와 같지않으면 또, No 반환해준다. <br><br>
+
+## ⭕ 다른 사람의 풀이: <br>
+![image](https://user-images.githubusercontent.com/70849122/236111259-bd655ca5-86d9-4e81-9b61-3f7a1f2724ca.png) <br>
+-> 이렇게 길게 안쓰고, 아예 그냥 길이와 일치하는지를 한 번에 검사해도 되겠구나!!!!<br><br>
+
+## ✔️ What I learned: <br>
+1. 파이썬 리스트 요소 삭제함수
+- del: del 리스트명[인덱스]/ 인덱스로 삭제 <br>
+- remove: list.remove("요소") / 항목의 값을 삭제 <br>
+- pop: 리스트.pop(인덱스) / 특정인덱스의 값 삭제하고 반환 <br>
