@@ -108,8 +108,8 @@ def solution(s, skip, index):
 ## ⭕ 다른 사람의 풀이: <br>
 ![image](https://user-images.githubusercontent.com/70849122/236422729-53679b1a-f584-4c68-b8ba-1a7daf73173e.png) <br>
 -> 여기서는 되돌아가는 것의 의미를 나머지로 생각해서 계산해주었다!! 또 여기서는 skip문자를 제거해주는 식으로 풀이를 했고, 아스키코드를 이용하지 않았다.<br><br>
--
-## What I learend: <br>
+
+## ✔️ What I learend: <br>
 - 이렇게 뭔가 앞으로 되돌아가는 것, 주어진 문자열이나 리스트에서 인덱스 범위를 넘어갈 때!!! 나머지를 이용해서 처리해보자(문자열이나 리스트의 길이로 나눈 나머지) <br>
 ![image](https://user-images.githubusercontent.com/70849122/236425995-a2c9db13-4e25-48cc-b143-e4cfd05fff08.png) <br>
 -> 그리고 replace함수는 이렇게 반환된 값을 저장해주어야 하므로, 위와 같은 형태로 쓰기!!! alpha.replace 이렇게만 쓰면 안됨.
