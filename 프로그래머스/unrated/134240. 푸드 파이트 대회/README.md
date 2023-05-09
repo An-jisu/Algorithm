@@ -4,7 +4,7 @@
 
 ### 성능 요약
 
-메모리: 3.63 MB, 시간: 0.02 ms
+메모리: 10 MB, 시간: 0.01 ms
 
 ### 구분
 
@@ -73,4 +73,32 @@ Empty
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges <br><br>
+
+<hr>
+
+## ❤️ 문제 핵심: <br>
+-> 음식의양 주어짐(칼로리 낮은 순서대로 길이가 음식의 양)-> 대회를 위한 배열로(양끝에서 칼로리작은값부터 똑같이 가운데쪽으로 증가하는 느낌-> 가운데는 물-0번 음식) <br><br>
+
+## 😀 파이썬 풀이: <br>
+![image](https://user-images.githubusercontent.com/70849122/236977156-d3d0e713-5a6e-4609-bdc1-eb7a2b9aaf43.png) <br>
+-> 중첩 반복문으로 처리하였다. 반복문 하나씩 돌면서 food의 숫자에 접근해주었고, 그 숫자 홀수일 경우 1을 빼주었다. 그리고 중첩 반복문을 통해서 food에 있는 숫자만큼 반복하면서 그 값의 인덱스를 str형태로 answer에 더해주게끔 하였다. 0이면 반복문을 돌지 않을 것이므로 건너뛸 것이다! 그리고 마지막에는 answer값+'0'+answer의 거꾸로 형태를 출력해주었다. <br><br> 
+
+## ⭕ 다른 사람의 풀이: <br>
+![image](https://user-images.githubusercontent.com/70849122/236977843-7f69f7b4-cccc-47c9-870f-3add13c66047.png) <br>
+-> 여기서도 중첩 반복문을 활용한 것은 같다. 하지만 food의 끝값부터 접근하면서, 가운데 문자열부터 채워나가는 것이다. <br>
+-> 가운데 값을 기준으로 양쪽이 대칭이라면, 위와 같이 '붙일값+answer+붙일값' 이런 식으로 접근할 수도 있다는 것!! <br>
+![image](https://user-images.githubusercontent.com/70849122/236978288-b75a8656-ad67-4e09-a1f9-b8e428840677.png) <br>
+![image](https://user-images.githubusercontent.com/70849122/236979023-32daa315-0fe8-4ddf-a457-4df9067e40ad.png) <br>
+-> 반복문을 사용하지 않고 위와 같이 접근할 수도 있다는 것!! 같은 문자 여러 번 출력할 때는 곱하기 연산자를 이용할 수 있다.<br><br>
+
+## 😀 c++언어 풀이: <br>
+![image](https://user-images.githubusercontent.com/70849122/236980759-271e6f1c-a1c4-404b-bddf-d20413b8b671.png) <br>
+-> 원래 파이썬 코테 연습했는데, 현대차 부트캠프 신청을 하였고,, 거기서는 c, c++, java를 코테 언어로 허용한다고 하여서 c언어로도 연습하려고 한다. <br>
+-> food.size(): 리스트의 길이 구하기 <br>
+-> to_string(i): string으로 바꾸는 함수 <br>
+-> 변수 선언 시, 자료형도 꼭! <br>
+-> 문장 끝에는 ';' 꼭! <br>
+
+## ✔️ What I learned: <br>
+-> 리스트에 접근할 때, 인덱스와 그 인덱스의 값이 모두 필요한 경우에 enumerate 잘 활용하자!!! <br><br>
