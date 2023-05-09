@@ -67,4 +67,31 @@ Empty
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges  <br><br>
+
+<hr>
+
+## ❤️ 문제 핵심: <br>
+-> 1231의 순서대로 나오는 경우, 햄버거 만듦/ 햄버거 총 개수 세기 <br><br>
+
+## 😀 나의 처음 풀이: <br>
+![image](https://user-images.githubusercontent.com/70849122/236994057-3ba9b7f8-f4f8-47da-ac70-6e38afef04f8.png) <br>
+-> 문자열로 바꾸고, "1231"이 존재하지 않을 때까지 반복하면서, 존재하면 answer 1증가시키고, replace하도록 하였다. 그런데 시간초과!!!!! replace가 전체 문자열을 다 검사해서 시간을 많이 잡아먹는 것 같다. 그래서 pop도 시도해보고 했는데, 계속 오류나는 거.....그래서 이 문제는 쉽지만서도 접근방법이 헷갈려서 블로그 참고하였다.<br><br>
+
+## ⭕ 다른 사람의 풀이: <br>
+![image](https://user-images.githubusercontent.com/70849122/236994913-357514fe-2441-4db6-ad9b-f0bdd2e1a476.png)  <br>
+-> ingredient 요소 하나씩 접근하면서, s배열에 넣었다. (s 배열은 i는 1231제거 후 다시 앞으로 돌아갈 수없다는 사실 때문에 새로 만듦) 1231이면 4번 돌면서 pop해줬다. <br>
+![image](https://user-images.githubusercontent.com/70849122/236995149-d8bdc148-b123-4332-bee8-a4a90b17b94a.png) <br>
+-> 저기 한 줄만 바꿔주어도 오류가 난다. 리스트를 재할당해야하므로 시간초과가 발생하는 것이다. <br>
+
+## 😀 c언어 풀이: <br>
+![image](https://user-images.githubusercontent.com/70849122/236997141-f68ed441-8b35-41db-9ddf-83dbbc8c24f1.png) <br>
+-> (https://velog.io/@dakyommii/C%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-%ED%96%84%EB%B2%84%EA%B1%B0-%EB%A7%8C%EB%93%A4%EA%B8%B0) 참고 <br>
+
+## ✔️ What I learned: <br>
+- 문자열에서 특정 문자열 제거: replace  (반환값 저장해줘야하므로 replace = s.replace())이런식으로 나타내줘야한다는 것!!! <br>
+- 리스트에서 특정 부분 제거는 del이나 pop 사용하자!!!! replace는 시간 많이 잡아먹음 (pop은 끝부터 제거) <br>
+- 리스트 문자열로: 반복문 돌면서 요소 하나씩 접근하면서 ''.join() <br>
+- 문자열 리스트로: s = list(s) 이렇게 써주면 됨. <br>
+- c++ back(): 벡터의 마지막 요소 반환 <
+- c++ pop_back(): 값 넣어줌
