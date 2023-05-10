@@ -61,4 +61,8 @@ Empty
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges <br><br>
+
+##  ⭕ 다른사람의 풀이:<br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/b25edf6a-adce-4542-bb3b-a28f99a7640d) <br>
+-> 모자라지 않는 0의 경우를 어떻게 처리하지 고민이 많았는데, 위와 같이 처리하면 된다는 것!! 음수로 처리해서, 모자르는 경우에는 그것의 절댓값을, 그렇지 않은 경우에는 0이 최소이므로 0을!
