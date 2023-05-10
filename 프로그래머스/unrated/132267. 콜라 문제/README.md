@@ -88,4 +88,20 @@ Empty
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges  <br><br>
+
+<hr>
+
+## ❤️ 문제 핵심: <br>
+-> a개의 빈병을 마트에 주면, b개의 병을 줌/ 현재n개 가지고 있을 때 받을 수 있는 콜라 수 반환<br><br>
+
+## 😀 나의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/b4081c0a-af70-4c19-8382-24c07ba818bd) <br>
+-> 처음에는 b를 반영하지 않고, 당연히 1개라고 생각하고 풀었다. ㅋㅋ 그러니까 당연히 뒤에 테스트 케이스들이 틀리지.... 문제 세심하게 보자!<br>
+-> n이 a보다 큰 경우 동안 반복하면서, 몫에 b를 곱한 값에 나머지를 더해주면서, 계속 빈병으로 새로운 콜라를 받는다. <br><br>
+
+## 😀 c++ 풀이: <br>
+
+## ⭕ 다른 사람의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/8f8c6039-a159-4733-84a8-d795fdc210db) <br>
+-> 다들 비슷하게 풀었다. 그런데, 이렇게 몫과 나머지 변수를 굳이 구하지 않고 한 번에 써줬으면 더욱 효율적일 듯 하다. 그리고 while 문에서 같음도 포함되어야 한다는 것! <br><br>
