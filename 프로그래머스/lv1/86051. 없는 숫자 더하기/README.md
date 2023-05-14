@@ -67,4 +67,16 @@ Empty
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges <br><br>
+
+<hr>
+
+## 😀 나의 풀이: <br>
+-> 9까지 반복문 돌면서, 리스트 안에 없으면 더해주었다. <br><br>
+
+## ⭕ 다른 사람의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/1b101803-1f80-41be-8524-45cbcf4c179f) <br>
+-> 0부터 9까지의 합에서 리스트의 합을 빼 주었다. <br><br>
+
+## ✔️ What I learned: <br>
+-> 문제의 글자 그 자체에서 벗어난 풀이도 생각해보자!!! 위의 풀이처럼!!!
