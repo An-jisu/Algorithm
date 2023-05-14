@@ -101,4 +101,42 @@ Empty
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges  <br><br>
+
+<hr>
+
+## ❤️ 문제 요구 분석과 설계: <br>
+-> x와 y의 공통되는 숫자들로 가장 큰 숫자를 만들어 return 하는 것.<br>
+-> x와 y의 공통된 숫자를 리스트에 넣고, y에서 삭제하도록 처리해주었다. 그런데 런타임 오류가 나는 것이다. <br>
+
+## 😀 나의 처음 풀이: <br>
+```
+def solution(X, Y):
+    answer = ''
+    lis = []
+    #공통된 숫자 찾기 (x요소 하나씩 접근하면서 y에 있으면 리스트에 넣고 y에서 replace)
+    for i in X:
+        if i in Y:
+            lis.append(i)
+            Y = Y.index(i)
+    lis.sort(reverse=True)
+    #짝꿍 return 하기(len이 0 인 경우, 0으로만 이루어진 경우 처리)
+    if len(lis)==0:
+        return '-1'
+    elif lis[0]=='0':
+        return '0'
+    else:
+        return ''.join(lis)
+```
+-> 위와 같은 설계로 풀었는데, 뒤에서 몇 개의 테스트케이스에서 런타임 오류가 나는 것이다. 반복문 안에서 y에 있는지 검사할 때 시간이 너무 오래걸리는 것이다. 처음엔 replace가 문제인다고 생각했다. <br><br>
+
+## 😀 최종 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/ada4e4ef-2867-4d8c-9dd6-66f66d7fa5af) <br>
+-> x와 y를 각각 돌면서, 0~9까지 숫자의 개수를 저장해준다. 그리고 9부터 내려오면서, x와 y의 최솟값만큼 answer에 넣어준다. 그리고 예외도 처리해주었다. 각 자리 수는 0~9 사이의 숫자로 이루어져 있다는 사실을 이용한 것이다. <br><br>
+
+## ⭕ 다른 사람의 풀이: <br>
+![Uploading image.png…]() <br>
+-> 여기서도 마찬가지!! for문으로 9부터 검사하면서, 개수만큼 answer에 더해주었다. 따로 다시 정렬할 필요가 없음!<br><br>
+
+## ✔️ What I learned: <br>
+-> replace는 시간복잡도 클 수 있다는 것/ 비교 횟수를 줄이는 게 중요하다! (딕셔너리 굳)<br><br>
