@@ -132,10 +132,10 @@ def solution(X, Y):
 
 ## 😀 최종 풀이: <br>
 ![image](https://github.com/An-jisu/Algorithm/assets/70849122/ada4e4ef-2867-4d8c-9dd6-66f66d7fa5af) <br>
--> x와 y를 각각 돌면서, 0~9까지 숫자의 개수를 저장해준다. 그리고 9부터 내려오면서, x와 y의 최솟값만큼 answer에 넣어준다. 그리고 예외도 처리해주었다. 각 자리 수는 0~9 사이의 숫자로 이루어져 있다는 사실을 이용한 것이다. <br><br>
+-> x와 y를 각각 돌면서, 0부9까지 숫자의 개수를 저장해준다. 그리고 9부터 내려오면서, x와 y의 최솟값만큼 answer에 넣어준다. 그리고 예외도 처리해주었다. 각 자리 수는 0~9 사이의 숫자로 이루어져 있다는 사실을 이용한 것이다. <br><br>
 
 ## ⭕ 다른 사람의 풀이: <br>
-![Uploading image.png…]() <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/ff7e791f-e692-4802-b018-97bdcba48995) <br>
 -> 여기서도 마찬가지!! for문으로 9부터 검사하면서, 개수만큼 answer에 더해주었다. 따로 다시 정렬할 필요가 없음!<br><br>
 
 ## ✔️ What I learned: <br>
