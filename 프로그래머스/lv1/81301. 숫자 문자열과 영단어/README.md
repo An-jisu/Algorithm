@@ -153,4 +153,22 @@ Empty
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges  <br><br>
+
+<hr>
+
+## ❤️ 문제 핵심: <br>
+-> 영어로 되어있는 부분은 해당하는 숫자로 바꿔서 int 형태로 return <br><br>
+
+## 😀 나의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/71afb200-8772-4882-af9b-2ae9e50634d0) <br>
+-> 0에서 9까지의 숫자를 영어에 맵핑한 것이므로, 딕셔너리를 이용하였다. 그리고, 딕셔너리의 요소들에 하나씩 접근하면서, 만약 s에 그 문자열이 존재하면, 해당하는 value값으로 바꿔주었다. <br><br>
+
+## ⭕ 다른 사람의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/71e51741-a873-45b2-a812-70f9969858e8) <br>
+-> 여기서 items으로 키값과 value에 모두 함께 접근하였다. 그래서 있는지 검사를 굳이 하지 않아도 된다. 나와 같은 풀이 방법이지만 더 간단하게 푼 것이다. <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/eb73d009-d047-4e98-9db5-331dfdb82899)<br>
+-> 이렇게 순차적인 숫자에 관련된 문자는 인덱스로 접근할 수도 있다는 것!! <br><br>
+
+## ✔️ What I learned: <br> 
+-> 이렇게 제한되는 갯수만큼 무언가가 무언가에 맵핑되면, 딕셔너리를 이용하자!! 
