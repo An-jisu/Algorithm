@@ -104,4 +104,23 @@ Empty
 명함들을 적절히 회전시켜 겹쳤을 때, 모든 명함을 포함하는 가장 작은 지갑의 크기는 133(=19 x 7)입니다.</p>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges <br><br>
+
+<hr>
+
+## ❤️ 문제 핵심: <br>
+: 명함들을 모두 넣을 수 있는 최소 지갑의 크기 구하기/ 돌려서 넣을 수 있는 것들을 어떻게 처리할 것인지가 관건인 문제 <br><br>
+
+## 😀 나의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/90fa492e-f3c9-49c5-8190-060f079f5952) <br>
+-> 돌려서 넣을 수 있다는 그 조건을 어떻게 처리할까 고민이 많았다. 그런데, 그것을 아예 생각해주지 않기 위해서 각 명함을 내림차순으로 정렬하고 각 가로와 세로에서 최댓값을 구하면 어떨까 생각해서 그렇게 풀었다. <br><br>
+
+## ⭕ 다른 사람의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/d25d3061-86c3-4598-be4e-48112094725c) <br>
+-> 큰 값 중에서 가장 큰거, 작은 값중에서 가장 큰 값을 찾아서 구해줬다. <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/ef93cf8c-b7e5-46cf-afe6-454521862c66) <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/80e7792a-ef66-4439-9eda-f06a2cc6c4b1) <br>
+-> 이것도 나와 비슷한 풀이!<br><br>
+
+## ✔️ What I learned: <br>
+-> 최대, 최소 어쩌구 이런 문제는 일단 정렬을 해보는 게 어떤가!!!
