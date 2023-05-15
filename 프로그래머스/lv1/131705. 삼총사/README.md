@@ -76,4 +76,21 @@ Empty
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges  <br><br>
+
+<hr>
+
+## ❤️ 문제 핵심: <br>
+-> 리스트에서 3개의 요소를 뽑아서 0이되는 경우의 수의 갯수를 구해야함. <br> 
+
+## 😀 나의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/4623cd77-aea9-46c1-819d-2e5ecb67dc4d) <br>
+-> 리스트에서 3개의 요소를 뽑는 것을 어떻게 처리할까에 대한 고민이 많아서, 오래걸렸던 문제...... 리스트를 하나 만들어서 돌아가면서 하나씩 push, pop해야하나.... 그렇게 복잡하게 푸는 게 아닐텐데...그래서 블로그에서 힌트를 얻었다. 삼중 반복문을 활용하여서 누군가가 풀었다는 것이다. 그래서 나도 그렇게 풀어보았고, 잘 실행되었다. 쉬운 문제였는데 내가 너무 복잡하게 생각했다는 것..<br><br>
+
+## ⭕ 다른 사람의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/6af854f0-a9aa-4e69-ac65-4c101f90673c) <br>
+-> itertools의 combinations이라는 라이브러리를 이용하였다. 그러면, 어느 리스트에서 몇 개를 뽑을 건지 인자로 넘겨주면, 리스트로 반환해준다. 그 리스트의 합이 0 인경우에만 cnt를 1 더해주었다. <br><br>
+
+## ✔ What I learned: <br>
+-> 리스트에서 특정 몇 개를 뽑는 것은 중첩 반복문을 활용할 수 있다는 것!! (몇 개 뽑는지 정해져있는 경우에 가능) <br>
+-> 리스트에서 특정 요소 뽑기: from itertools import combinations/ combinations(리스트, 갯수) <br>
