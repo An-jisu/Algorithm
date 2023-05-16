@@ -484,4 +484,17 @@ Empty
 <p>따라서 <code>"RCJA"</code>를 return 해야 합니다.</p>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges  <br><br>
+
+<hr>
+
+## ❤️ 문제 핵심: <br>
+-> 성격 유형을 검사해주는 것이다. 4이상일 때, 알맞은 유형에 알맞은 점수를 더해주고, 그 점수를 비교하여 성격유형을 판단해주는 문제이다. <br>
+-> survey와 choices의 인덱스가 같음을 알고, choices의 점수에 따라 적절한 곳에 점수를 더해주어야 하는 것을 잘 파악해서 풀어야하는 문제이다. <br><br>
+
+## 😀 나의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/c6cdd6e1-46ae-4c72-8777-15c83c18ec7c) <br>
+-> 성격유형에 따른 점수를 딕셔너리로 매칭해주었고, score을 미리 저장해주었다. 그리고 반복문을 통해 survey의 하나씩 접근하면서 점수에 따라 적절한 곳의 점수를 choices에 따라 그것의 값-1에 해당하는 score 인덱스 값을 증가시켰다. 그리고, 결과 출력하는 것에 있어서 조금 더 효율적으로 비교하고출력하는 방법이 없을까하는 고민을 했다. 때로는 위와 같이 하드코딩이 효율적일 수도!<br><br>
+
+## ✔️ What I learned: <br>
+-> 리스트의 길이가 같고, 그 리스트들을 연관시켜 결과를 출력할 때는, zip을 이용하자!! 또 인덱스가 같음을 이용하자!!!
