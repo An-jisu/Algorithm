@@ -77,4 +77,8 @@ Empty
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges <br><br>
+
+## What I learned: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/64e5734c-9fd2-423e-92ab-b82f13653289) <br>
+-> sort한 값을 반환하기 위해서는 sort 대신 sorted 함수 쓰기!!!!
