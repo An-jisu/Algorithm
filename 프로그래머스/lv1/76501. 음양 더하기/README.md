@@ -76,4 +76,23 @@ Empty
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges   <br><br>
+
+
+<hr>
+
+## ❤️ 문제 핵심: <br>
+-> signs의 참 거짓에 따라 양수 음수 더하기/ 두 리스트의 인덱스가 같다는 사실을 이용하면 된다. <br><br>
+
+## 😀 나의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/e15352c6-422f-49ce-ac19-e7d3687e37b3) <br>
+-> signs 값에 하나씩 접근하면서 참 거짓에 따라 같은 인덱스의 값을 더하거나 빼 주었다.<br><br>
+
+## ⭕ 다른 사람의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/63907d45-acab-4852-a1dd-3d0e99386f5d) <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/9f000027-5736-41d7-9b06-0e594a3e60c5) <br>
+-> 둘 다 zip함수를 사용하여 두 배열의 요소들에 같이 접근해주었다. <br><br>
+
+## ✔️ What I learned: <br> 
+- zip함수: 길이가 같은 리스트의 데이터를 묶어서 가져옴<br>
+-> 여러 개의 리스트의 같은 인덱스 값들로 무언가 처리를 할 때 zip함수 유용!<br><br>
