@@ -100,4 +100,10 @@ Empty
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges <br><br>
+
+<hr>
+
+## ✔️ What I learned: <br>
+-> divmod(어떤수, 뭘로 나눌건지): 몫과 나머지를 반환한다는 것!! <br>
+-> int(answer string, base): str로 되어있는 answer base 진법을 10진수로 바꿔줌! <br><br>
