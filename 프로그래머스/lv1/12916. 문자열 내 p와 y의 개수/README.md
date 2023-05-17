@@ -57,4 +57,11 @@ Empty
 <p>※ 공지 - 2021년 8월 23일 테스트케이스가 추가되었습니다.</p>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges <br><br>
+
+<hr>
+
+## ⭕ 다른 사람의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/dda85f01-7f02-452a-86b0-bb256a4166cd) <br>
+-> lower: 소문자로 바꾸는 함수 <br>
+-> 개수세는 문제는 이렇게 count함수로 간단하게!!
