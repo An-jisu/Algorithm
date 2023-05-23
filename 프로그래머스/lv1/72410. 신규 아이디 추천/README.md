@@ -154,4 +154,24 @@ new_id에 나타날 수 있는 특수문자는 <code>-_.~!@#$%^&amp;*()=+[{]}:?,
 7단계 변화 없습니다.</p>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges <br><br>
+
+<hr>
+
+## ❤️ 문제 핵심: <br>
+-> 문제 안에 답이 들어있다. 각 단계 순서대로 수행하는 것이 중요하다!! 3단계를 어떻게 풀어내느냐가 관건이 문제인 것 같다.<br><br>
+
+## 😀 나의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/1d4ebcf0-4f79-44b0-b2d3-57b36ddaed95) <br>
+-> lower함수를 활용하여 소문자로 바꿔주었다. (1) isalpha, isdigit함수를 활용하여 주어진 문자들이 아닌 경우에는 삭제하도록 하였다. replace함수는 꼭 반환한 값을 저장할 변수를 지정해줘야 한다는 것!!!(2) 3단계부터는 answer을 이용하였다. answer에 하나씩 넣고, 마지막이 '.'이고, i도 '.'인 경우에는 중복되므로 넣지않도록 하였다.(3) 처음이 '.'이거나 마지막이 '.'인 경우에는 제거해주도록 하였다.(4) 3, 4단계에서 첫 요소 마지막 요소를 검사할 때 오류가 나서 오래걸렸다. new_id나 answer이 빈 배열일 경우에 대한 처리를 해주지 않았기 때문이다. 따라서 위와 같이 인덱스 범위로 지정해줘야하는 것이다. 빈 배열은 null로 인식한다는 것!!! 인덱스로 범위로 하면 ''이렇게 빈 배열값을 나타낸다는 것!<br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/20e7c8e3-0ed9-42ac-bc65-ef662b5d94ee) <br>
+-> 빈배열인 경우, 16보다 길이가 긴 경우, 길이가 2보다 작은 경우에 대한 처리를 해주었다. (5,6,7)<br><br>
+
+## ⭕ 다른 사람의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/1f28efea-6187-46ba-aa0d-64648bf5f67f <br>
+-> 이렇게 정규식을 이용해서 풀 수 있다는 것. 정규식도 공부해보자!! <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/47f52f24-6689-491d-959d-62073a61b544) <br>
+-> 또 다른 사람의 2,3단계를 이렇게!!! 나처럼 일일히 검사하지않고, in []이렇게 처리할 수 있다는 것. 또한, '.'이 연속되는 경우에 대한 처리도 인상적!!! <br><br>
+
+## ✔️ What I learned: <br>
+-> 문자열 관련된 문제에서, 빈 배열일 경우에 대한 처리도 해줄 수 있게끔 처리하기!!!<br><br>
