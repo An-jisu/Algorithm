@@ -43,4 +43,19 @@ Empty
 </tbody>
       </table>
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges  <br><br>
+
+<hr>
+
+## ❤️ 문제 핵심: <br>
+-> 제일작은 수를 제거한 배열을 return하고, 비었으면 -1을 return하는 문제이다. 
+
+## 😀 나의 풀이: <br>
+-> remove로 최솟값 제거하고, 비었으면 -1을 넣은 후, 배열을 return 하였다. <br><br>
+
+## ⭕ 다른 사람의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/25cf9fcb-bb97-471d-8acd-624f72c3f655) <br>
+-> 여기서는 최솟값보다 큰 경우 리스트에 넣어서 반환하였다. <br><br>
+
+## ✔️ What I learned: <br>
+-> list에서 요소 제거: remove/ 문자열에서 요소 제거: replace
