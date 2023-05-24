@@ -45,4 +45,19 @@ Empty
 </tbody>
       </table>
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges  <br><br>
+
+<hr>
+
+## ❤️ 문제 핵심: <br>
+-> 각 행들의 합을 먼저 구해서 넣는 것이 핵심이었다<br><br>
+
+## 😀 나의 풀이: <br>
+행의 수 만큼 반복문을 돌면서, 행의 합을 tmp에 넣고, answer에 넣어주었다. c언어와는 달리 answer의 인덱스가 구체적으로 존재하지 않기 때문에, 이런식으로 풀어주었다. <br><br>
+
+## ⭕ 다른 사람의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/d9557381-02f1-45e4-8fb3-2d55a064ac71) <br>
+-> zip 함수를 활용하여, 행, 열의 요소에 접근하고 있다.!! <br><br>
+
+## ✔️ What I learned: <br>
+: 파이썬에서는 차례로 접근하는 것을 zip함수를 통해서 할 수 있다.
