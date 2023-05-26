@@ -45,5 +45,6 @@ Empty
 > 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges  <br><br>
 
 <hr>
+
 ## 다른 사람의 풀이: <br>
 ![image](https://github.com/An-jisu/Algorithm/assets/70849122/3ae2ab41-f896-44bf-8ce1-fe2f0c0c6951) <br>
