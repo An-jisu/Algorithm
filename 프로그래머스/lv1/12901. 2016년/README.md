@@ -43,4 +43,13 @@ Empty
 </tbody>
       </table>
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges   <br><br>
+
+
+<hr>
+
+## 😀 나의 풀이: <br>
+-> 월 전까지의 일수를 모두 더하고+b를 하여 그 수를 7로 나눈 것의 나머지 값에 해당하는 딕셔너리 값을 반환하였다. <br><br>
+
+## ✔️ What I learned: <br>
+-> 이렇게 반복 후, 앞으로 돌아가는 문제는 나머지 연산자를 이용해서 풀 수 있다는 것!!! 그리고, 각 날짜에 해당하는 요일처럼 이렇게 정해진 값이 있다면 배열의 인덱스나 딕셔너리를 이용할 수 있다는 것!!
