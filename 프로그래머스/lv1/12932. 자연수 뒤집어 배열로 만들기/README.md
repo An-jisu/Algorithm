@@ -38,4 +38,10 @@ Empty
 </tbody>
       </table>
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges  <br><br>
+
+<hr>
+
+## ⭕ 다른 사람의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/4734f706-98d0-4fb1-94a3-fc33d9da882c) <br>
+-> 나는 인덱싱을 활용하여 끝에서부터 접근하게끔 하였는데, 여기서는 reversed함수를 이용하여 하나씩 int로 바꿔주고 그 값을 list에 담아 반환하였다. 
