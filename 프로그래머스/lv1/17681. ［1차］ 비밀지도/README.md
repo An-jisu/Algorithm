@@ -96,4 +96,28 @@ Empty
 <p><a href="http://tech.kakao.com/2017/09/27/kakao-blind-recruitment-round-1/" target="_blank" rel="noopener">해설 보러가기</a></p>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges   <br><br>
+
+<hr>
+
+## ❤️ 문제 핵심: <br>
+-> 10진수를 n자리수에 맞춰서 2진수로 바꾸는 것이 관건인 문제인 것 같다. <br><br>
+
+## 😀 나의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/7843aa1c-313c-4ee3-a405-e14d13236cdb) <br>
+-> arr1, arr2를 각각 zill함수를 활용하여 n자리수에 맞춰 이진수로 변환(format함수)를 바꿔주었고, 둘 다 0인 경우에만 공백으로 처리해주고 나머지는 벽으로 처리해주었다. 나는 여기서 format함수와 zill함수를 이용해서 2진수로 변한시켜 주었다.<br><br>
+
+## ⭕ 다른 사람의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/b4814415-ecce-4c1e-bbab-d43860d2bac4) <br>
+-> 비트 연산자를 활용하였다. 바트 연산자를 수행하고, 채워지지 못하는 부분은 0을 채워준다. 그리고 1은 #으로, 0은 공백으로 replace했다.<br><br>
+
+## ✔️ What I learned: <br> 
+- bin 함수: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/dd91a8ae-5a8c-448b-b8c4-76740e9776ba) <br>
+-> bin, oct, hex를 이용하여 2, 8, 16진수로 변환할 수 있다. 하지만 그런 경우, 0b, 0o, 0x가 붙게 된다. 이를 없애기 위해 2진수로 바꿀 때, format 함수를 활용할 수 있는 것이다. <br>
+- format 함수: <br>
+-> 문자열을 예쁘게 만드는 방법이다. <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/f0c0430c-cd24-4be7-8cb1-3915ccaa7eb2)<br>
+- zfill 함수: 괄호 안의 숫자 자릿수 만큼 충족하지 못할 시, 0을 채워 맞춰준다.<br>
+- rjust 함수: 문자열을 오른쪽 정렬한다. <br>
+- ![image](https://github.com/An-jisu/Algorithm/assets/70849122/28d14853-50f9-4a6f-8729-c231795bff82)
