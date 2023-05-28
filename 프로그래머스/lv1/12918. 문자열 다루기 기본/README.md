@@ -54,4 +54,14 @@ Empty
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges  <br><br>
+
+
+<hr>
+
+## ⭕ 다른 사람의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/f38a97d0-7750-40b1-9049-685e0caf73a3)<br>
+-> 길이가 4또는 6인지를 위와 같이 간단하게 확인할 수도 있다는 것!!<br><br>
+
+## ✔️ What I learned: <br> 
+-> 문자열.isdigit(): 문자열이 숫자로만 이루어져 있는지를 확인하는 함수이다!!!!!!!!! 나는 처음에 문자 하나가 digit인지 검사하는 함수라고 생각해서 for문 돌려고 
