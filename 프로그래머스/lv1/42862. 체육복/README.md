@@ -78,4 +78,13 @@ Empty
 ※ 공지 - 2022년 11월 30일 테스트케이스가 추가되었습니다.</p>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges   <br><br>
+
+<hr>
+
+## ❤️ 문제 핵심: <br>
+-> 한 번 빌려줬으면 못 빌려주는 것, 여벌 옷 있는 사람이 잃어버린 경우를 처리하는 게 중요한 문제가 될 것 같다.<br><br>
+
+## 😀 나의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/277436ae-b6fd-4332-b2ae-87800701e108) <br>
+-> 여벌 옷 가져온 학생이 잃어버린 경우에는 빌려줄 수도, 더 이상 빌릴필요도  없으므로 lost와 reserve에서 모두 없애준다. 집합을 이용하여. 1개 더 작은 수가 존재하면 1증가시켜주고, reserve배열에서 삭제해준다. 하나 큰 것이 있어도 마찬가지. 배열은 원래 sorting되어 주어지기 때문에 따로 정렬을 해주지 않았다.<br><br>
