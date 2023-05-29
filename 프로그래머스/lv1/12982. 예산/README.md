@@ -71,4 +71,21 @@ Empty
 모든 부서의 물품을 구매해주면 10원이 됩니다. 따라서 최대 4개 부서의 물품을 구매해 줄 수 있습니다.</p>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges  <br><br>
+
+<hr>
+
+## ❤️ 문제 핵심: <br>
+
+## 😀 나의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/60291fb5-2a2f-487f-a7d5-1653b84b107b) <br>
+-> 최소 예산 요구하는 사람들부터 지원해주면 되겠다고 생각하였다. 그래서 일단 sorting을 하고, 예산이 0보다 크고, 그 다음 값보다 예산이 큰 경우에 반복하게끔 하였다. 그러면서 예산에서 계속해서 값을 빼 주었다. 그런데, 몇몇의 테스트케이스에서 런타임 오류가 나는 것이다. 모두에게 계산을 나눠준 경우, while 조건문에서 d[i]를 해주는 경우, i가 범위 값을 벗어나게 된다. 그래서 오류가 나게된 것이다. 따라서 조건으로 i값에 대한 조건도 넣어주었다. <br><br>
+
+## ⭕ 다른 사람의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/eabd97d1-a791-4dda-8c30-76a3a44d21a4) <br>
+-> d 배열의 합이 9보다 큰 경우에 d의값을 하나씩 제거시켜준다. <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/1f4e5dc3-bb77-49a1-aa59-e5535e665e57) <br>
+-> 나처럼 이렇게 while문으로 복잡하게 할 필요없이, 그냥 for문으로 차례로 하나씩 돌면서 빼주고, 0보다 작아지면 반복문 빠져나가도록. cnt마지막에 배치시켜서 반복문 빠져나가면 증가시키지 않게끔! <br><br>
+
+## ✔️ What I learned: <br>
+- 리스트에서 pop함수를 쓸 수 있다는 
