@@ -56,4 +56,17 @@ Empty
 [4,6,7]을 이용해서 17을 만들 수 있습니다.</p>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges <br><br>
+
+<hr>
+
+## ❤️ 문제 핵심: <br>
+-> 여기서는 3개를 뽑는 방법, 소수인지 확인하는 방법이 관건인 것같다. <br><br>
+
+## 😀 나의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/cee2c345-c436-4916-85d7-9115e16902cc) <br>
+-> itertools의 combinations 조합을 이용하여 3개를 뽑았고, 반복문을 활용하여 그 합이 소수인지 검사하였다. 코드의 효율이 그렇게 좋진 않았다.<br><br>
+
+## ⭕ 다른 사람의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/300eeed1-b4ba-40a1-9c3b-2ec91244110a) <br>
+-> 이런 식으로 소수인지 확인할 수도 있다!!! 나처럼 굳이 count 변수를 만들지 않고, 2부터 그 값전까지 검사해서 만약 0으로 나눠떨어지는 수가 있으면 소수가 아니므로 break를 빠져나가게 되고, 반복문을 다 돌았으면 else를 통해 answer값이 증가된다.(소수이므로)
