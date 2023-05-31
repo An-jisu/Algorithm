@@ -72,4 +72,22 @@ Empty
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges  <br><br>
+
+<hr>
+
+## ❤️ 문제핵심: <br>
+-> 4개의 문자열이 같은 문자열이 중복되지 않게끔 그것들로만 이루어져있는지 검사하는 것이 중요할 것이다. 또한, 예외가 많을 수 있기 때문에, 예외처리하는 게 중요할 것이다. <br><br>
+
+## 😀 나의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/5d3d3b25-5f5f-416f-b785-eef321a3627a) <br>
+-> for문으로 babbling의 요소들에 하나씩 접근해주었다. 그 안이 관건이다. 같은 문자가 2번 반복되는 경우에는 count하지 않으므로 건너띄게 하였다. 그런데, 여기서 2번 말고 3,4번 반복되는 경우에는 어떻게 처리해야할 지 그런 경우가 있을 수도 있는 것이기 때문에!!! 어쨌튼 그리고, 4개의 문자열을 다시 반복문으로 하나씩 접근하면서, 존재하면 공백 ' ' 으로 replace해주었다. ' '으로 해준 이유는 'yayae'이런 예외를 처리해주기 위해서이다. 그리고 마지막에 공백을 모두 ''으로 바꿔주었고, 그럼에도 길이가 0인 경우에는 모든 조건을 만족시키므로 answer값을 1증가시켜주었고, 마지막에 answer값을 최종적으로 return 해주었다. <br><br>
+
+## ⭕ 다른 사람의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/4faecb1f-6c87-421d-9d05-67803ec385c4) <br>
+-> 나랑 똑같은 풀이 방법이다! 다만, 중복 처리를 그냥 for문 안에서 위와 같이 처리해줘도 된다는 것. 또한, 공백을 제거하는 것은 strip함수를 이용해서 쓸 수 있다는 것! <br><br>
+
+## ✔️ What I learned: <br> 
+- strip()함수: 문자열 내에서, 원하는 문자열 또는 공백을 모두 제거하는 함수이다. <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/dcad6e4b-ec9a-440a-93b2-4bc2fd8b2e7e) <br>
+-> 위와 같이 사용해주면 되고, lstrip, rstrip도 있다. 
