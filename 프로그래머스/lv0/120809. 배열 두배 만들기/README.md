@@ -1,10 +1,10 @@
 # [level 0] 배열 두배 만들기 - 120809 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120809) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120809?language=javascript) 
 
 ### 성능 요약
 
-메모리: 10.2 MB, 시간: 0.17 ms
+메모리: 33.5 MB, 시간: 0.06 ms
 
 ### 구분
 
@@ -12,7 +12,7 @@
 
 ### 채점결과
 
-<br/>정확성: 100.0<br/>합계: 100.0 / 100.0
+Empty
 
 ### 문제 설명
 
@@ -64,17 +64,3 @@
 
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
-
-
-
-<hr>
-
-## 🎁 나의 코드와 풀이: <br>
--> 배열의 각 요소를 일일히 2배하여, answer 리스트에 넣었다.
-
-## ⭕ 다른 사람들의 풀이:
-![](https://velog.velcdn.com/images/asj1966/post/e8847647-bb3a-4440-b44e-2bffe948e871/image.png)
--> 이와 같이 반복문 형태로도 나타낼 수 있음!!
-
-## 👍 What I learned
-& 내가 짠 코드는 직접 2배를 해주는 것으로 c언어에 익숙해진 풀이 방식이다. 리스트 문제의 경우 위와 같이 간단하게 끝낼 수 있음을 기억하자!!
