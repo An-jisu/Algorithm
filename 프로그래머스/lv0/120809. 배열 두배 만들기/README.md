@@ -63,4 +63,16 @@ Empty
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges  <br><br>
+
+<hr>
+
+##  ⭕ 다른 사람의 풀이: <br>
+
+## ✔️ What I learned: <br> 
+<배열 2배 만들기> <br>
+1. Array.map() <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/cbf31c9f-5285-402f-9e4e-ffd31d1eca39) <br>
+
+2. Array.reduce()<br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/0b185bb0-0d79-4e51-8fa6-8c3429247c1a) <br>
