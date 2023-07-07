@@ -70,11 +70,20 @@ Empty
 <li><code>num1</code>이 11이고 <code>num2</code>가 11이므로 같습니다. 따라서 1을 return합니다.</li>
 </ul>
 
-<p>입출력 예 설명 #3</p>
+<p>입출력 예 설명 #3</p> 
 
 <ul>
 <li><code>num1</code>이 7이고 <code>num2</code>가 99이므로 다릅니다. 따라서 -1을 return합니다.</li>
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges<br><br>
+
+<hr>
+
+## 🎁 나의 풀이: <br>
+나는 단지 조건문을 이용해서 풀이하였다. <br><br>
+
+## ⭕ 다른 사람의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/c14b0671-0cd1-4357-8128-16613936a577) <br>
+-> 이렇게 삼항연산자를 이용할 수 있다는 것<br>
