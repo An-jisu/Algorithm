@@ -70,4 +70,13 @@ Empty
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges <br><br>
+
+<hr>
+
+## 🎁 나의 풀이: <br>
+-> 처음에는 규칙을 찾으려고 했지만, 찾지 못하였고, 6을 계속 더해가면서, n으로 나누어떨어지지 않을 때까지 반복한다. 나누어 떨어지면 그 값을 6으로 나눈 값을 return한다. <br><br>
+
+## ✔️ What I learned: <br>
+- js에서는 파이썬처럼 최대공약수, 최소공배수 구하는 함수가 따로 없다는 것! min으로 구하던데, 따로 공부해보자. <br>
+- js의 while문 사용법은 파이썬, c언어와 같다는 것
