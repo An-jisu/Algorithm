@@ -64,4 +64,18 @@ Empty
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges  <br><br>
+
+<hr>
+
+## 🎁 나의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/8d2a6a23-21c5-43eb-9cc0-a3b3da48fb82) <br>
+-> sort 함수를 통해 오름차순으로 정렬(a-b)하고, math.floor을 이용하여 가운뎃 값을 반환하였다. <br><br>
+
+## ⭕ 다른 사람의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/62a23b59-261c-4f2a-a9e0-0e6fd686f5ba) <br>
+-> 내가 푼 방법과 유사하지만, sort이후 .at함수를 또 사용하였다. at함수는 정수를 받아 그 정수 인덱스에 해당하는 요소를 반환한다. 이게 더 가독성 좋은 풀이다!! <br>
+
+## ✔️ What I learned: <br>
+- at 함수: 정수를 받아 그 정수 인덱스 값에 해당하는 요소의 값을 반환한다. <br>
+- js에도 sort함수를 통해 정렬할 수 있다는 것!!(여기서는 화살표 함수로 오름차순이면, a-b 이렇게 나타내야 한다.)
