@@ -72,4 +72,22 @@ Empty
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges  <br><br>
+
+<hr>
+
+## 🎁 나의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/415dfe93-6b30-4115-bdb5-a1eb3cf43289) <br>
+-> 7, 14..이렇게 피자 조각 수의 배수인 경우에는 그 나눈값을 return 하지만, 그렇지 않은 경우에는 +1한 값을 return해주기 위해 조건문을 써 주었다. <br><br>
+
+## ⭕ 다른 사람의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/db2f0adf-14f3-48bb-a1c0-2a67ea3eb44a) <br>
+-> ceil을 통해 내가 한 풀이를 완전 간단하게 처리가능하다. <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/78390d43-f7f8-46c6-aac6-d2bf953839dd) <br>
+-> 삼항 연산자로는 이런식으로 나타낼 수 있다. <br><br>
+
+## ✔️ What I learned: <br>
+- floor: 작거나 같은 정수 중 가장 큰 정수 return <br>
+- ceil: 크거나 같은 정수 중 가장 작은 정수 return <br>
+- > 그 의미? 특성을 제대로 알지 못했던 것 같다. 반올림, 반내림이라고 생각해서.5를 기준으로 한다 생각했다. <br>
+-> js에서는 if else 조건문 보다는 삼항연산자가 더 많이 쓰인다는 것!! 연습하
