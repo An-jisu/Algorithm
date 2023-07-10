@@ -1,10 +1,10 @@
 # [level 0] 배열의 평균값 - 120817 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120817) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120817?language=javascript) 
 
 ### 성능 요약
 
-메모리: 10 MB, 시간: 0.00 ms
+메모리: 33.4 MB, 시간: 0.03 ms
 
 ### 구분
 
@@ -12,7 +12,7 @@
 
 ### 채점결과
 
-<br/>정확성: 100.0<br/>합계: 100.0 / 100.0
+Empty
 
 ### 문제 설명
 
@@ -64,19 +64,4 @@
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges <br>
-<hr>
-
-## 🎁 나의 풀이:<br>
--> 반복문을 통해 배열 요소들의 합을 구한 후, len으로 나눈 평균 값을 반환
-
-
-## ⭕ 다른 사람들의 풀이: <br>
-1. numpy의 사용<br>
-![](https://velog.velcdn.com/images/asj1966/post/13e85241-60c9-46a1-96a1-02f9683cb78b/image.png)<br>
-2. sum(numbers)/len(numbers)<br>
--> 반복문 사용없이, 파이썬에서는 바로 sum함수 사용 가능! <br><br>
-
-## ✔ What I learned:<br>
--> 파이썬 numpy 라이브러리에는 평균을 구하는 mean 함수가 존재함
-
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
