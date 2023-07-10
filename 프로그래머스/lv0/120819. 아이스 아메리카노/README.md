@@ -62,4 +62,10 @@ Empty
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges <br><br>
+
+<hr>
+
+## ⭕ 다른 사람의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/770951b3-5c8e-4e99-9514-ce8eee6134df) <br>
+-> '~~'는 이중not비트 연산자로, 양수에 대해서는 Math.floor와 같고, 음수에 대해서는 Math.ceil과 같다!! 
