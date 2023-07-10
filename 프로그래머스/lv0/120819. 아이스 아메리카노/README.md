@@ -1,10 +1,10 @@
 # [level 0] 아이스 아메리카노 - 120819 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120819) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120819?language=javascript) 
 
 ### 성능 요약
 
-메모리: 10.3 MB, 시간: 0.01 ms
+메모리: 33.5 MB, 시간: 0.04 ms
 
 ### 구분
 
@@ -12,7 +12,7 @@
 
 ### 채점결과
 
-<br/>정확성: 100.0<br/>합계: 100.0 / 100.0
+Empty
 
 ### 문제 설명
 
@@ -62,16 +62,4 @@
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges<br><br>
-
-<hr>
-
-## 🎁 나의 풀이: <br>
--> 처음에는 최대 공약수를 생각하다가... money에서 5500을 한 번씩 빼면서, 0보다 작아질 경우 반복문을 빠져나오도록 복잡하게 코딩하였다. <br>
-최대 공약수, 최소공배수, 몫과 나머지로 풀 수 있는 문제 유형들을 익히자! 여기서는, money중에서 5500원으로 몇 번 나누어 떨어지느냐의 문제이니까 몫과 나머지!!  <br><br>
-
-## ⭕ 다른 사람의 풀이: <br>
-![](https://velog.velcdn.com/images/asj1966/post/1b632912-b342-477c-a0e9-c9a5ac90bf5c/image.png) <br>
--> 단지 5500으로 나눈 몫과 나머지로 처리 해주어도 됨!! 5500원으로 총 몇 번 나누어 떨어지고, 나머지는 뭐니~ 이거니까! <br>
-![](https://velog.velcdn.com/images/asj1966/post/e33957aa-f35b-48e9-b817-e891c12c7339/image.png) <br>
--> divmod(나누어 지는 수, 나누는 수) 하면 몫, 나머지 순서대로 반환해줌
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
