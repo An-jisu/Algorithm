@@ -83,7 +83,7 @@ Empty
 
 ## ⭕ 다른 사람의 풀이: <br>
 ![image](https://github.com/An-jisu/Algorithm/assets/70849122/05c1c189-f13d-4cd1-8864-3715f9ec27cb) <br>
--> js에도 reverse 함수가 존재한다. reverse 함수로 함수를 뒤집어서 그대로 return 하였다. <br>
+-> js에도 reverse 함수가 존재한다. reverse 함수로 함수를 뒤집어서 그대로 return 하였다.  num_list.sort((a, b) => -1) 비교 함수에서 -1을 반환하면 a와 b의 순서를 뒤바꾸는 효과<br>
 ![image](https://github.com/An-jisu/Algorithm/assets/70849122/613cd709-bb93-403d-a5e1-1af4625160da) <br>
 -> answer에 앞쪽에 값 추가<br>
 
