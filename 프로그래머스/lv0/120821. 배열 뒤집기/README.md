@@ -1,4 +1,4 @@
-![image](https://github.com/An-jisu/Algorithm/assets/70849122/f47b868f-20a1-41a4-8b87-f58518f64ba1)# [level 0] 배열 뒤집기 - 120821 
+# [level 0] 배열 뒤집기 - 120821 
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120821?language=javascript) 
 
