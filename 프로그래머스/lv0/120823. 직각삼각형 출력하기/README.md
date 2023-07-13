@@ -47,4 +47,16 @@ Empty
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges <br><br>
+
+<hr>
+
+## 🎁 나의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/00aedf72-238b-4d08-a4bc-f4b98369e343) <br>
+-> 다른 사람의 블로그를 참고하였다. 사용자로부터 입력을 받은 후, 삼각형을 출력하는 코드이다. readline 모듈을 가져온다. 입력과 출력을 처리하는 인터페이스를 생성한다.<br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/0d9b9f27-f545-439e-a030-a5eee02315d5) <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/8ebb80d2-82d5-426f-b740-c94758611c68) <br>
+-> 최종 코드가 위와 같은 것이다. 코드 계속 연습하기!! <br><br>
+
+## ✔️ What I learned: <br>
+-> js에선 입력받을 때, readline 모듈을 가져오고 인터페이스를 생성한다. 
