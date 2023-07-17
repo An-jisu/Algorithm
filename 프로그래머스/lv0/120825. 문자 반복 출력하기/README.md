@@ -68,10 +68,11 @@ Empty
 ![image](https://github.com/An-jisu/Algorithm/assets/70849122/a4040920-1db8-4134-9ce1-f45aa021639d) <br>
 -> my_string.split("")을 [...my_string] 이라고 나타내었다. 각 문자를 분리하고, 각 문자를 n번씩 map함수를 통해 반복하였다. 이런 것을 구조분해 할당이라고 한다.<br> 
 ![image](https://github.com/An-jisu/Algorithm/assets/70849122/b11af9ac-d20c-48b2-bb8c-b4762bc25386) <br>
--> <br>
+-> 위와 같은 풀이 방법인데, map대신 reduce 함수를 사용하였다. <br>
 ![image](https://github.com/An-jisu/Algorithm/assets/70849122/5b19cc00-9da4-4501-8e5b-f8186bb322aa) <br>
--> <br><br>
+-> 여기서는 reduce 함수 대신에, for 문을 사용하였다. for문을 for(let a of my_string)와 같은 방법으로도 사용할 수 있다. br><br>
 
 ## ✔ What I learned: <br>
 - 각 요소에 대해서 같은 동작을 적용시키기 위해서는 map함수를 사용한다. <br>
-- <br>
+- 똑같은 동작을 반복하는 것에 대해서, map, reduce, for문을 사용할 수 있다. <br>
+- reduce, map 함수 사용하는 거 연습하자!!
