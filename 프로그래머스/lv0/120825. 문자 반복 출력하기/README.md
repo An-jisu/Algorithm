@@ -56,4 +56,22 @@ Empty
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges <br><br>
+
+<hr>
+
+## 😀 나의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/dd8fe170-2b17-4a79-be6c-d3a47d22f32b) <br>
+-> 중첩 반복문을 활용해 처리하였다. my_string의 길이만큼 반복하면서 각 글자에 대해서는 n만큼 씩 반복한다. <br><br>
+
+## ⭕ 다른 사람의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/a4040920-1db8-4134-9ce1-f45aa021639d) <br>
+-> my_string.split("")을 [...my_string] 이라고 나타내었다. 각 문자를 분리하고, 각 문자를 n번씩 map함수를 통해 반복하였다. 이런 것을 구조분해 할당이라고 한다.<br> 
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/b11af9ac-d20c-48b2-bb8c-b4762bc25386) <br>
+-> <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/5b19cc00-9da4-4501-8e5b-f8186bb322aa) <br>
+-> <br><br>
+
+## ✔ What I learned: <br>
+- 각 요소에 대해서 같은 동작을 적용시키기 위해서는 map함수를 사용한다. <br>
+- <br>
