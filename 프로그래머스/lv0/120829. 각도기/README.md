@@ -80,4 +80,24 @@ Empty
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges  <br><br>
+
+<hr>
+
+## 😀 나의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/f7de8c0f-aef8-4854-99dd-87e42fd50d06) <br>
+-> 조건문을 활용해서 if, else if, else로 처리하였다.<br><br>
+
+## ⭕ 다른 사람의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/10e62b81-d519-4828-aa46-62880548f662) <br>
+-> filter함수로 거르고, length로 구해주었다.<br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/05f3bcb5-62e7-4878-8323-4e8a159207fd) <br>
+-> 삼항 연산자를 이용하여 분기를 처리하였다. <br><br>
+
+
+## ✔  What I learned: <br> 
+- js에서의 조건문은 elif아니고 else if 이다.<br>
+- js에서는 and연산자를 &&이렇게 표현하였다. <br>
+- 특정한 값만 남기는 것, 제거하는 것, 분기하는 건 filter함수로 쓸 수 있다!!<br>
+- js에서는 조건문 보다는 삼항연산자로 쓰는 것을 연습하자!! <br><br>
+- js에서도 switch문을 사용할 수 있다        
