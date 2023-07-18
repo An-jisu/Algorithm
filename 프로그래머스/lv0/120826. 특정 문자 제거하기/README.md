@@ -68,4 +68,19 @@ Empty
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges <br><br>
+
+<hr>
+
+## 😀 나의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/3ac3797b-4491-4e6e-a76f-f40282d7e6af) <br>
+-> string을 [...my_string]을 통해 배열로 바꾸고, filter함수를 통해 letter와 다른 것만 남겼다. 그리고 join으로 문자열로 다시 묶어주었다. <br><br>
+
+## ⭕ 다른 사람의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/18571dea-6f97-4494-806a-84b98e5825db) <br>
+-> <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/0d7491de-db67-4996-b83e-67894b6900f3) <br>
+-> <br><br>
+
+## ✔️ What I learned: <br>
+-> filter함수의 조건문에서는 제거할 것이 아닌 남겨둘 것의 조건을 적어준다. <br><br>
