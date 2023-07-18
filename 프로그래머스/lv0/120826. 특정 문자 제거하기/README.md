@@ -78,9 +78,12 @@ Empty
 
 ## ⭕ 다른 사람의 풀이: <br>
 ![image](https://github.com/An-jisu/Algorithm/assets/70849122/18571dea-6f97-4494-806a-84b98e5825db) <br>
--> <br>
+-> letter라는 문자를 기준으로 분리한다. split이 파이썬과 달리, 특정 문자를 기준으로 분리하여 제거하여 배열로 만들어준다<br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/22b02e33-557d-4df9-a9bd-9f5da8ca8d8c) <br>
 ![image](https://github.com/An-jisu/Algorithm/assets/70849122/0d7491de-db67-4996-b83e-67894b6900f3) <br>
--> <br><br>
+-> replaceAll 함수를 이용해서 letter를 모두 ""로 대체하였다. <br><br>
 
 ## ✔️ What I learned: <br>
--> filter함수의 조건문에서는 제거할 것이 아닌 남겨둘 것의 조건을 적어준다. <br><br>
+-> filter함수의 조건문에서는 제거할 것이 아닌 남겨둘 것의 조건을 적어준다. <br>
+> js에는 replaceAll이 있다. 특정 문자를 교체하는 것!!! 파이썬의 replace함수임. <br>
+-> js의 split함수는 파이썬의 split함수와 달리, 특정 문자를 기준으로 분리하여 제거한다!! 파이썬에서는 단지 분리!!!! <br><br>
