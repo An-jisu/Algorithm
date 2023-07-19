@@ -60,4 +60,17 @@ Empty
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges  <br><br>
+
+<hr>
+
+## 😀 나의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/4b152f0e-2b48-4c9f-8dd0-f7b95960ad52) <br>
+-> 반복문을 통해 요소의 하나씩 접근하면서 짝수들만을 더해 return 해주었다. 뭔가 반복문 말고 라이브러리 사용해서는 풀 수 없을지... <br><br>
+
+## ⭕ 다른 사람의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/de14111e-3674-499e-9258-c6c65f349b53) <br>
+-> 메서드 체이닝으로 수행하였다. 배열을 만들어, 각각을 채우는데 map으로 +씩 더해주었다. 그리고 filter로 짝수만 걸러주고 reduce함수로 더해준다. 나도 처음에 reduce 함수로 더하는 것을 잘한 듯!!
+
+## ✔️ What I leanred: <br>
+-> 함수 여러 개 연결하는 것을 메서드 체이닝이라고 한다!!<br>
