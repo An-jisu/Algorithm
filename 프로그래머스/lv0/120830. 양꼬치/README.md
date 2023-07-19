@@ -67,4 +67,17 @@ Empty
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges  <br><br>
+
+<hr>
+
+## 😀 나의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/e76f5d74-ac64-4843-8cc3-d269b1ab6d50) <br>
+-> 음료수의 갯수를 k에서 인분을 10으로 나눈 몫을 빼주어 곱해준다. 그러면, 무료로 받은 음료수의 갯수는 제외시키고 계산할 수 있게된다. <br><br>
+
+## ⭕ 다른 사람의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/503bc134-baff-42c9-9305-2ebf1079b5a6) <br>
+-> 틸트 문법을 활용한 풀이이다. '~~'는 Math.floor을 의미한다. <br> <br>
+
+## ✔️ What I learned: <br>
+- js 틸트 문법: ~~는 Math.floor를 의미하는 연산자라는 거 기억하자!!
