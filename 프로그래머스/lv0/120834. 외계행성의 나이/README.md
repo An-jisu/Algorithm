@@ -1,4 +1,4 @@
-# [level 0] 외계행성의 나이 - 120834 
+ # [level 0] 외계행성의 나이 - 120834 
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120834?language=javascript) 
 
@@ -74,4 +74,22 @@ Empty
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges  <br><br>
+
+<hr>
+
+## 😀 나의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/b0abd9da-3ac7-458a-bfea-965e3de8bce3) <br>
+-> a 배열에 알파벳으로 넣어놓고, b의 길이를 구하고, length는 <br><br>
+
+## ⭕ 다른 사람의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/76c3aa27-ec65-40bd-bbc2-5baf126ce86f) <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/288908eb-7fe7-4802-a6a0-66fe221c7246) <br>
+-> 위와 같이 문자열 자체도 인덱스로 접근할 수 있다는 것 기억하기!! <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/65ed8992-fee4-467e-b9cb-b0981978fd45) <br>
+-> 새로운 배열을 생성하는 메서드이다. 위에서는 split과 같은 역할을 하는 것이다. 문자열로 바꾸고, 각각을 Array.from을 통해 각각 배열에 넣은 것이다.<br><br>
+
+
+##  ✔️ What I learned: <br>
+- join함수 사용법: 파이썬-''.join(answer)/ js-answer.join("")   :  순서가 반대라는 것 기억하기!!!<br>
+- 여기선 문자열 자체를 인덱스로 접근할 수 있따는 점 기억하기!! 문자열의 인덱스가 중요하다는 것!!!
