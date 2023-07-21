@@ -64,4 +64,22 @@ Empty
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges <br><br>
+
+<hr>
+
+## 🎁 나의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/6db90b29-64e1-4f6c-8a32-52dcdaafd514) <br>
+-> 문자열을 split함수를 통해 분리해주고, Array.from을 통해서 각 요소를 배열에 넣어주었다. 그리고 그 배열의 요소들에 하나씩 접근하면서, 그 값에 따라 answer에 문자열로 넣어주었다. split 함수의 사용, Array 라이브러리의 from 함수의 사용은 스스로 잘한 것 같다<br><br>
+
+## ⭕ 다른 사람의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/e0228619-a8b8-4d35-a5b9-8baafb931bcb) <br>
+-> 여기서는 파이썬의 딕셔너리 같이 세트 배열을 정의해주었다. 배열 객체의 키와 값을 표현하여 가위바위보 대응값을 정하였다. [...rsp]를 통해 rsp를 가져오고, 배열에 각 요소를 넣어주었고, map함수를 통해서 배열객체의 해당하는 값을 매핑해주었는데, 배열형태이기 때문에 최종적으로 join을 해주었다!<br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/8b9813c3-f7fd-48e8-88d9-24d0c5f6f324) <br>
+-> 각각을 분리해서 삼항 연산자로 분기하는 것은 처음 생각한 풀이방법인데, 코드로 짜는 것의 접근까지는 어려웠다. split함수로 문자 하나하나 분리해주고, map함수를 통해 각 요소에 같은 함수를 수행해주었다. (2인지, 0인지, 5인지에 따라 값 저장). split의 결과는 배열이므로, map한 결과도 배열이고 최종적으로 join을 해준 것이다. <br><br>
+
+## ✔️ What I learned: <br> 
+- js에서는 삼항연산자와 map 함수 굉장히 많이 사용한다는 것!! <br>
+- js에서 배열객체를 생성해줌 (객체는 키와 값으로 이루어져 있다!)<br>
+- 배열을 map한 함수의 결과는 당연히 배열. 문자열로 변환하기 위해서는 join해줘야 함<br>
+- split함수의 결과는 배열! 문자열을 split해주어도 배열 형태로 저장됨됨
