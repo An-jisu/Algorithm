@@ -4,7 +4,7 @@
 
 ### 성능 요약
 
-메모리: 10 MB, 시간: 0.01 ms
+메모리: 33.4 MB, 시간: 0.06 ms
 
 ### 구분
 
@@ -12,7 +12,7 @@
 
 ### 채점결과
 
-<br/>정확성: 100.0<br/>합계: 100.0 / 100.0
+Empty
 
 ### 문제 설명
 
@@ -82,9 +82,4 @@
 <p>※ 공지 - 2022년 10월 11일 제한 사항 및 테스트케이스가 수정되었습니다.</p>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges <br><br>
-
-<hr>
-
-## ✔ What I learned:<br>
--> math 라이브러리에 fatctorial 함수와 comb 함수가 존재함!!
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
