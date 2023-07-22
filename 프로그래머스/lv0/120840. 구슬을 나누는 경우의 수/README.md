@@ -89,11 +89,13 @@ Empty
 
 ## 🎁 나의 풀이: <br>
 ![image](https://github.com/An-jisu/Algorithm/assets/70849122/26382e0f-2fa8-453b-adfc-ae6b904260b8) <br>
--> 조합을 이요해 구하였다. factorial 함수를 사용하였는데, 그 함수에서 BigInt함수를 사용하지 않았을 때에는 런타임 오류가 나서 위와 같이 코드를 최종적으로 짜주었다. <br><br>
+-> 조합을 이해 구하였다. factorial 함수를 사용하였는데, 그 함수에서 BigInt함수를 사용하지 않았을 때에는 런타임 오류가 나서 위와 같이 코드를 최종적으로 짜주었다. <br><br>
 
 ## ⭕ 다른 사람의 풀이: <br>
 ![image](https://github.com/An-jisu/Algorithm/assets/70849122/0eb0eebd-20d8-406d-b2a5-126461d14d39) <br>
--> 재귀를 이용하여 처리하였다. <br>
+-> 재귀를 이용하여 처리하였다. <br><br>
+
 ## ✔️ What I learned: <br>
-- BigInt(): <br>
-- Math.round(): <br>
+- BigInt(): 큰 수를 다루기 위한 객체이다. <br>
+- Math.round(): 반올림 함수<br>
+- 인덱스가 없을 땐, '_'로 나타낸다. <br><br>
