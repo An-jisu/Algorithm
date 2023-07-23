@@ -82,4 +82,21 @@ Empty
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges  <br><br>
+
+<hr>
+
+## 🎁 나의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/a386cd90-e74d-430c-bbfe-cce4858e1af2) <br>
+-> row의 수 만큼 반복하며 배열을 n의 크기만큼 slice하여 answer 배열에 push해주었다. <br><br>
+
+## ⭕ 다른 사람의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/4dd07808-b31e-4463-8625-e8606d4ead13) <br>
+-> <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/ed9dac0e-b47d-4b8f-bec6-d58f4eaae729) <br>
+
+## ✔️ What I learned: <br> 
+- slice: 배열의 일부분을 추출하여 새로운 배열을 반환/ 원본 배열 변경x/<br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/16767976-7010-4e35-9fbc-b37b036b17bb) <br>
+-> end의 앞부분까지 수행한다. <br>
+- splice: <br>
