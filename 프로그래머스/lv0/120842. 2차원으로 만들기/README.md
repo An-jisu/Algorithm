@@ -92,11 +92,18 @@ Empty
 
 ## ⭕ 다른 사람의 풀이: <br>
 ![image](https://github.com/An-jisu/Algorithm/assets/70849122/4dd07808-b31e-4463-8625-e8606d4ead13) <br>
--> <br>
+-> splice함수로 n개씩 잘라서 push하였다. splice는 원본 배열을 변경하므로 자른 부분은 사라진다. 따라서 길이가 0이 될 때까지 계속 인덱스는 0부터 시작할 것이다. splice의 반환 형태는 배열이다. <br>
 ![image](https://github.com/An-jisu/Algorithm/assets/70849122/ed9dac0e-b47d-4b8f-bec6-d58f4eaae729) <br>
+-> 배열을 생성해서, []로 채우고, 그 각각을 splice해서 생긴 값을 넣어주었다. 그 반복을 map함수를 통해 수행하였다. <br><br>
 
 ## ✔️ What I learned: <br> 
 - slice: 배열의 일부분을 추출하여 새로운 배열을 반환/ 원본 배열 변경x/<br>
 ![image](https://github.com/An-jisu/Algorithm/assets/70849122/16767976-7010-4e35-9fbc-b37b036b17bb) <br>
 -> end의 앞부분까지 수행한다. <br>
-- splice: <br>
+- splice: 배열에서 요소를 추가, 제거 또는 교체/ 원본 배열이 변경O / 제거된 요소, 새로 삽입된 요소 모두 포함 가능<br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/41a2868b-2599-4d20-8546-143e21da57ba) <br>
+-> 시작 인덱스, 제거 갯수<br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/0eba946c-676f-4aca-be4c-2cc51ef56d2a <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/461cc070-0b21-4d7d-baef-4620bf2dfd06)
+
+
