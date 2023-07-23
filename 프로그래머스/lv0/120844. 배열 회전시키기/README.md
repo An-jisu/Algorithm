@@ -66,4 +66,23 @@ Empty
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges <br><br>
+
+<hr>
+
+## 🎁 나의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/49cb7bfe-20f9-4348-9afa-4453b4d5a6e6) <br>
+-> direction에 따라 right, left 함수를 호출하게끔 하였다. right 함수에서는 0부터 끝의 앞까지 요소들을 가져와서 answer에 넣고, 마지막 요소를 unshift함수를 활용하여 맨 앞에 추가하였다. left함수에서는 두번째 요소부터 마지막 요소까지 배열에 넣고, push함수로 첫번째 요소를 맨 마지막에 삽입해주었다. <br><br>
+
+## ⭕ 다른 사람의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/4b23c4f5-f91a-4b2b-b5a4-a61c4afe9da6) <br>
+-> 마지막 요소를 제거해서 unshift함수를 통해서 맨 앞에 넣어주었다. 새로운 배열을 만들 것 없이, numbers 배열에 처리해주었다. 그리고 left 회전 시에는, shift로 마지막 요소 제거해서, 맨 마지막에 넣어준다.  <br>
+
+
+## ✔️ What I learned: <br>
+<배열에 요소 추가><br>
+1. push: 배열의 뒤에 추가<br>
+2. unshift: 배열의 앞에 추가/ 앞의 요소 삭제: shift <br>
+- js에서의 pop은 마지막 요소를 제거하고 반환하고, 파이썬은 제거하지 않고 반환한다. <br>
+- js pop함수: 마지막 요소 제거 <br>
+--> shift: 맨 앞 요소 제거/ unshift: 맨 앞에 추가/////pop: 맨 뒤 요소 제거/push: 맨 뒤에 추가 <br>
