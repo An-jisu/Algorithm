@@ -63,4 +63,19 @@ Empty
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges <br><br>
+
+<hr>
+
+## 🎁 나의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/cd3663c6-18af-48c6-bb2e-5fa6c9c45fad) <br>
+-> 오름차순해서, 끝의 두 값을 곱해서 반환해주었다. <br><br>
+
+## ⭕ 다른 사람의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/7aa151f6-188e-4961-99b5-3b0b5dfa29d1) <br>
+-> 여기서는 내림차순해서, 처음 두 수의 값을 곱해서 반환하였다. 오름차순만 생각했는데, 반대로하 조금 더 간결해졌다. <br>
+-> at은 지정한 인덱스의 요소에 접근할 때 사용하는 메서드이다.<br><br>
+
+## ✔️ What I learned: <br> 
+- js오름차순(a-b), 내림차순(b-a) 코드 외우기!!
+<br><br>
