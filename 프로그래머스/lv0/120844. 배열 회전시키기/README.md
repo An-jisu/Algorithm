@@ -77,7 +77,8 @@ Empty
 ## ⭕ 다른 사람의 풀이: <br>
 ![image](https://github.com/An-jisu/Algorithm/assets/70849122/4b23c4f5-f91a-4b2b-b5a4-a61c4afe9da6) <br>
 -> 마지막 요소를 제거해서 unshift함수를 통해서 맨 앞에 넣어주었다. 새로운 배열을 만들 것 없이, numbers 배열에 처리해주었다. 그리고 left 회전 시에는, shift로 마지막 요소 제거해서, 맨 마지막에 넣어준다.  <br>
-
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/d65cb554-0416-46a3-b5a6-aae2cb301cbb) <br>
+-> right인 경우에는, 마지막 요소를 가져오고, 나머지는 slice 로 가져왔다. left인 경우에는 slice로 1부터 마지막꺼까지 가져오고, 마지막에는 첫번때 인덱스의 값을 넣어주었다. <br><br>
 
 ## ✔️ What I learned: <br>
 <배열에 요소 추가><br>
