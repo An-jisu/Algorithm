@@ -75,4 +75,17 @@ Empty
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges  <br><br>
+
+<hr>
+
+## 🎁 나의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/4fbed20e-f6e8-4a8c-ae17-34bafd2d188b) <br>
+-> js에서 조건문 대신 삼항연산자를 사용하고자 노력했다!!! 따라서 위와 같이 한 줄로 간단하게 처리하였다. <br><br>
+
+## ⭕ 다른 사람의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/e066b8f1-1922-44ca-97cb-4097e427e469) <br>
+-> 구조분해 문법을 활용하여 풀이하였다. !! dot으로 받은 배열의 각 요소들을 분해하여 각 변수에 저장해 처리하였다. <br><br>
+
+## ✔️ What I learned: <br> 
+-> 배열 값을 매개변수 받아 처리할 때는 각각의 요소를 변수에 저장해준다!! 구조 분해 문법 연습하기!<br><br>
