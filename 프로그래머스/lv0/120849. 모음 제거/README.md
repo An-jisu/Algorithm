@@ -63,4 +63,24 @@ Empty
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges <br><br>
+
+<hr>
+
+## 🎁 나의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/cdbef809-4d46-4a8a-aba5-8bc1515900ac) <br>
+-> my_stirng 각 요소를 분리하여 split함수를 통해 배열에 넣고, answer에 없는 값들을 filter해주었다. 파이썬에서는 a not in answer라고 하면 되지만, js에서는 includes 함수를 사용해주어야 한다. <br><br>
+
+## ⭕ 다른 사람의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/467378f4-da06-499f-9182-a4ea88fc4c0e) <br>
+-> 정규식을 활용해 처리하였다. 정규식에 해당하면, ''로 replace하게끔 하였다. <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/d1677a30-186c-42d2-a567-b313e3eeeb20) <br>
+-> 모음을 만나면 splice함수를 통해 원본 배열을 변경하게끔 처리하였다. 특정 범위 부분을 제거<br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/db69f839-1943-4573-b2d0-d58d716bfb06) <br>
+-> 따로 answer 배열을 만들지 않고, 위와 같이 한줄로 처리할 수 있다. 또한, split대신 Array.from 함수를 사용할 수 있다.<br><br>
+
+
+## ✔️ What I learned: <br> 
+- replace: js에서도 replace함수가 존재한다. <br>
+- js에서 특정 문자 제거: replace, splice, includes<br>
+- 문자열 분리: split, Array.from<br>
