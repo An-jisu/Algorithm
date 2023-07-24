@@ -1,10 +1,10 @@
 # [level 0] 소인수분해 - 120852 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120852) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120852?language=javascript) 
 
 ### 성능 요약
 
-메모리: 10.1 MB, 시간: 474.71 ms
+메모리: 33.4 MB, 시간: 0.04 ms
 
 ### 구분
 
@@ -12,7 +12,7 @@
 
 ### 채점결과
 
-<br/>정확성: 100.0<br/>합계: 100.0 / 100.0
+Empty
 
 ### 문제 설명
 
@@ -72,14 +72,4 @@
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges <br><br>
-
-
-<hr>
-
-## 👑 나의 풀이: <br>
--> 소인수는 n을 나누어떨어지게하면서, 소수인 수이다. 따라서, 중첩 반복문을 통해서 n보다 작은 소수를 구했다. 그리고 약수의 갯수(count)가 2이면 소수이므로, 소수이면서 12으로도 나누어떨어지는 수를 구하고자 하였다. <br><br>
-
-## ⭕ 다른 사람의 풀이: <br>
-![image](https://user-images.githubusercontent.com/70849122/223014119-b213cd0a-b578-4c15-a16b-6ebca592d91f.png) <br>
--> 직접 소인수분해를 실시하였다. d를 기준으로 d로 나누어 떨어지면서 answer배열에 없으면 배열에 넣고, 나누어 떨어지지 않으면 d를 1증가 시켰다. 2로 먼저 계속 나누어주고 더 이상 나누어지지 않으면 1을 증가하여 계속 그걸로 나누어주었다. 이렇게 while문으로도 푸는 연습하기!! <br>
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
