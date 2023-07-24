@@ -73,4 +73,19 @@ Empty
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges <br><br>
+
+<hr>
+
+## 🎁 나의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/a15616bc-c392-4be7-824c-7a95e7b3a978) <br>
+-> my_string을 각 요소를 배열에 분리하여 담는다. 그리고, number로 바꾼 것이 int형인 것만 남기도록 하였다. 그리고 각 요소를 문자열에서 int로 바꿔야하므로 map함수를 통해 처리하였고, 마지막으로 오름차순으로(a-b)정렬 후 반환하였다. <br><br>
+
+## ⭕ 다른 사람의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/3ca2ff1b-2f42-4cf0-8d8d-e6e1f019d6d5) <br>
+-> <br>
+
+
+## ✔️ What I learned: <br> 
+- Number: 문자를 정수로 바꿔줌 <br>
+- Number.isInteger(), Number.isNan() <br>
