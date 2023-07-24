@@ -72,4 +72,19 @@ Empty
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges <br><br>
+
+<hr>
+
+## 🎁 나의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/05c4466d-e5eb-4042-921f-163f5b1d0735) <br>
+-> 2부터 시작해서 해당숫자 a로 나누어떨어지지 않을 때까지 계속해서 나누어주었다. 그리고 더 이상 a로 나누어떨어지지 않으면, a를 1증가 시켜주었다. 또한, answer에 a값이 존재하지 않으면, answer에 값을 넣어주었다. <br><br>
+
+## ⭕ 다른 사람의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/c0adbefe-f3cb-4c19-ae25-9ee1a63735ee) <br>
+-> 나와 같은 방식이지만, set을 이용하여 중복을 제거하였다.! <br><br>
+
+## ✔️ What I learned: <br>
+- js에도 set이 존재한다!! <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/fb7925bd-8a7c-48ff-abd5-84f18fff1b30) <br>
+-> set은 위와 같이 쓸 수 있다는 것!
