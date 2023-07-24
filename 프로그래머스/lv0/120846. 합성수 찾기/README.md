@@ -62,4 +62,10 @@ Empty
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges  <br><br>
+
+<hr>
+
+## 🎁 나의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/06b34698-2b8e-45b7-bb0a-b9de20e844f7) <br>
+-> n까지 하나씩 접근하면서, 각각이 합성수인지 검사한다. 각각이 합성수 인지는 i까지 모두 검사하는 것이 아니라, 제곱근값까지의 약수의 갯수를 구한다. 2부터 시작하게끔 하여, 만약 나누어떨어지는 수가 하나라도 있다면 합성수로 처리해서 answer의 값을 1 증가시켰다.  <br><br>
