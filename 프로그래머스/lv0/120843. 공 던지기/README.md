@@ -88,4 +88,18 @@ Empty
 <p>※ 공지 - 2023년 1월 25일 테스트 케이스가 추가되었습니다. 기존에 제출한 코드가 통과하지 못할 수도 있습니다.</p>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges <br><br>
+
+<hr>
+
+## 🎁 나의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/b2cdd7fa-ae58-4618-be23-0cab5e98d930) <br>
+-> 배열의 인덱스가 범위를 벗어나지 않도록 인덱스를 증가시키는 작업을 계속해서 반복하였다. 조건문을 활용하여 벗어났을 경우에 대한 분기를 처리해주었다. <br><br> 
+
+## ⭕ 다른 사람의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/920f7569-a50d-4121-8ea2-10bc13c424e0) <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/a3c8449a-2895-4d0c-9ec0-71c66cc2edaa) <br>
+-> 계속해서 2를 곱한 값의 인덱스의 값을 가져오는데, 범위를 벗어나는 경우에는 나눗셈 연산을 수행해주었다. <br><br>
+
+## ✔️ What I learned: <br> 
+-> 값을 벗어나는 경우에 대한 처리: 나눗셈 연산으로 쉽게 가능
