@@ -83,8 +83,7 @@ Empty
 
 ## ⭕ 다른 사람의 풀이: <br>
 ![image](https://github.com/An-jisu/Algorithm/assets/70849122/3ca2ff1b-2f42-4cf0-8d8d-e6e1f019d6d5) <br>
--> <br>
-
+-> 인자에 포함된 문자를 찾으면, 이를 반환한다. 따라서 정규식에 포함된 문자를 찾아 숫자만 분리하고, 오름차순으로 정렬한다. 그리고 map함수를 이용해 Number로 바꿔주었다. <br><br>
 
 ## ✔️ What I learned: <br> 
 - Number: 문자를 정수로 바꿔줌 <br>
