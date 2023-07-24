@@ -1,10 +1,10 @@
 # [level 0] 문자열 정렬하기 (1) - 120850 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120850) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120850?language=javascript) 
 
 ### 성능 요약
 
-메모리: 10.3 MB, 시간: 0.03 ms
+메모리: 33.5 MB, 시간: 0.14 ms
 
 ### 구분
 
@@ -12,7 +12,7 @@
 
 ### 채점결과
 
-<br/>정확성: 100.0<br/>합계: 100.0 / 100.0
+Empty
 
 ### 문제 설명
 
@@ -73,18 +73,4 @@
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges <br><br>
-
-<hr>
-
-## 👑 나의 풀이: <br>
--> 문자열의 요소들에 하나 씩 접근하면서, 숫자에 해당하는 범위에 들어있으면, 배열에 집어넣고, 마지막에 배열의 sort한 값을 반환하였다.<br><br>
-
-## ⭕ 다른 사람의 풀이: <br>
-![image](https://user-images.githubusercontent.com/70849122/223011677-47f619e7-5557-4742-a264-82db55560cfa.png) <br>
--> isdigit함수를 활용하여 숫자인지 판단하였다.<br>
-
-## ✔ What I learned: <br>
-- sort함수는 배열 자체를 정렬해줘서 반환값 없음!!!! sorted는 정렬하여 반환해줌!!! return에 바로 반환하면서 쓰려면, sorted, removed 써줘야 함.<br>
-- 숫자인지 확인하기 위한 isdigit()함수가 있다는 것!!! <br>
-- return 문 안에, 바로 for문이랑 if문 쓰는 거 연습하기 <br>
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
