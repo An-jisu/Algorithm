@@ -93,4 +93,15 @@ Empty
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges <br><br>
+
+<hr>
+
+## 🎁 나의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/2ffcb4aa-fc58-4e0d-9c08-c566e45e5b79) <br>
+-> key와 value값을 arr에 {}로 나타내었다. split함수로 letter의 모든 요소들을 쪼개서 하나씩 접근하면서, 문자로 바꿔주었다. <br><br>
+
+## ⭕ 다른 사람의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/cfe4345e-229a-4c1a-84eb-afd86752111f) <br>
+-> 반복문 대신 reduce 함수를 통해 반복해주었다. for문으로 반복할 수 있는 부분은 reduce나 map함수로 하는 것 연습하기! reduce는 조금 더 값의 누적!<br><br>
+
