@@ -71,4 +71,20 @@ Empty
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges <br><br>
+
+<hr>
+
+## 🎁 나의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/30f4d5d7-3d5c-4284-93b6-7bec75d99c12) <br>
+-> split을 통해 문자열의 각 요소들을 배열에 넣어주고, int형인 것만 filtering해준 이후(아직 문자열 형태임), map함수를 통해 숫자로 바꿔주었고, reduce함수를 통해서 값을 누적해서 더해주었다. <br><br>
+
+## ⭕ 다른 사람의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/c13d906c-91ca-4cdb-bd1a-d349a61cc4ee) <br>
+-> 정규식에서 '^'을 이용하여 숫자가 아닌 것은 모두 ''로 대체해주었고, split하여 배열에 담아주었다. 그리고 reduce함수를 통해서 누적해서 더해주었다. filter대신 replace 정규식을 통해서도 특정 문자들은 제거할 수 있다는 것 기억하자!! <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/8388ce6e-17be-44b9-9401-d6fc794cbc9c) <br>
+-> reduce함수를 활용하여 누적해서 더 해주었다. <br><br>
+
+## ✔️ What I learned: <br>
+- js: 정규식 replace통해서 특정 문자 제거하기 (^연산자 기억하기)<br>
+- 문자열 각각 분리해서 배열에: [...my_string], Array.from, split
