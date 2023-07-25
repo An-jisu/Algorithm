@@ -1,10 +1,10 @@
 # [level 0] 배열 원소의 길이 - 120854 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120854) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120854?language=javascript) 
 
 ### 성능 요약
 
-메모리: 10.3 MB, 시간: 0.00 ms
+메모리: 33.4 MB, 시간: 0.03 ms
 
 ### 구분
 
@@ -12,7 +12,7 @@
 
 ### 채점결과
 
-<br/>정확성: 100.0<br/>합계: 100.0 / 100.0
+Empty
 
 ### 문제 설명
 
@@ -63,14 +63,4 @@
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges  <br><br>
-
-
-<hr> 
-
-## ⭕ 다른 사람의 풀이: <br>
-![image](https://user-images.githubusercontent.com/70849122/223310239-42556d1b-43a1-4ce6-af51-ee3f0a484c61.png) <br>
--> 반복문에서 각 요소에 같은 처리를 해야할 경우, map함수 사용 가능!! 'map(함수, 적용할 값들)' 위의 풀이에서는 값들에 대해서 모두 len을 구해서 배열에 넣어주는 것이다.<br><br>
-
-## ✔ What I learned: <br>
-: map함수는 각 값들에 대해 같은 처리를 할 때 사용해준다!!! list나 tuple로 반드시 바꿔서 반환해주어야 함!! list(map()) 이런식으로 
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
