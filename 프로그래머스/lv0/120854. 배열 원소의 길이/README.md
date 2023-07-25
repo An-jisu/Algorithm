@@ -63,4 +63,16 @@ Empty
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges <br><br>
+
+<hr>
+
+## 🎁 나의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/20ac067a-8cbc-48dd-bb65-b0b009911d6b) <br>
+-> map 함수를 통해 str_list 요소들의 길이를 각각 반복해서 구해주었다. 결괏값은 배열이다. <br><br>
+
+## ⭕ 다른 사람의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/d2d521e5-b1f2-43d1-879a-123c469d4f3d) <br>
+-> a는 배열의 누적값이고, b의 길이 값을 계속 추가해간다. <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/a089054d-9d6a-456d-a44a-490a3d30bd3e) <br>
+-> 나와 같은 풀이이지만, forEach문을 활용하였다. <br>
