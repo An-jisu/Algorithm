@@ -1,10 +1,10 @@
 # [level 0] 컨트롤 제트 - 120853 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120853) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120853?language=javascript) 
 
 ### 성능 요약
 
-메모리: 10.3 MB, 시간: 0.03 ms
+메모리: 33.4 MB, 시간: 0.14 ms
 
 ### 구분
 
@@ -12,7 +12,7 @@
 
 ### 채점결과
 
-<br/>정확성: 100.0<br/>합계: 100.0 / 100.0
+Empty
 
 ### 문제 설명
 
@@ -96,10 +96,4 @@
 <p>※ 공지 - 2022년 11월 30일 제한사항 및 테스트 케이스가 수정되었습니다.</p>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges  <br><br>
-
-<hr>
-
-## 👑 나의 풀이: <br>
-: 일단 공백을 제거하기 위해서, 공백을 기준으로 split해서 새로운 배열에 넣었다. 그리고, 그 배열의 길이만큼 반복하면서, Z가 아닌 경우에는 int형으로 바꿔서 sum에 더해주었고, Z인 경우에는 배열에서 그 전 인덱스의 값을 빼주었다. <br><br>
-
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
