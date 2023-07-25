@@ -74,6 +74,3 @@ Empty
 ![image](https://github.com/An-jisu/Algorithm/assets/70849122/d6ea0969-b5e7-4d74-91d3-5ebc084e2d72) <br>
 -> 처음에 return new Set(my_string)라고 하였는데 {}만 반환이 되었다. <br><br>
 
-## ⭕ 다른 사람의 풀이: <br>
-
-## ✔️ What I learned: <br> 
