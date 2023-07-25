@@ -1,10 +1,10 @@
 # [level 0] 중복된 문자 제거 - 120888 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120888) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120888?language=javascript) 
 
 ### 성능 요약
 
-메모리: 10.1 MB, 시간: 0.00 ms
+메모리: 33.3 MB, 시간: 0.03 ms
 
 ### 구분
 
@@ -12,7 +12,7 @@
 
 ### 채점결과
 
-<br/>정확성: 100.0<br/>합계: 100.0 / 100.0
+Empty
 
 ### 문제 설명
 
@@ -66,16 +66,4 @@
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges  <br><br>
-
-<hr>
-
-## 👑 나의 풀이: <br>
-:문자열을 하나씩 검사하면서, answer배열에 없는 값이면 append해주었다. 그리고 마지막에 문자열 형태로 join해주었다. <br><br>
-
-## ⭕ 다른 사람의 풀이: <br>
-![image](https://user-images.githubusercontent.com/70849122/223311638-b19d4e1e-92a9-4779-8073-b8b4f0dd80bc.png) <br>
--> 꼭 배열을 만들지 않더라도, 문자열 자체로 변수로 생성해서 접근할 수 있다. <br>
-![image](https://user-images.githubusercontent.com/70849122/223311788-de56e4cd-d117-4ec6-b768-5a050588c180.png) <br>
--> dict.fromkeys(key, value) - 지정 Key:Value 갖는 Dictionary 반환한다. 딕셔너리는 중복되는 키값을 허용하지 않는다. 그 후 그렇게 키 값들을 join해준다. <br><br>
-
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
