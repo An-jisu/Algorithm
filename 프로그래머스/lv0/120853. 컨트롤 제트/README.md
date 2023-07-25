@@ -96,4 +96,20 @@ Empty
 <p>※ 공지 - 2022년 11월 30일 제한사항 및 테스트 케이스가 수정되었습니다.</p>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges <br><br>
+
+<hr>
+
+## 🎁 나의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/7ba4eb0f-d12b-455a-9aab-02277d47ac27) <br>
+-> 문자열을 공백으로 분리한다. 그리고 배열의 길이만큼 반복문을 돌면서, 'Z' 이면 그 이전 값을 answer에서 빼고, 그렇지 않으면 answer에 더해주고 마지막에 answer값을 반환해준다. <br><br>
+
+## ⭕ 다른 사람의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/541d235f-4002-49be-9ac3-cb6bd3301a23) <br>
+-> 스택으로 처리하였다. Z면 그 전꺼를 pop하고, 그렇지 않으면push해주었다. 반복문으로 forEach 사용하는 것도 알아보자!  <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/081a2979-62d6-4900-8627-3ff6a0b5f3b4) <br>
+-> 여기서도 pop과 push를 활용하였다. 위와 같은 풀이이지만, 조금씩 코드 작성 방법이 달랐다.  <br><br>
+
+## ✔️ What I learned: <br> 
+- js에도 pop과 push 함수가 있다는것!!! <br>
+- 배열에서 특정 몇 개의 값만 더하고 그런 알고리즘에선 스택을 생각해볼 수 있다는 것!! forEach문 사용하는 것 연습하기기
