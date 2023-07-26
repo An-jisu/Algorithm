@@ -75,4 +75,18 @@ Empty
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges <br><br>
+
+<hr>
+
+## 🎁 나의 풀이:<br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/cb114c4c-1b9b-4907-8a3f-e5e4c62d9d62) <br>
+-> cipher를 각각 분리하여 배열에 요소를 넣고, map함수를 활용하여 인덱스 b+1의 값이 code의 배수인 경우에만 answer에 값을 더해주었다. b+1인 이유는 첫번째 두번째 이렇게 0이 아닌 1부터 시작하도록 하였기 때문이다. <br><br>
+
+## ⭕ 다른 사람의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/a914a8c3-ac55-47c5-83f3-7f33db0f8020) <br>
+-> 나는 map함수를 활용해 문자열 더하기 연산자를 활용했다면, 이 풀이 방법은 filter로 인덱스+1의 값이 code로 나누어 떨어지는 것만 남기게끔 하였다. <br><br>
+
+## ✔️ What I learned: <br>
+- 배열의 값과 함수에 동시에 접근하기 위해서는 map 화살표 함수로 처리할 수 있다. filter에도 2개의 매개변수 전달하여 두번째 매개변수는 인덱스로도 생각할 수 있다는 것!! <br>
+--> map, filter모두 매개변수 하나: 그 값 전달/ 매개변수 2개: 그 값, 그 값의 인덱스 를 전달하는 것이다. 
