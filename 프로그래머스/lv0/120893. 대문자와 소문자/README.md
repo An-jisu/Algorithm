@@ -1,10 +1,10 @@
 # [level 0] 대문자와 소문자 - 120893 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120893) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120893?language=javascript) 
 
 ### 성능 요약
 
-메모리: 10.1 MB, 시간: 0.31 ms
+메모리: 33.5 MB, 시간: 0.30 ms
 
 ### 구분
 
@@ -12,7 +12,7 @@
 
 ### 채점결과
 
-<br/>정확성: 100.0<br/>합계: 100.0 / 100.0
+Empty
 
 ### 문제 설명
 
@@ -63,18 +63,4 @@
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges  <br><br>
-
-<hr>
-
-## 👑 나의 풀이: <br>
-: 내장함수들을 이용하여, 대소문자를 바꿔주었음 <br><br>
-
-## ⭕ 다른 사람의 풀이: <br>
-![image](https://user-images.githubusercontent.com/70849122/223640953-5eeddc2b-bcb7-410d-a747-94f45f53242a.png) <br>
--> swapcase라는 함수를 통해 대소문자를 서로 바꿀 수 있음!!<br><br>
-
-## ✔ What I learned: <br>
-- i.isupper()/ i.islower()
-- i.upper()/ i.lower()
--> 대소문자 바꿔서 반환해주는 함수 잘 기억하기!! 기존꺼를 바꿔주는 것이 아닌 바꿔서 
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
