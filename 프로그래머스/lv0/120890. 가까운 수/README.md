@@ -70,4 +70,10 @@ Empty
 <p>※ 공지 - 2023년 3월 29일 테스트 케이스가 추가되었습니다. 기존에 제출한 코드가 통과하지 못할 수도 있습니다.</p>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges  <br><br>
+
+<hr>
+
+## 🎁 나의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/8d5c0411-8f9e-44ea-a75a-ef11903daaf3) <br>
+-> 배열은 sort한 후에, 차잇값을 배열에 넣고, 배열값의 최솟값 중 가장 앞에 있는 값의 인덱스에 해당하는 값을 반환하면 된다. 차잇값이 같은 경우에 작은수를 반환하기 위한 조건을 위해서 sort를 해준 것이다. <br><br>
