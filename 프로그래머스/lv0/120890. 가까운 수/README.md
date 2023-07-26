@@ -1,10 +1,10 @@
 # [level 0] 가까운 수 - 120890 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120890#) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120890?language=javascript) 
 
 ### 성능 요약
 
-메모리: 10.1 MB, 시간: 0.01 ms
+메모리: 33.4 MB, 시간: 0.05 ms
 
 ### 구분
 
@@ -12,7 +12,7 @@
 
 ### 채점결과
 
-<br/>정확성: 100.0<br/>합계: 100.0 / 100.0
+Empty
 
 ### 문제 설명
 
@@ -67,14 +67,7 @@
 <li>10, 11, 12 중 13과 가장 가까운 수는 12입니다.</li>
 </ul>
 
+<p>※ 공지 - 2023년 3월 29일 테스트 케이스가 추가되었습니다. 기존에 제출한 코드가 통과하지 못할 수도 있습니다.</p>
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges  <br><br>
 
-<hr>
-
-## 👑 나의 풀이:<br>
-: 나는 배열의 요소들에 하나씩 접근하면서 그 차이의 절댓값을 새로운 배열에 넣었다. 그리고 그 배열에서의 최솟값을 구해서, 그 인덱스에 해당하는 값을 return 하였다. 난 처음에는 조건을 놓쳐서, 절댓값이 같은 수가 여러개 일수도 있을 것이라는 생각을 못했다. 하지만 sort()를 하지 않았을 경우에는 한가지 테스트케이스에 대해서 동작이 되지 않았다. 하지만 아직까지 그 이유를 모르겠어....... 반례를 찾을 수 없어...<br>
-
-## ⭕ 다른 사람의 풀이: <br>
-![image](https://user-images.githubusercontent.com/70849122/223652892-af5a2e81-6f86-4774-881a-fea9c386bf72.png) <br>
--> 와 어떻게 이렇게 풀지.. lamda함수 사용하는 거 연습하자!!
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
