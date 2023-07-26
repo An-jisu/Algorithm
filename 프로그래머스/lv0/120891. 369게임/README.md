@@ -1,10 +1,10 @@
 # [level 0] 369게임 - 120891 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120891) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120891?language=javascript) 
 
 ### 성능 요약
 
-메모리: 10.3 MB, 시간: 0.00 ms
+메모리: 33.5 MB, 시간: 0.05 ms
 
 ### 구분
 
@@ -12,7 +12,7 @@
 
 ### 채점결과
 
-<br/>정확성: 100.0<br/>합계: 100.0 / 100.0
+Empty
 
 ### 문제 설명
 
@@ -61,17 +61,9 @@
 <li>29423은 3이 1개, 9가 1개 있으므로 2를 출력합니다.</li>
 </ul>
 
-
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges  <br><br>
-
 <hr>
 
-## 👑 나의 풀이: <br>
--> 문자열이 아닌 단지 int형으로 주어졌기 때문에, 어떻게 접근하지에 대한 고민이 있었다. 그래서, 그 int형을 str로 변환하여, 하나 씩 접근하며 3,6,9인 경우에 카운트하도록 설계하였다. <br><br>
+<p>※ 공지 - 2023년 03월 24일 테스트 케이스가 추가되었습니다. 기존에 제출한 코드가 통과하지 못할 수도 있습니다.</p>
 
-## ⭕ 다른 사람의 풀이: <br>
-![image](https://user-images.githubusercontent.com/70849122/223634944-6e723887-d84f-44d1-9c53-1ca7e3eb3a4a.png) <br>
--> map(함수, 값들 배열) 과 같은 형태로 값들에 대해서 같은 처리를 할 때 사용하는 함수이다. <br><br>
 
-## ✔ What I learned: <br>
-map 함수를 적절히 잘 활용하자!! 함수로 lamda도 사용할 수 있음!! 여기서 매개변수 x는 그 뒤의 값들이 하나씩 차례로 들어오는 것이다.
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
