@@ -1,10 +1,10 @@
 # [level 0] 인덱스 바꾸기 - 120895 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120895) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120895?language=javascript) 
 
 ### 성능 요약
 
-메모리: 10.3 MB, 시간: 0.00 ms
+메모리: 33.4 MB, 시간: 0.04 ms
 
 ### 구분
 
@@ -12,7 +12,7 @@
 
 ### 채점결과
 
-<br/>정확성: 100.0<br/>합계: 100.0 / 100.0
+Empty
 
 ### 문제 설명
 
@@ -71,14 +71,4 @@
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges <br><br>
-
-
-<hr>
-
-## 👑 나의 풀이: <br>
--> 처음에는 문자열의 인덱스에 직접 접근해서 변경하는 방법을 사용하였다. 그런데, str이 callable 하지 않다는 오류가 뜨고.......... 그래서 num1, num2 인덱스가 나오면, 그때 값을 변경하는 것으로 코드를 수정했는데 역시나 코드가 돌아가지 않았다..... 그래서 인터넷을 참고하여 푼 문제!!!!
-
-## ✔ What I learned: <br>
--> 문자열은 상숫값이므로, 인덱스에 직접 접근해서 값을 변경하는 것이 불가하다는 것 !!!!!!!!! 꼭, 기억하기!!!!! 문자열 인덱싱 불가!!!!
-c언어에서도 마찬가지이다. 파이썬은, 웬만한 건 다 되는 언어라고 생각해서, 이 또한 될 것이라고 생각했다..ㅎㅎ
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
