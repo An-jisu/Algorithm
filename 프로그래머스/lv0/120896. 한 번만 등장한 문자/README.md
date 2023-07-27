@@ -73,4 +73,21 @@ Empty
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges <br><br>
+
+<hr>
+
+## 🎁 나의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/2d65a845-ca13-4369-9814-1e318c3a96be) <br>
+-> s를 배열로 변환하고, count가 1인 문자만 filter를 통해 남긴다. 그리고 sort를 통해 정렬 후 join을 통해 문자열로 반환해주었다. 그런데, js에서 count함수가 존재하는 지 아닌지 모르기 때문에, count함수를 따로 만들어줬다. 문자열과 해당 문자를 인수로 전달하여, 그 문자의 갯수를 세서 return해주는 count함수이다. <br><br>
+
+## ⭕ 다른 사람의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/ad73580b-f006-4051-bc3d-f04545247822) <br>
+-> <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/45722469-199f-46a8-bd5b-01bac7e1f457) <br>
+-> <br><br>
+
+## ✔️ What I learned: <br> 
+<sort()> <br>
+- 문자 오름차순: <br>
+- 정수 오름차순: <br>
