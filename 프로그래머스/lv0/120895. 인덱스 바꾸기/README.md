@@ -71,4 +71,17 @@ Empty
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges <br><br>
+
+<hr>
+
+## 🎁 나의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/8066d3ea-e543-43ea-ba02-8207f680c519) <br>
+-> 문자열은 변경할 수 없기 때문에, 배열로 변환하여 각 요소들을 temp변수를 이용하여 변환 후, 문자열로 join 한다. <br><br>
+
+## ⭕ 다른 사람의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/f726bdfd-5377-4020-bf09-0eee5833226e) <br>
+-> 값의 변경을 temp 변수를 이용하지 않고, 위와 같이 스위치를 할 수 있다. 구조분해 할당!!!!!!<br><br>
+
+## ✔️ What I learned: <br>
+- 배열에서 2개의 값 교환: 구조 분해 할당으로!!! <br>
