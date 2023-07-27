@@ -1,10 +1,10 @@
 # [level 0] 한 번만 등장한 문자 - 120896 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120896) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120896?language=javascript) 
 
 ### 성능 요약
 
-메모리: 10.1 MB, 시간: 0.01 ms
+메모리: 33.5 MB, 시간: 0.17 ms
 
 ### 구분
 
@@ -12,7 +12,7 @@
 
 ### 채점결과
 
-<br/>정확성: 100.0<br/>합계: 100.0 / 100.0
+Empty
 
 ### 문제 설명
 
@@ -73,17 +73,4 @@
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges  <br><br>
-
-<hr>
-
-## 👑 나의 풀이: <br>
--> 문자열의 문자에 하나씩 접근하면서, count한 값이 1개이면, answer 문자열에 넣도록 하였다. 그런데, 처음에 ''.join을 해주지 않았더니 문자열 형태로 반환되어서 문자열 형태로 바꿔주어야 했다. 그 이유를 인터넷에 검색해보니, sorted 함수는 문자열을 알파벳 순으로 정렬하면, 리스트 형태로 반환해준다는 것!!! <br><br>
-
-## ⭕ 다른 사람의 풀이: <br>
-![image](https://user-images.githubusercontent.com/70849122/224207289-afed2aec-0189-48b6-9e8d-c9601b53e1b0.png) <br>
--> 이렇게 한 줄로 for 문 if문 모두 써서 반환하는 연습하자!!<br><br>
-
-## ✔ What I learned: <br>
--> 숫자를 정렬할 때는, answer.sort() 이런식으로 하지만, 문자열을 정렬할 때는 sort(answer) 이런식으로! <br>
-또한, sorted함수로 문자열을 정렬하면, 리스트 형태로 반환해준다는 것<br>
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
