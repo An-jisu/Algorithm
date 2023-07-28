@@ -68,4 +68,20 @@ Empty
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges <br><br>
+
+<hr>
+
+## 🎁 나의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/3616dd5d-bc3e-43a3-ac38-d6df5251dfa1) <br>
+-> 중복되는 수를 세기 위해, 두 배열을 합친 것의 길이에서 set으로 중복제거 해준 것의 길이를 빼주면, 중복되는 것의 갯수를 구할 수 있다. <br><br>
+
+## ⭕ 다른 사람의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/edfc076b-83a7-425b-ac18-84f075619197) <br>
+-> 아주 쉽게 s1에서 s2에 존재하는 것만 filter해주면 아주 간단하게 해결 가능!! 나도 처음에 filter로 하는 풀이를 생각했다. <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/3e4906ca-9114-4ff0-8d67-944103985190) <br>
+-> 나는 2개의 배열을 합치는 것을 s1+','+s2로 처리하였는데, 더 간단한 방법이 있었다. 그렇게, set으로 바꾸고 Array.from으로 배열로 바꿔주었다. 그리고 그 중복된 갯수를 구해진 것! 나와 같은 풀이 방법이지만, 코드 짜는 방법이 조금 달랐다. 라이브러리 사용이나 그런 것들. <br><br> 
+
+## ✔️ What I learned: <br> 
+- js에서 2개의 배열 합치는 법 [...arr1, ...arr2] <br>
+- 배열로 바꾸는 것: Array.from ()
