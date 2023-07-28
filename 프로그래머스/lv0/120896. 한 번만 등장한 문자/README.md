@@ -89,5 +89,6 @@ Empty
 
 ## ✔️ What I learned: <br> 
 <sort()> <br>
-- 문자 오름차순: <br>
-- 정수 오름차순: <br>
+- 문자 오름차순: sort() 매개변수 없이!<br>
+- 정수 오름차순: sort((a,b)=> a-b) 매개변수!<br>
+https://hianna.tistory.com/409
