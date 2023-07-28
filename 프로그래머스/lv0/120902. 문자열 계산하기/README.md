@@ -77,7 +77,8 @@ Empty
 ![image](https://github.com/An-jisu/Algorithm/assets/70849122/ed0e438e-6f50-4927-8150-84de272e7cf0) <br>
 -> 문자열로된 식의 값을 계산하는 함수이다. 하지만 사용하지 않는 게 좋을 것임!! <br>
 ![image](https://github.com/An-jisu/Algorithm/assets/70849122/d441ee4e-37cb-4862-b3d1-a72a15e2a601) <br>
--> '+'이면 다음 숫자에 '+'을, '-'이면 다음 숫자에 '-'를 붙여 음수 처리를 해주었다. 그리고 숫자를 만나면 그 sign을 적용한 값을 push하고 마지막에 reduce를 통해 그 배열의 모든 값을 더해 반환하였다. <br><br>
+-> '+'이면 다음 숫자에 '+'을, '-'이면 다음 숫자에 '-'를 붙여 음수 처리를 해주었다. 그리고 숫자를 만나면 그 sign을 적용한 값을 push하고 마지막에 reduce를 통해 그 배열의 모든 값을 더해 반환하였다. 두번째 인자는 초기값을 의미한다!<br><br>
 
 ## ✔️ What I learned: <br> 
 - parseInt는 floor 값이라는 것! <br>
+- reduce 함수의 2번째 인자는 초깃값이다!!
