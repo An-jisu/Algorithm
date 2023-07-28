@@ -65,4 +65,19 @@ Empty
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges <br><br>
+
+<hr>
+
+## 🎁 나의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/49831107-f7b9-40b6-986b-2c49d7753367) <br>
+-> 공백을 기준으로 식을 분리하였다. 연산자는 1번 인덱스부터 시작해서 1,3,5,,,이렇게 진행될 것이다. 따라서 arr배열의 길이만큼 반복하면서, 연산자에 접근하기 위해 i는 2를 더해주었고, 만약 '+'이면 그 다음 숫자를 더해주었고, 아니면 '-'이므로 빼주었다. 연산자는 +, -만 존재한다는 조건이 있어서, 삼항연산자로 쉽게 처리하였다. <br><br>
+
+## ⭕ 다른 사람의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/ed0e438e-6f50-4927-8150-84de272e7cf0) <br>
+-> 문자열로된 식의 값을 계산하는 함수이다. 하지만 사용하지 않는 게 좋을 것임!! <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/d441ee4e-37cb-4862-b3d1-a72a15e2a601) <br>
+-> '+'이면 다음 숫자에 '+'을, '-'이면 다음 숫자에 '-'를 붙여 음수 처리를 해주었다. 그리고 숫자를 만나면 그 sign을 적용한 값을 push하고 마지막에 reduce를 통해 그 배열의 모든 값을 더해 반환하였다. <br><br>
+
+## ✔️ What I learned: <br> 
+- parseInt는 floor 값이라는 것! <br>
