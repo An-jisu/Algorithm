@@ -78,4 +78,15 @@ Empty
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges  <br><br>
+
+<hr>
+
+
+## ⭕ 다른 사람의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/ec0755e1-715e-4a55-9fb5-b9db4facfcfd) <br>
+-> ||연산자를 통해서 거짓이 경우에 대한 처리를 할 수 있다. 만약 -1이되어 0이 되면 false가 되어 ||의 오른쪽 내용을 수행한다. <br><br>
+
+## ✔️ What I learned: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/852224d5-3d20-4b37-a984-fbd315d00bde) <br>
+- js: 숫자를 문자열로 바꾸는 방법- 숫자.toString/(''+num)
