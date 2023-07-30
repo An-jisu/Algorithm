@@ -1,10 +1,10 @@
 # [level 0] 자릿수 더하기 - 120906 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120906) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120906?language=javascript) 
 
 ### 성능 요약
 
-메모리: 10.4 MB, 시간: 0.02 ms
+메모리: 33.3 MB, 시간: 0.04 ms
 
 ### 구분
 
@@ -12,7 +12,7 @@
 
 ### 채점결과
 
-<br/>정확성: 100.0<br/>합계: 100.0 / 100.0
+Empty
 
 ### 문제 설명
 
@@ -61,10 +61,5 @@
 <li>9 + 3 + 0 + 2 + 1 + 1 = 16을 return합니다.</li>
 </ul>
 
- 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges <br><br>
 
-<hr>
-
-## ✔ What I learned: <br>
--> 정수의 숫자 하나하나에 접근해서 처리하는 문제는, 정수를 문자열로 바꿔서 처리할 수 있다는 것 <br><br>
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
