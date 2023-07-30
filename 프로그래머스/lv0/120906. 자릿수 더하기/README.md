@@ -62,4 +62,15 @@ Empty
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges  <br><br>
+
+<hr>
+
+## 🎁 나의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/990ec3e0-6c7a-43aa-bc12-b05ed684d73b) <br>
+-> reduce의 2번째 매개변수를 처음에 써주지 않았더니, 초깃값을 문자열로 생각하여 처리되어 제대로 결괏값이 나오지 않았다. 따라서 숫자 문자열 배열의 모든 요소의 합을 구하기 위해서는 reduce 두번째 매개변수를 통해 초깃값을 지정해줘야 한다!! <br><br>
+
+## ⭕ 다른 사람의 풀이: <br>
+
+## ✔️ What I learned: <br> 
+- 정수를 문자열로 표현할 때, toString으로 할 수 있다는 것! 2가지가 다 골고루 연습하자!
