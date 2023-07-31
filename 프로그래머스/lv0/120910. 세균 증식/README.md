@@ -66,4 +66,16 @@ Empty
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges <br><br>
+
+<hr>
+
+## ⭕ 다른 사람의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/ffd66007-c440-4511-a366-5d9169807c5f) <br>
+-> 비트연산자로 처리! <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/dcdb783e-142b-43c4-8492-83675f564a63) <br>
+-> 라이브러리 함수 사용<br><br>
+
+## ✔️ What I learned: <br>
+- 2의 제곱수, 2로 계속 나누는 것은 비트연산자로 처리 가능 <br>
+- 제곱: Math.pow, **2/ 제곱근: Math.sqrt, **0.5
