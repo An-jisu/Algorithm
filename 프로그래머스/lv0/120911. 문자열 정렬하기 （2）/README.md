@@ -72,4 +72,14 @@ Empty
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges <br><br>
+
+<hr>
+
+## ⭕ 다른 사람의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/d102db36-dca5-422b-8f41-fb5aa8c7741e) <br>
+-> 스프레드 연산자 <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/b40c00c2-5b4b-42e7-afe3-014a03d6f8de) <br>
+-> 화살표 함수 <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/007bd6e9-5739-47ae-9318-45a0a0dfb664) <br>
+-> Array.from() 함수 <br><br>
