@@ -62,4 +62,14 @@ Empty
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges <br><br>
+
+<hr>
+
+## ⭕ 다른 사람의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/b5f30c75-3d1a-4f08-a780-9ea143950f08) <br>
+-> sqrt통해 제곱근값 구한 그 긊이 정수인지 판별! <br>
+
+## ✔️ What I learned: <br>
+-> sqrt나 **연산 결과는 소수점까지 나온다!<br>
+- 제곱근 판별 알고리즘: 루트 값 구한 것이(sqrt, **)이 정수인지 판별하기<br>
