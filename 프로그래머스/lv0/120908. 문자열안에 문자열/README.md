@@ -78,4 +78,11 @@ Empty
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges <br><br>
+
+<hr>
+
+## ⭕ 다른 사람의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/869d8c12-4f34-44f5-ab7a-e2047f62a4c5) <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/940d33fd-4b95-4e83-9f31-e8ff16b98ced)
+
