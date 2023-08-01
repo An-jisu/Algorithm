@@ -73,6 +73,5 @@ Empty
 
 ## ⭕ 다른 사람의 풀이: <br>
 ![image](https://github.com/An-jisu/Algorithm/assets/70849122/51a9801f-376a-4b00-9c6e-3b00a8e36ebc) <br>
--> <br>
-
-## ✔️ What I learned: <br>  
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/3a959580-c590-45b0-95d4-fa7a56ed3c9d) <br>
+-> 배열의 요소에 하나씩 접근한 것이 아니라, join을 하여 문자열로 다 묶어주고, 7인 것만 filter하고 그 길이를 구했다. <br>
