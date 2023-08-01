@@ -63,4 +63,16 @@ Empty
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges <br><br>
+
+<hr>
+
+## 🎁 나의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/947b0a39-41fd-4452-bcc7-ec2182117f64) <br>
+-> 배열 요소에 하나씩 접근하였다. 그리고 그 값을 문자열로 바꾸고, 그 문자열에서 '7'인 것만 필터링해서 그 갯수를 sum에 더해주었다. 그렇게 하면 array에 있는 모든 7의 갯수가 저장된다. <br><br>
+
+## ⭕ 다른 사람의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/51a9801f-376a-4b00-9c6e-3b00a8e36ebc) <br>
+-> <br>
+
+## ✔️ What I learned: <br>  
