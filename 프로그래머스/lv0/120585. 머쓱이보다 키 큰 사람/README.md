@@ -1,10 +1,10 @@
 # [level 0] 머쓱이보다 키 큰 사람 - 120585 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120585) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120585?language=javascript) 
 
 ### 성능 요약
 
-메모리: 10.2 MB, 시간: 0.00 ms
+메모리: 33.4 MB, 시간: 0.04 ms
 
 ### 구분
 
@@ -12,7 +12,7 @@
 
 ### 채점결과
 
-<br/>정확성: 100.0<br/>합계: 100.0 / 100.0
+Empty
 
 ### 문제 설명
 
@@ -67,10 +67,4 @@
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges <br><br>
-
-
-<hr>
-
-## 👑 나의 풀이: <br>
--> 처음에는 머쓱이의 키도 배열 값에 넣어서, 배열의 길이에서 (1+머쓱이 키의 인덱스)의 값으로 구해주었다. 그런데, 몇몇의 케이스에서 오류가 나는 것이다. 머쓱이와 키가 같은 사람이 있을 수도 있다는 것을 생각하지 못했다. <br><br>
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
