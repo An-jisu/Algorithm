@@ -75,4 +75,15 @@ Empty
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges <br><br>
+
+<hr>
+
+## 🎁 나의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/23c68133-ecf1-48c0-81ac-d59549fb473b) <br>
+-> 반복문으로 n개씩 건너띄면서 n개씩 slice해서 배열에 psush 해주었다. <br><br>
+
+## ⭕ 다른 사람의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/8a9f9a8e-2130-4700-a0f5-7662922d99eb) <br>
+-> 위와 같이 정규식으로도 처리할 수 있다. <br><br>
+
