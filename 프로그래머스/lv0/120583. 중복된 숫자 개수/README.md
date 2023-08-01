@@ -67,4 +67,10 @@ Empty
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges <br><br>
+
+<hr>
+
+## ⭕ 다른 사람의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/41388dd7-bbe1-4a40-899c-1752ff8e9311) <br>
+-> map함수에서 true일 때를 위와 같이 &&연산자로 가능하다는 것. false이면 ||연산자로 가능하다는 것!
