@@ -75,4 +75,17 @@ Empty
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges  <br><br>
+
+<hr>
+
+## 🎁 나의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/15ac33bf-8122-4280-955e-4bb1bb1f7f85) <br>
+-> for,,of 문으로도 input 값 하나씩 접근하면서, 그 글자에 따라 다르게 처리하였다. 그리고 각 처리에서 각 좌표가 범위를 벗어나는 경우와 그렇지 않은 경우로도 나눠서 처리하였다. 범위를 벗어나는 경우에는 continue를 통해 다음 값으로 접근하게 하였다. <br><br>
+
+## ⭕ 다른 사람의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/e0dc3b6e-7682-49e4-b46f-a007ccd45b62) <br>
+-> switch 문으로 접근하여 처리하였다. 나처럼 분기하지 않고, 맞는 경우에만 처리하도록 하여, 굳이 continue를 쓰지 않아 효율적이다. <br><br>
+
+## ✔️ What I learned: <br> 
+- js에서 switch 사용 방법은 다른 언어와 같다는 것 
