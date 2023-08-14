@@ -65,4 +65,22 @@ Empty
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges <br><br>
+
+<hr>
+
+## 🎁 나의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/f8eca006-f546-4200-b6f6-5a2f8125042a) <br>
+-> 좌표가 순서대로 되어있는 게 아닐 수도 있으므로 첫 번째 좌표를 기준으로 x값이 같으면 h값을 구했고, y값이 같으면 w를 구했다. <br><br>
+
+## ⭕ 다른 사람의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/34376ecd-7bc9-4c19-b0b7-6f57b4a848b9) <br>
+-> x와 y는 2가지 값 씩만 존재한다. 따라서, x와 y값의 최댓값과 최솟값의 차이를 구해서 곱한다. 최대 최솟값 구할 때, ... 연산자를 이용해서 값을 가져와야 한다는 것<br><br>
+
+## ✔️ What I learned: <br> 
+- js 절댓값 라이브러리 함수: Math.abs() <br>
+<변수> <br>
+- var: 전역범위, 함수범위, 업데이트 및 재선언 가능, 호이스팅-undefiend<br>
+- let: 블록범위, 업데이트 가능하지만 재선언 불가능, 호이스팅-error<br>
+- const: 상수 <br>
+-> 주로 var 변수를 사용하자!
