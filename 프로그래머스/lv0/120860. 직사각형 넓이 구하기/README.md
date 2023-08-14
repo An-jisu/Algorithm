@@ -1,10 +1,10 @@
 # [level 0] 직사각형 넓이 구하기 - 120860 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120860) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120860?language=javascript) 
 
 ### 성능 요약
 
-메모리: 10.2 MB, 시간: 0.00 ms
+메모리: 33.5 MB, 시간: 1.88 ms
 
 ### 구분
 
@@ -12,7 +12,7 @@
 
 ### 채점결과
 
-<br/>정확성: 100.0<br/>합계: 100.0 / 100.0
+Empty
 
 ### 문제 설명
 
@@ -65,15 +65,4 @@
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges  <br><br>
-
-<hr>
-
-## 👑 나의 풀이: <br>
-- 처음 풀이: 4좌표의 순서가 랜덤일 것이라는 생각을 하지 못했다. 입출력 결과를 살피지 않은 것이다. 따라서, 그냥 아무 2개의 좌표를 이용하여 가로와 세로의 길이를 구해서 곱해주었다. 하지만 역시나 오류가 나는 것 <br>
-- 지금 풀이: 처음 좌표를 기준으로, x좌표가 같으면 세로의 길이를, y좌표가 같으면 가로의 길이를 구할 수 있으므로, 반복문을 통해 첫번째 좌표와 같은 x,y값을 가지는 것을 찾았다. <br><br>
-
-## ⭕ 다른 사람의 풀이: <br>
-![image](https://user-images.githubusercontent.com/70849122/225209493-c736cad6-0e6e-45a8-8986-9402f7a54592.png) <br>
--> 그냥 x좌표의 최댓값과 최솟값을 구해서 가로의 길이를/ y좌표의 최대 최솟값을 구해서 세로의 길이를 구해주었다. 절댓값을 이용하지 않아도, 비교대상이 2개 밖에 없으니까 최대 최소를 이용할 수도 있다는 것!!  <br><br> 
-
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
