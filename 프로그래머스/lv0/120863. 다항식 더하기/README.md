@@ -74,4 +74,14 @@ Empty
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges  <br><br>
+
+<hr>
+
+## 🎁 나의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/0d865f3e-9422-41f2-953f-ab961eacc277) <br>
+-> 다항식을 split하고 1차항이면 a에 값을 더하고, 상수항이면 b의 값을 더해주었다. 그리고 마지막에 a의 값이 1이냐 0이냐, b의 값이 0이냐 그렇지 않느냐를 판별하여 return 하게끔 처리하였다. 코드가 조금 복잡하게 짜여졌는데, 다른 사람들의 풀이를 참고하자. <br><br>
+
+## ⭕ 다른 사람의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/8c41645c-76c9-4d22-9aaa-621141a562e5) <br>
+-> js으 라이브러리들을 활용하여 1차항과 상수항들을 각각 구했다. <br><br>
