@@ -91,4 +91,23 @@ Empty
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges  <br><br>
+
+<hr>
+
+## 🎁 나의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/6264fba7-d6ac-4c3a-88cb-d9000d4e6f36) <br>
+-> 일단, spell에 있는 요소들을 모두 한번씩만 포함하는 것을 찾아내야한다. 따라서, spell의 길이와 같은 문자열만을 filter를 통해서 남기고, 그 값들에 하나씩 접근하였다. 그 값을 sort한 그 문자열 값이 spell을 sort하여 문자열로 바꾼 그 값이 같다면, 존재하는 것이므로 return 1 하게 하였다. 그리고 만약 같지 않다면 dic 다음요소로 넘어가게 한 후, 반복문이 끝날 때까지 return이 되지 않았다면 존재하지 않는 것이므로 2를 반환하게 하였다.  <br><br>
+
+## ⭕ 다른 사람의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/033844ee-2812-4758-ab8a-7e20578dc4a8) <br>
+-> spell을 정렬한 것, dic의 요소들 정렬한 것이 같은 것이 하나라도 있으면 1을 반환, 그렇지 않으면 2를 반환하도록 하였다. 나와 같은 풀이 방법이지만, some을 활용하여 좀 더 간단하게 나타냈다는 <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/0cb4069a-e0cc-44cd-acd1-f4311920b7af) <br>
+-> 반례로는 spell=["p","o","s"], dic=["ppooss"] 가 있어서 사실 상 잘못된 풀이이다. every<br><br>
+
+## ✔️ What I learned: <br> 
+- sort함수를 문자열에선 사용할 수 없다는 것!! 문자열 sort하기 위해선, split("")로 배열로 바꾼 후, sort한 후, join으로 다시 묶어줄 수 있다. <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/202cbdb2-0af0-4ea2-8085-64d010f2a522) <br>
+-> 배열로 바꿔주는 것을 이렇게 ...연산자로 접근해서 []담아서도 할 수 있다는 것!!! <br>
+- every: 배열의 모든 요소가 어떤 조건을 충족하는 지 확인<br>
+- some: 배열의 1개 요소라도 특정 조건을 충족하는 지 확인<br><br>
