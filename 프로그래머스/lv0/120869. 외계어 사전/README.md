@@ -103,7 +103,7 @@ Empty
 ![image](https://github.com/An-jisu/Algorithm/assets/70849122/033844ee-2812-4758-ab8a-7e20578dc4a8) <br>
 -> spell을 정렬한 것, dic의 요소들 정렬한 것이 같은 것이 하나라도 있으면 1을 반환, 그렇지 않으면 2를 반환하도록 하였다. 나와 같은 풀이 방법이지만, some을 활용하여 좀 더 간단하게 나타냈다는 <br>
 ![image](https://github.com/An-jisu/Algorithm/assets/70849122/0cb4069a-e0cc-44cd-acd1-f4311920b7af) <br>
--> 반례로는 spell=["p","o","s"], dic=["ppooss"] 가 있어서 사실 상 잘못된 풀이이다. every<br><br>
+-> 반례로는 spell=["p","o","s"], dic=["ppooss"] 가 있어서 사실 상 잘못된 풀이이다. spell에 있는 모든 요소들이 들어있는 것들만 flitering 한다. 그래서 filtering된 것이 없으면 length가 0이 되어, 존재하지 않는 것이므로 2를 반환한다. <br><br>
 
 ## ✔️ What I learned: <br> 
 - sort함수를 문자열에선 사용할 수 없다는 것!! 문자열 sort하기 위해선, split("")로 배열로 바꾼 후, sort한 후, join으로 다시 묶어줄 수 있다. <br>
