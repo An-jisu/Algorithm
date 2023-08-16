@@ -81,4 +81,19 @@ Empty
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges <br><br>
+
+<hr>
+
+## 🎁 나의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/60c7dea8-6dc1-4654-ad50-89a5922872fa) <br>
+-> j개 짜리 배열을 만들고, 값을 집어넣은 후, i보다 큰 값들만을 남겨두었다. 그리고 그것들을 join하고 split을 통해 하나하나 분리해준 후, k값만 남겨서 그 길이를 구했다.<br><br>
+
+## ⭕ 다른 사람의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/a51cc7f1-a4fd-4bd4-a9f1-76759d932b94) <br>
+-> 반복문을 통해, 범위 사이의 값을 문자열에 더해주었다. 그리고 k를 기준으로 split하여 -1을 해주었다. split의 여집합 이용한 풀이이다!!!!<br><br>
+
+# ✔️ What I learned: <br>
+- join은 자동으로 문자열로 합쳐준다는 것! <br>
+- 필터링은 문자열에선 불가능하고, 배열에서 할 수 있다는 것! <br>
+- split의 여집합: 어떤 배열에서 k의 갯수를 구할 때, 그것을 기준으로 split하고 -1 해준 값 반환! 특정 값의 갯수 구할 때, 그 값을 기준으로 split하고 -1하여 구할 수 있다는 것것
