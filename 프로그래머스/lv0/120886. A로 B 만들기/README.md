@@ -1,10 +1,10 @@
 # [level 0] A로 B 만들기 - 120886 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120886) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120886?language=javascript) 
 
 ### 성능 요약
 
-메모리: 10.2 MB, 시간: 0.00 ms
+메모리: 33.5 MB, 시간: 0.06 ms
 
 ### 구분
 
@@ -12,7 +12,7 @@
 
 ### 채점결과
 
-<br/>정확성: 100.0<br/>합계: 100.0 / 100.0
+Empty
 
 ### 문제 설명
 
@@ -66,16 +66,4 @@
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges <br><br>
-
-<hr>
-
-## 👑 나의 처음 풀이: <br>
-![image](https://user-images.githubusercontent.com/70849122/229677246-ce62b3b8-ccbd-4057-b467-197e66e92c72.png) <br>
--> 처음에는 그냥 뒤집은 것이 같으면 되는 줄 알고 코딩하였다. 하지만, 그냥 두 문자열의 모든 요소들이 같은 경우에 대한 처리를 하는 문제였다. <br><br>
-
-## ⭕ 최종 풀이: <br>
--> 모든 요소가 같은 지 어떻게 검사할까...고민을 하였다. 그런데, 정렬을 해서 같은 지 비교하면 좋겠다는 생각이 들었다! 처음 알고리즘 문제 풀 때만 해도 떠올리지 못할 풀이 방법이었는데, 많이 성장했다~<br><br>
-
-## ✔  What I learned: <br>
--> 갯수는 같고, 요소가 모두 같은지 검사하는 문제: <b>정렬!!!</b>로 풀자!! <br><br>
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
