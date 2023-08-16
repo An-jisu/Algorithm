@@ -91,9 +91,12 @@ Empty
 
 ## ⭕ 다른 사람의 풀이: <br>
 ![image](https://github.com/An-jisu/Algorithm/assets/70849122/a51cc7f1-a4fd-4bd4-a9f1-76759d932b94) <br>
--> 반복문을 통해, 범위 사이의 값을 문자열에 더해주었다. 그리고 k를 기준으로 split하여 -1을 해주었다. split의 여집합 이용한 풀이이다!!!!<br><br>
+-> 반복문을 통해, 범위 사이의 값을 문자열에 더해주었다. 그리고 k를 기준으로 split하여 -1을 해주었다. split의 여집합 이용한 풀이이다!!!!<br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/e8676422-61fc-4dbd-8c71-9d207d095e46) <br>
+-> Array.from을 통해서도 배열로 바꿀 수 있다. from은 문자열을 문자 하나하나 분리하여, 배열에 요소를 넣어주는 것이다. <br><br>
 
 # ✔️ What I learned: <br>
 - join은 자동으로 문자열로 합쳐준다는 것! <br>
 - 필터링은 문자열에선 불가능하고, 배열에서 할 수 있다는 것! <br>
-- split의 여집합: 어떤 배열에서 k의 갯수를 구할 때, 그것을 기준으로 split하고 -1 해준 값 반환! 특정 값의 갯수 구할 때, 그 값을 기준으로 split하고 -1하여 구할 수 있다는 것것
+- split의 여집합: 어떤 배열에서 k의 갯수를 구할 때, 그것을 기준으로 split하고 -1 해준 값 반환! 특정 값의 갯수 구할 때, 그 값을 기준으로 split하고 -1하여 구할 수 있다는 것 <br>
+- 문자열의 요소들을 하나씩 배열에 넣어주고 싶을 때: Array.from()!! / split("")
