@@ -90,4 +90,19 @@ Empty
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges <br><br>
+
+<hr>
+
+## ⭕ 다른 사람의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/561e127d-a066-49cd-9384-fe99710d69b1) <br>
+-> 배열의 요소 아이디, 비밀번호를 구조분해할당으로 변수에 값을 할당하였다. Map 객체를 생성하여, db 값들을 할당하였다. 그리고, 그 맵에서 id에 해당하는 값이 있으면 get을 통해 그 value값 가지고 와서 비번도 같으면 login을, 그렇지 않으면 wrong pw를, 아이디도 일치하지 않으면 fail을 반환하게 하였다. <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/08daf3ff-36d8-40a9-99ff-0151c9fb95a3) <br>
+->  for (const [ dbId, dbPw ] of db) { 이 부분을 눈여겨 보자! db의 값들을 구조분해 할당으로 가져왔다. 나와 같은 풀이 방벙이지만, 코드가 더 간단해졌다. <br><br>
+
+## ✔️ What I learned: <br>
+- Map 객체: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/c783a23f-27c3-4beb-8f8d-fba61a0d8dca) <br>
+- map.has: 특정 키 값이 있는지? <br>
+- map.get(key): 특정 키 값에 해당하는 value값을 가져옴 <br>
+- 배열의 요소들을 하나씩 가져올 때, 구조분해 할당으로 변수에 대입할 수 있다는 것 계속 상기시키기! 
