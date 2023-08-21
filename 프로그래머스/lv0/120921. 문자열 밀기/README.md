@@ -1,10 +1,10 @@
 # [level 0] 문자열 밀기 - 120921 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120921) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120921?language=javascript#) 
 
 ### 성능 요약
 
-메모리: 10.1 MB, 시간: 0.01 ms
+메모리: 33.4 MB, 시간: 0.04 ms
 
 ### 구분
 
@@ -12,7 +12,7 @@
 
 ### 채점결과
 
-<br/>정확성: 100.0<br/>합계: 100.0 / 100.0
+Empty
 
 ### 문제 설명
 
@@ -87,26 +87,9 @@
 <li>"abc"는 밀지 않아도 "abc"이므로 0을 반환합니다.</li>
 </ul>
 
-
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges <br><br>
-
 <hr>
 
-## 👑 나의 풀이: <br>
-![image](https://user-images.githubusercontent.com/70849122/230406812-8bc8260d-fa18-424f-90f7-d80ced423f0f.png)
--> 처음엔 그냥 한번만 밀었을 경우에 A와 B가 같은지를 따지는 문제인 줄 알았다. <br>
--> 둘이 처음부터 같은 경우 0을 return 하게 하였다. <br>
--> for문을 이용하여 길이만큼 밀면서, 만약 같아지면 반복문을 빠져나와 count를 출력하게 하였다. <br>
--> 그런데, count 값이 길이와 같으면, 밀어서 B와 같아질 수 없다는 것이므로 -1을 반환하도록 처리하였다. <br>
+<p>※ 공지 - 2023년 4월 24일 테스트케이스가 추가되었습니다. 기존에 제출한 코드가 통과하지 못할 수도 있습니다.</p>
 
-## ⭕ 다른 사람의 풀이: <br>
-![image](https://user-images.githubusercontent.com/70849122/230419757-0eed1ded-1da9-4d31-b9d8-a3996ea014f8.png) <br>
--> 뒤에 것이 앞당겨지는 것이므로, 앞과 뒤가 연결되어 그 단어를 만들 수 있을 것이다. 그 인덱스는 몇 번 밀었는지를 나타낸다.<br>
-![image](https://user-images.githubusercontent.com/70849122/230419847-7fef4833-60e4-416d-a360-bd149fee2a3c.png) <br>
--> 큐를 사용하여, 하나씩 rotate 시키면서, 같아지면 그 cnt를 반환한다. (cnt에는 민 횟수가 들어갈 것이다. 0이면 두개가 완전히 같은 것) for문을 나왔는데도 return이 안되었으면 밀어서 B를 만들 수 없는 것이므로 -1을 반환한다.<br><br>
 
-## ✔ What I learned: <br>
-- string.find(찾을문자): 해당 위치의 index 반환<br>
-- dequeue.rotate(): 음수-왼쪽회전/양수-오른쪽 회전<br>
-![image](https://user-images.githubusercontent.com/70849122/230423657-4d01a8c9-c734-46fa-97f1-20423d280e25.png) <br>
--> 오른쪽 회전하면 뒤의 수가 앞으로 옴 
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
