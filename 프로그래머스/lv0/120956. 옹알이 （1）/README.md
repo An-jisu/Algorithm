@@ -81,4 +81,10 @@ Empty
 <p>※ 공지 - 2022년 10월 27일 문제 지문이 리뉴얼되었습니다. 기존에 제출한 코드가 통과하지 못할 수도 있습니다.</p>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges <br><br>
+
+<hr>
+
+## 🎁 나의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/2d1558f4-db0a-4a8e-a311-65b51c5cf17c) <br>
+-> 정규식 표현을 활용하여 그 주어진 4가지 문자열을 기준으로 babbling의 문자열들을 분리하였다. 분리한 문자열들에 공백만 있으면, 할 수 있는 옹알이이므로 answer에 1을 더해주었고, 최종적으로 그 answer값을 반환해준 것이다. 정규식 공부하자!!<br><br>
