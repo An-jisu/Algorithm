@@ -92,4 +92,20 @@ Empty
 <p>※ 공지 - 2023년 4월 24일 테스트케이스가 추가되었습니다. 기존에 제출한 코드가 통과하지 못할 수도 있습니다.</p>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges <br><br>
+
+<hr>
+
+## 👑 나의 풀이:<br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/54417fd8-6b0f-4c22-b430-ba8173ab66d4)  <br>
+-> 문자열의 길이만큼 반복하면서, 같으면 count값을 반환한다. 그렇지 않으면 오른쪽 한칸 씩 미는 것이다. 그리고 반복문을 빠져나올 때까지 return이 되지 않았으면, 마지막에 -1을 반환한다. <br><br>
+
+## ⭕ 다른 사람의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/d1abf9fc-a891-4c17-b792-d38c7090138e) <br><br>
+
+## ✔️ What I learned: <br>
+- js에서 문자열 길이 세기: 문자열.length <br>
+- js에서는 A[-1]와 같이 음수 인덱싱 불가/ length로 문자열의 길이 구해서 이 <br>
+- js에서 문자열 인덱싱 불가. splice나 splice 함수 이용. <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/b0cd0c86-3439-4217-ae08-20950b3a801f) <br>
+-> slice에서는 -1 가능 !
