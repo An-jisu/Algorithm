@@ -1,10 +1,10 @@
 # [level 0] 다음에 올 숫자 - 120924 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120924) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120924?language=javascript) 
 
 ### 성능 요약
 
-메모리: 10.1 MB, 시간: 0.00 ms
+메모리: 33.5 MB, 시간: 0.06 ms
 
 ### 구분
 
@@ -12,7 +12,7 @@
 
 ### 채점결과
 
-<br/>정확성: 100.0<br/>합계: 100.0 / 100.0
+Empty
 
 ### 문제 설명
 
@@ -69,17 +69,4 @@
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges <br><br>
-
-<hr>
-
-## 👑 나의 풀이: <br>
--> 등차수열인 경우, 등비수열인 경우를 나눠서 생각해보았다. 등차수열인 경우에는 0-1번째의 차이와 1-2번째의 차이가 같으면, 마지막 숫자 인덱스 '-1'인 값에 그 차이를 더해서 반환하도록 하였다. 등비수열인 경우에는 0-1번째의 몫과 1-2번째의 몫이 같으면, 인덱스 '-1'인 곳의 값에 몫을 곱해서 반환하도록 하였다. <br><br>
-
-## ⭕ 다른 사람의 풀이: <br>
-![image](https://user-images.githubusercontent.com/70849122/231043063-1c75a2bc-5117-4d4a-bcdf-cd41afa610f9.png) <br>
--> 나랑 같은 풀이법이다. 하지만 여기서 인덱스의 요소에 접근하는 것을 간단히 하기 위하여 'a,b,c = common[:3]'으로 처리해준 것을 눈여겨 보자!! <br><br>
-
-## ✔ What I learned: <br>
--> 파이썬에서는 마지막 요소에 인덱스 '-1'을 통해 접근할 수 있다는 것!<br>
--> 배열의 요소는 'a,b,c = common[:3]' 와 같이 변수에 값을 저장할 수 있다는 것!<br>
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
