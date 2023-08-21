@@ -69,4 +69,13 @@ Empty
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges <br><br>
+
+<hr>
+
+## ⭕ 다른 사람의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/80e66db6-6ef5-4b1e-970d-46734cbc9cf0) <br>
+-> 나와 같은 풀이 방법이지만, pop함수를 사용하여 배열의 마지막 요소에 접근하였다. <br><br>
+
+## ✔️ What I learned: <br>
+- js에서는 pop을 하면 마지막 요소를 꺼내준다는 것을 알 수 있다. 또, floor을 꼭 해주지 않아도 /는 소수점 없이 출력한다는 것! 파이썬 문법이랑 계속 헷갈린다..
