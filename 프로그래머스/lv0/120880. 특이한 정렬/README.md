@@ -71,4 +71,17 @@ Empty
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges <br><br>
+
+<hr>
+
+## 😀 나의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/641a90e4-d244-43d1-bb18-5e2a0be00f88) <br>
+-> 절댓값이 같으면 큰 수를 먼저 써줘야 하므로, numlist를 일단 정렬하였다. 그리고, n과 각 요소의 차이를 뺀 값을 담은 배열을 만든다. 그리고, 절댓값이 작은 것을 기준으로 그 배열 g를 정렬한다. 그리고, 그 순서에 따라 그 값에 해당하는 값을 answer에 push 시켜주는 것이다. 이건 오늘 앞서 풀었던, 하나의 배열 다른 배열의 기준에 따라 분류하는 문제유형이었다. <br><br>
+
+## ⭕ 다른 사람의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/12b34492-50e0-4711-94aa-abdd30d12136) <br>
+-> 절댓값을 기준으로 절댓값이 작은 것 부터 정렬하고, 0이 되면 (절댓값이 같으면) 더 큰 값을 먼저 정렬하라는 의미의 코드이다. <br><br>
+
+## ✔️ What I learned: <br>  
+- 하나의 배열을 어떤 또 다른 배열의 값을 기준으로 정렬하는 문제이다. 이런 문제는 기준 배열을 정렬한 또 다른 배열을 만들고, 그 배열의 인덱스로 접근하는 것!<br>
