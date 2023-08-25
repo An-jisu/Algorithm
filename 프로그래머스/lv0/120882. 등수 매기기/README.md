@@ -66,4 +66,13 @@ Empty
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges <br><br>
+
+<hr>
+
+## 😀 나의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/b10732b6-e63c-4f6c-aa14-5c8e62517e4c) <br><br>
+-> score 배열을 평균값 배열로 일단 먼저 바꿔준다. 그리고, 정렬시킨 배열을 하나 만들고, score의 각 값이 몇번째에 해당하는 지 s에서의 인덱스를 찾아주면 된다! 주의할 점은 sort시, ...연산자를 이용해줘야 한다는 것! 그렇지 않으면 원본 배열이 바뀌어버림 <br><br>
+
+## ✔️ What I learned: <br>
+- 한 배열에서 큰 수에따라 그 등수의 배열을 반환하는 문제는, sort한 배열을 하나 더 만들어, 그 둘을 비교하는 형태로 처리!! 
