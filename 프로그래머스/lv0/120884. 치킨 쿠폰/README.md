@@ -70,4 +70,14 @@ Empty
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges <br><br>
+
+<hr>
+
+## 😀 나의 풀이: <br>
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/c94fcbfe-e6e9-4c07-a7d4-00ef85634b27) <br>
+-> 10을 빼주면서, 서비스 치킨 수 증가시키고, 그에 따른 쿠폰 수도 다시 1 증가시켰다.<br><br>
+
+## ✔️ What I learned: <br> 
+![image](https://github.com/An-jisu/Algorithm/assets/70849122/a0373c6d-7416-42d4-93ef-9702b76053cc) <br>
+: Math.floor() 를 대체
