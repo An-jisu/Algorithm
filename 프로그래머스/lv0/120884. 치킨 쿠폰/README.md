@@ -1,10 +1,10 @@
 # [level 0] 치킨 쿠폰 - 120884 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120884) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120884?language=javascript) 
 
 ### 성능 요약
 
-메모리: 10 MB, 시간: 0.00 ms
+메모리: 33.5 MB, 시간: 0.20 ms
 
 ### 구분
 
@@ -12,7 +12,7 @@
 
 ### 채점결과
 
-<br/>정확성: 100.0<br/>합계: 100.0 / 100.0
+Empty
 
 ### 문제 설명
 
@@ -70,18 +70,4 @@
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges  <br><br>
-
-<hr>
-
-## 👑 나의 풀이: <br>
--> 몫과 나머지 연산을 이용해서 구할 수 있다. <br>
-![image](https://user-images.githubusercontent.com/70849122/229421715-3bf2a255-1d33-4af6-bfaf-499a636bba92.png) <br>
--> div: 서비스 받은 수(서비스 통해 받은 쿠폰 수), rem: 남은 쿠폰 수, answer: 총 서비스 수, chicken: 총 쿠폰 수 이다. <br>
--> 나는 처음에 변수의 정의와 선언이 혼란스워서 제대로 풀지 못했던 것 같다. 남은 쿠폰 수랑 서비스를 통해 받은 쿠폰수를 더해 계속 업데이트 시켜주며 받을 수 있는 서비스 치킨의 수를 업데이트 해주는 코드이다. <br>
-
-## ⭕ 다른 사람의 풀이: <br>
-![image](https://user-images.githubusercontent.com/70849122/229424154-50e689bd-90c9-4ce9-8dcc-1a05e6f06e1a.png) <br>
--> 몫과 나머지를 divmod를 사용해서 처리하였다. <br><br>
-
-## ✔ 다시 한 번 풀어보기!! 몫과 나머지는 divmod를 이용해서 간단하게 구할 수 있음!! <br><br>
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
