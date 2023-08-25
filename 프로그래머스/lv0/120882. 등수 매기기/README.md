@@ -1,10 +1,10 @@
 # [level 0] 등수 매기기 - 120882 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120882) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120882?language=javascript) 
 
 ### 성능 요약
 
-메모리: 10.2 MB, 시간: 0.01 ms
+메모리: 33.4 MB, 시간: 0.07 ms
 
 ### 구분
 
@@ -12,7 +12,7 @@
 
 ### 채점결과
 
-<br/>정확성: 100.0<br/>합계: 100.0 / 100.0
+Empty
 
 ### 문제 설명
 
@@ -66,19 +66,4 @@
 </ul>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges  <br><br>
-
-<hr>
-
-## 👑 나의 풀이: <br>
-![image](https://user-images.githubusercontent.com/70849122/228738840-3b31aaad-a785-4b0e-8653-20348669edb4.png) <br>
--> 평균을 구해서 새로운 배열에 넣고,,,,, 그 다음에는 최댓값 찾아서 그 부분 i로 바꾸기(i증가, 이전 최댓값으로), 만약 최댓값이 그 이전 최댓값과 같으면 이전 최댓값에 넣은 값 넣기(그래도 i는 증가) 이런식으로 풀었다.... 제대로 돌아가지도 않았고... 또너무 복잡해서 나도 뒤죽박죽 내 알고리즘이 이해가 안되었다....풀 수 있을 것만 같은데 풀리지 않은 그런 문제였다. 그래서 블로그 다른 사람 코드를 참고하였다.!! <br>
-<br><br>
-
-## ⭕ 다른 사람의 풀이: <br>
-![image](https://user-images.githubusercontent.com/70849122/228738924-dd9874ef-f739-4ce4-b5d4-2235d2517e60.png)<br>
--> 나의 제출 풀이와 같은 풀이방법인데, 조금 더 코드가 간결해졌다. 꼭 평균을 구하지 않아도 합으로 해도 된다는 것!! 어차피 요소들 모두 각각 2개씩 있으므로..<br><br>
-
-## ✔ What I learned: <br>
--> 값들을 큰 순서대로, 등수를 매겨서 return 하는 문제: 그 값들을 정렬한 후, 원래 배열에서 하나씩 접근하면서 정렬배열에서의 인덱스에 1을 더해준다!! 어쨌튼 뭐 순서에 따라 정렬....이런 문제는 다 정렬해야해 일단!!!! <b>리스트 크기 비교 문제는 무조건 정렬!!!</b><br>
-중복된 값이 있을 때, python의 index 함수는 더 앞의 값을 리턴해준다는 것도 !! 한 번에 처리할 수 있음
+> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
