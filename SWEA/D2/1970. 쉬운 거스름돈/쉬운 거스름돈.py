@@ -1,13 +1,11 @@
 t = int(input())
+for test_case in range(1, t+1):
+    n = int(input().strip())
+    remain = n
+    result = [[50000, 0], [10000, 0], [5000, 0], [1000, 0], [500, 0], [100, 0], [50, 0], [10, 0]]
+    for i in range(len(result)):                
+        result[i][1] = remain // result[i][0]
+        remain = remain % result[i][0]
 
-for tc in range(t):
-    n = int(input())
-    change = [0] * 8
-    money = [50000,10000,5000,1000,500,100,50,10]
-    for i in range(8):
-        if n // money[i] != 0:
-            change[i] = n//money[i]
-            n = n%money[i]
-  
-    print('#{}'.format(tc+1))
-    print(*change)
+    print(f"#{test_case}")
+    print(' '.join([str(x[1]) for x in result]))
