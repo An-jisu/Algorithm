@@ -1,22 +1,32 @@
-def findLength(length):
-	# 가로 회문 찾기
-	for row in arr:
-		for col in range(0, 101-length):
-			word = row[col:col+length]
-			if word == word[::-1]:
-				return length
-	# 세로 회문 찾기
-	for col in range(100):
-		for r in range(0, 101-length):
-			word = ''.join(arr[r+k][col] for k in range(length))
-			if word == word[::-1]:
-				return length
+for _ in range(10):
+    test_case = int(input())
+    arr = [input() for _ in range(100)]
+    max_len = 1
+    find = False
+    # 회문 길이가 100부터 시작해서 1씩 줄어들면서, 그 갯수에 해당하는 회문 찾으면 (max_len >1 )이면 프로그램 종료
+    for l in range(100, 0, -1):
+        for i in range(100):
+            # 가로 회문 검사
+            for col in range(101-l):
+                word = arr[i][col:col+l]
+                if word == word[::-1]:
+                    max_len = l
+                    find = True
+                    # print(l, i, col, word, find)
+                    break
+            if find:
+                break
+            # 세로 회문 검사
+            col_slice = ''.join([row[i] for row in arr])
+            for j in range(101-l):
+                word = col_slice[j:j+l]
+                if word == word[::-1]:
+                    max_len = l
+                    find = True
+                    # print(l, i, col, j, word, find)
+                    break
 
-for tcase in range(10):
-	num = int(input())
-	arr = [input() for _ in range(100)]
-	for i in range(100, 0, -1): # 회문 길이 (첫번째로 발견되는 i가 정답)
-		maxLen = findLength(i)
-		if maxLen == i:
-			break
-	print(f"#{num} {maxLen}")
+        if find:
+            break
+
+    print(f"#{test_case} {max_len}")
