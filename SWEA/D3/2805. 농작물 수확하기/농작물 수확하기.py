@@ -1,21 +1,25 @@
+# split은 공백 기준이라 숫자 하나씩 넣고 싶은ㄱ ㅕㅇ우: 벨로그 넣기
 t = int(input())
-for tcase in range(1, t+1):
-	n = int(input())
-	arr = []
-	total = 0
-    # 2차원 배열에 농장 저장
-	for i in range(0, n):
-		arr.append(list(map(int, input())))
-	# 농작물의 합
-	mid = n//2
-	for j in range(n):
-		if j <=mid:
-			start = mid-j
-			end = mid+j
-		else:
-			start = j-mid
-			end = n-(j-mid)-1
-		for k in range(start, end+1):
-			total+=arr[j][k]
-    
-	print(f"#{tcase} {total}")
+for test_case in range(1, t+1):
+    n = int(input())
+    arr = [list(map(int, list(input()))) for _ in range(n)]
+    # print(arr)
+    result = 0
+    midIdx = (n -1)//2
+    currentStartIdx = midIdx
+
+    for i in range(n):
+        # mid >= i 인 경우: 2(i+1)-1개
+        if midIdx >= i:
+            value = arr[i][currentStartIdx: currentStartIdx+2*(i+1)-1]
+            result+= sum(value)
+            currentStartIdx = currentStartIdx+1 if midIdx ==i else  currentStartIdx-1
+            # print(value, result, currentStartIdx)
+
+        # mid < i 인 경우: 2(n-i)-1
+        else:
+            value = arr[i][currentStartIdx: currentStartIdx+2*(n-i)-1]
+            result+= sum(value)
+            currentStartIdx+=1
+            # print(value, result, currentStartIdx)
+    print(f"#{test_case} {result}")
